@@ -1,0 +1,192 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Slab:wght@100..900&display=swap');
+
+
+.heading1{
+    padding:  30px 0px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 30px;
+}
+
+/* .equal-padding {
+    padding-left: 20px;  
+    padding-right: 20px;
+} */
+
+.partnerImages{
+    height: 70px;
+    padding: 20px;
+}
+
+.partner2Images{
+    height: 50px;
+    padding: 20px;
+    width: 100%;
+}
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.cards {
+    background-color: rgb(241, 241, 241);
+    /* border-radius: 8px; */
+    overflow: hidden;
+    width: 400px; /* Adjust the width as needed */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+}
+
+.card-image {
+    width: 400px;
+    height: auto;
+    object-fit: cover;
+}
+
+.cards-texts {
+    padding: 20px;
+    text-align: left;
+}
+
+.cards-heading {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.cards-para {
+    font-size: 1em;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.contact-form {
+    padding: 20px;
+    width: 60%;
+}
+
+.contact-form h2 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 16px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: calc(100% - 10px);
+    padding: 10px;
+    border: 1px solid #f8f8f8;
+    background-color: #f8f8f8;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    box-shadow: none;
+    border: 1px solid #ccc; /* You can customize the border color here */
+}
+
+.form-group.full-width textarea {
+    height: 100px;
+}
+
+.submit-btn {
+    background-color: #ffffff;
+    color: #d40000;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    border-style: groove;
+    border: 3px solid #d40000;
+    font-size: 18px;
+}
+
+.submit-btn:hover {
+    background-color: #d40000;
+    color: white;
+    transition-duration: 0.25s;
+}
+
+.map{
+    width: 40%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.map img {
+    height: 600px;
+}
+
+.contact-form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    z-index: 100;
+}
+.full-width {
+    grid-column: span 2;
+}
+
+.partnerGrid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); /* 8 columns */
+    grid-template-rows: repeat(2, 1fr); /* 8 rows, adjust if necessary */
+    gap: 10px; /* Adjust spacing between images */
+  }
+  
+  .partner2Images {
+    height:70px;
+    width: 60%;
+  }
+  
+  .partners-container {
+    overflow: hidden; /* Hide the overflow to ensure seamless looping */
+  }
+  
+  .partners-slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: scrollLeft 15s linear infinite;
+  }
+  
+  @keyframes scrollLeft {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
+  .partnerImages {
+    margin-right: 10px;
+  }
+  
