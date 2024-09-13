@@ -16,7 +16,7 @@ const Nav = () => {
           inline
           label={
               <div>
-                  <span className="hover:text-[#6d2950]">Solutions</span>
+                  <span className="hover:text-[#6d2950] font-semibold text-[16px]">Solutions</span>
             </div>
           }
         >
@@ -35,7 +35,7 @@ const Nav = () => {
           inline
           label={
               <div>
-                  <span className="hover:text-[#6d2950]">Services</span>
+                  <span className="hover:text-[#6d2950] font-semibold text-[16px]">Services</span>
             </div>
           }
         >
@@ -54,7 +54,7 @@ const Nav = () => {
           inline
           label={
               <div>
-                  <span className="hover:text-[#6d2950]">Resources</span>
+                  <span className="hover:text-[#6d2950] font-semibold text-[16px]">Resources</span>
             </div>
           }
         >
@@ -73,7 +73,7 @@ const Nav = () => {
           inline
           label={
               <div>
-                  <span className="hover:text-[#6d2950]">Company</span>
+                  <span className="hover:text-[#6d2950] font-semibold text-[16px]">Company</span>
             </div>
           }
         >

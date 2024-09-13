@@ -1,12 +1,12 @@
 import './App.css'
-import LandingPage from './components/MainPage/LandingPage/LandingPage';
+import Corporate from './components/Corporate/Corporate';
 import Nav from './components/Nav/Nav';
 
 function App() {
   return (
     <>
       <Nav />
-      <LandingPage />
+      <Corporate />
     </>
   )
 }
