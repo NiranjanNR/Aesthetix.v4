@@ -1,12 +1,12 @@
 import './App.css'
-import LandingPage from './components/MainPage/LandingPage/LandingPage';
+import Culture from './components/Company/Culture/Culture';
 import Nav from './components/Nav/Nav';
 
 function App() {
   return (
     <>
       <Nav />
-      <LandingPage />
+      <Culture />
     </>
   )
 }

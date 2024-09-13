@@ -1,4 +1,3 @@
-import React from 'react'
 import './AboutAes.css'
 import Connecting from '../../../assets/connecting.jpg'
 import one from '../../../assets/1.png'
