@@ -1,5 +1,6 @@
 import './App.css'
 import Corporate from './components/Corporate/Corporate';
+import Culture from './components/Company/Culture/Culture';
 import Nav from './components/Nav/Nav';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       <Nav />
       <Corporate />
+      <Culture />
     </>
   )
 }
