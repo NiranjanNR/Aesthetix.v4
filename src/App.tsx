@@ -12,9 +12,9 @@ function App() {
       <Nav />
       {/* <AboutAes /> */}
       {/* <Corporate /> */}
-      {/* <Location /> */}
+      <Location />
       {/* <CallSupport /> */}
-      <Culture />
+      {/* <Culture /> */}
     </>
   )
 }
