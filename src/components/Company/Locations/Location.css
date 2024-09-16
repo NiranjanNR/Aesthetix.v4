@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+.locationCover{
+    background-color: rgb(166, 70, 255);
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overLays{
+    background-color: rgba(0, 0, 0, 0.342);
+    height: max-content;
+    width: 80%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+}
+
+
+.locationInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px;
+    gap: 25px;
+}
+
+.LocationCard {
+    width: 25%; /* Adjust based on your needs */
+    margin: 10px; /* To add some space between cards */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(243, 232, 253);
+}
+
+.LocationCardImage {
+    width: 100%;
+    height: auto;
+}
+
+.LocationCardText {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.supportDesign{
+
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(57, 27, 112);
+
+}
