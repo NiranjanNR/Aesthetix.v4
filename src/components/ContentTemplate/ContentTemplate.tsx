@@ -3,14 +3,15 @@ const ContentTemplate = (props: {
     imagepath: string | undefined,
     heading: string | undefined,
     description: string | undefined,
-    direction: string | undefined
+    direction: string | undefined,
+    style?: React.CSSProperties // Add this line for inline styles
  }) => {
   return (
       <div>
           {props.direction === "right" ? 
           <div className="h-[58vh] w-[100vw] flex">
           <div className="w-[50vw] flex justify-center items-center">
-              <img className="w-[30vw] h-[40vh]" src={props.imagepath} />
+          <img className={` w-[30vw] h-[40vh]`} src={props.imagepath} style={props.style}/>
           </div>
           <div className="w-[50vw] flex items-center">
                       <div>

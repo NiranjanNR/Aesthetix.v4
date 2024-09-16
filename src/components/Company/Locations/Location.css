@@ -59,7 +59,20 @@ body{
 .supportDesign{
 
     width: 100%;
-    height: 20vh;
-    background-color: rgb(57, 27, 112);
+    height: max-content;
+    background-color: rgb(243, 232, 253);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
 
 }
+
+.primaryH{
+    color: rgb(57, 27, 112);
+  }
+
+  .primaryP{
+    color:#444444;
+  }
