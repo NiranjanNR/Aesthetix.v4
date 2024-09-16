@@ -11,10 +11,10 @@ function App() {
     <>
       <Nav />
       {/* <AboutAes /> */}
-      <Corporate />
+      {/* <Corporate /> */}
       {/* <Location /> */}
       {/* <CallSupport /> */}
-      {/* <Culture /> */}
+      <Culture />
     </>
   )
 }
