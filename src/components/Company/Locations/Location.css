@@ -13,7 +13,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("../../../assets/LocationBG.jpg");
+    background-image: url("../../../assets/PurpleGraphics.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
