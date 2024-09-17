@@ -12,8 +12,8 @@ function App() {
       <Nav />
       {/* <AboutAes /> */}
       {/* <Corporate /> */}
-      <Location />
-      {/* <CallSupport /> */}
+      {/* <Location /> */}
+      <CallSupport />
       {/* <Culture /> */}
     </>
   )

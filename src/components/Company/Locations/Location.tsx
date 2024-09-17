@@ -67,7 +67,7 @@ const Location = () =>{
             </div>
 
             <div>
-        <ContentTemplate direction='left' heading='Video Conferencing & Collaboration spaces' description='From powerful executive boardrooms to auditoriums and efficient huddle spaces, you can trust Avidex to create reliable audiovisual and unified communications environments. Effective meeting and collaboration spaces increase productivity and drive innovation for both in-office and hybrid work cultures.'
+        <ContentTemplate direction='left' heading='PSNI ALLIANCE' description='Aesthetix is proud to serve our global clients throughout North America, South America, Europe, Asia, and the Middle East. Avidex is a member of PSNI Global Alliance, a certified network of global technology providers and AV integrators delivering consistent service and support worldwide. We offer a combined talent pool of thousands of premier integrators committed to forward-thinking education, resources, collaboration, and support.'
          imagepath={WorldImg} 
          style={{ width: '100% !important', height: 'auto' }} // Pass style as an object
          />

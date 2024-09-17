@@ -2,12 +2,28 @@
 
 
 .contactFirst{
+    position: relative;
     height: 60vh;
     width: 100%;
-    background-color: rgb(37 21 67 / 92%);
+    background-color: rgb(37, 21, 67, 0.92);
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 1; /* Ensures content is above the background */
+}
+
+.contactFirst::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url("../../../assets/LocationBG.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.5; /* Adjust the opacity of the background image */
+    z-index: -1; /* Push the background behind the content */
 }
 
 .contactText{
@@ -25,6 +41,8 @@
     background-color: rgb(255, 255, 255);
     height: max-content;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    z-index: 100;
+
 }
 
 .contactBox{
