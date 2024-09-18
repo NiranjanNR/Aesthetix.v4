@@ -1,30 +1,18 @@
 import { Tabs } from 'flowbite-react';
-import './Corporate.css';
-import project6 from '../../assets/project6.jpg';
-import ContentTemplate from '../ContentTemplate/ContentTemplate';
-import HeaderDescription from '../ContentTemplate/HeaderDescription';
-import VerticalBox from '../ContentTemplate/VerticalBox';
+import project6 from '../../../assets/project6.jpg';
+import ContentTemplate from '../../ContentTemplate/ContentTemplate';
+import HeaderDescription from '../../ContentTemplate/HeaderDescription';
+import VerticalBox from '../../ContentTemplate/VerticalBox';
+import LandingTemplate from '../../ContentTemplate/LandingTemplate';
 
-const Corporate = () => {
+const Education = () => {
   return (
       <div>
           {/* Landing */}
-          <div className="background h-[70vh] w-[100vw] flex items-center mb-10">
-              <div className='h-[30vh] lg:w-[48vw] w-[70vw] min-h-[31vh] bg-white/75 ml-20 lg:p-9 p-4'>
-                  <div className='md:text-3xl md:font-bold text-xl font-semibold'>
-                        CORPORATE AV SOLUTIONS
-                  </div>
-                  <div className='text-xl md:font-semibold mt-6 text-[#424141] mb-8'>
-                        Empowering innovation and productivity with collaborative audiovisual technology.
-                  </div>
-                  <button className='bg-[#6d2950] text-white md:px-[30px] md:py-[10px] px-4 py-2'>GET STARTED NOW</button>
-              </div>
-          </div>
-          
+          <LandingTemplate header="CORPORATE AV SOLUTIONS" description="Empowering innovation and productivity with collaborative audiovisual technology." buttontext="GET STARTED NOW" imagepath="https://plus.unsplash.com/premium_photo-1682125773446-259ce64f9dd7?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZWR1Y2F0aW9ufGVufDB8fDB8fHww"/>
       <div>
         <HeaderDescription header='Solutions for Every Space' description='There is no one-size-fits-all when it comes to filling audiovisual needs. We have helped organizations of all kinds find the best-fit AV solutions for their unique workplace environments.' />
       </div>
-
           <div className='flex justify-center mb-10 '>
               <div className="overflow-x-auto w-[80vw] border-2 p-5 rounded-xl">
       <Tabs aria-label="Full width tabs" variant="fullWidth">
@@ -91,7 +79,6 @@ const Corporate = () => {
       </Tabs>
     </div>
           </div>
-          
           <div className='bg-[#9864a21d]'>
               <ContentTemplate direction='right' heading="Network & Security Command Centers" description="Network and security command facilities (NOCs and SOCs) are highly technical and require a deep understanding of best practices for these specialized spaces. Avidex provides systems for secure content delivery, multi-screen displays, and all-day remote monitoring. When seconds matter, having reliable, advanced technology solutions are essential." imagepath="https://www.avidex.com/hs-fs/hubfs/Website%20Optimized/Corporate/1200x900/Gov-NOC-SOC-DisplaySolutions-1.jpg?width=1000&height=750&name=Gov-NOC-SOC-DisplaySolutions-1.jpg"/>
       </div>
@@ -113,4 +100,4 @@ const Corporate = () => {
   )
 }
 
-export default Corporate
+export default Education
