@@ -1,5 +1,4 @@
 import { Tabs } from 'flowbite-react';
-import './Corporate.css';
 import project6 from '../../../assets/project6.jpg';
 import ContentTemplate from '../../ContentTemplate/ContentTemplate';
 import HeaderDescription from '../../ContentTemplate/HeaderDescription';
@@ -10,7 +9,7 @@ const Corporate = () => {
   return (
       <div>
           {/* Landing */}
-          <LandingTemplate header="CORPORATE AV SOLUTIONS" description="Empowering innovation and productivity with collaborative audiovisual technology." buttontext="GET STARTED NOW" imagepath="https://www.avidex.com/hs-fs/hubfs/Website%20Optimized/Digital%20Signage%20and%20Video%20Walls/600x400/Displays-Flip-Interactive.jpg?width=1280&name=Displays-Flip-Interactive.jpg"/>
+          <LandingTemplate header="CORPORATE AV SOLUTIONS" description="Empowering innovation and productivity with collaborative audiovisual technology." buttontext="GET STARTED NOW" imagepath="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"/>
       <div>
         <HeaderDescription header='Solutions for Every Space' description='There is no one-size-fits-all when it comes to filling audiovisual needs. We have helped organizations of all kinds find the best-fit AV solutions for their unique workplace environments.' />
       </div>
