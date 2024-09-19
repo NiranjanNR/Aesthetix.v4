@@ -1,4 +1,4 @@
-import './Av.css'
+import './Elv.css'
 import { Tabs } from 'flowbite-react';
 import ContentTemplate from '../../ContentTemplate/ContentTemplate';
 import HeaderDescription from '../../ContentTemplate/HeaderDescription';
@@ -17,7 +17,7 @@ const Elv = () =>{
         <div className="background h-[70vh] w-[100vw] flex items-center ">
             <div className='h-[max-content] lg:w-[40vw] w-[50vw] bg-white/75 ml-20 lg:p-9 p-4'>
                 <div className='md:text-4xl md:font-bold text-xl font-semibold text-[#5b255d]'>
-                AUDIO SOLUTIONS
+                  ELT
                 </div>
                 <div className='text-xl md:font-semibold mt-4 text-[#424141] '>
                 Holistic Audio Integration for Schools, Businesses, and Healthcare Facilities

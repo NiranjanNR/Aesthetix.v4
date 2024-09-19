@@ -1,84 +1,35 @@
-import { Tabs } from 'flowbite-react';
+import { Footer, Tabs } from 'flowbite-react';
 import project6 from '../../../assets/project6.jpg';
 import ContentTemplate from '../../ContentTemplate/ContentTemplate';
 import HeaderDescription from '../../ContentTemplate/HeaderDescription';
 import VerticalBox from '../../ContentTemplate/VerticalBox';
 import LandingTemplate from '../../ContentTemplate/LandingTemplate';
+import VerticalsHosp from '../../../assets/Verticals-hosp.jpg'
+import Footers from '../../Footer/Footers';
 
 const Hospitality = () => {
   return (
       <div>
           {/* Landing */}
-          <LandingTemplate header="CORPORATE AV SOLUTIONS" description="Empowering innovation and productivity with collaborative audiovisual technology." buttontext="GET STARTED NOW" imagepath="https://images.unsplash.com/photo-1533779283484-8ad4940aa3a8?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"/>
-      <div>
-        <HeaderDescription header='Solutions for Every Space' description='There is no one-size-fits-all when it comes to filling audiovisual needs. We have helped organizations of all kinds find the best-fit AV solutions for their unique workplace environments.' />
-      </div>
-          <div className='flex justify-center mb-10 '>
-              <div className="overflow-x-auto w-[80vw] border-2 p-5 rounded-xl">
-      <Tabs aria-label="Full width tabs" variant="fullWidth">
-            <Tabs.Item active title="Conference Rooms">
-              <div className='flex justify-center'>
-                <div className='w-[50vw]'>
-                  <div className='text-center'>
-                    This is <span className="font-medium text-gray-800 dark:text-white">Dashboard tab's associated content</span>.
-          Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to
-          control the content visibility and styling.
-                  </div>
-                  <img className='h-[50vh] w-[50vw] mt-5' src="https://www.avidex.com/hs-fs/hubfs/Website%20Optimized/Corporate/1200x900/Gov-NOC-SOC-DisplaySolutions-1.jpg?width=1000&height=750&name=Gov-NOC-SOC-DisplaySolutions-1.jpg" />
-                 </div>
-              </div>
-        </Tabs.Item>
-        <Tabs.Item active title="Reception/Lobby">
-              <div className='flex justify-center'>
-                <div className='w-[50vw]'>
-                  <div className='text-center'>
-                    This is <span className="font-medium text-gray-800 dark:text-white">Dashboard tab's associated content</span>.
-          Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to
-          control the content visibility and styling.
-                  </div>
-                  <img className='h-[50vh] w-[50vw] mt-5' src={project6} />
-                 </div>
-              </div>
-            </Tabs.Item>
-            <Tabs.Item active title="Auditorium/Training centers">
-              <div className='flex justify-center'>
-                <div className='w-[50vw]'>
-                  <div className='text-center'>
-                    This is <span className="font-medium text-gray-800 dark:text-white">Dashboard tab's associated content</span>.
-          Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to
-          control the content visibility and styling.
-                  </div>
-                  <img className='h-[50vh] w-[50vw] mt-5' src={project6} />
-                 </div>
-              </div>
-            </Tabs.Item>
-            <Tabs.Item active title="Open Workspaces">
-              <div className='flex justify-center'>
-                <div className='w-[50vw]'>
-                  <div className='text-center'>
-                    This is <span className="font-medium text-gray-800 dark:text-white">Dashboard tab's associated content</span>.
-          Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to
-          control the content visibility and styling.
-                  </div>
-                  <img className='h-[50vh] w-[50vw] mt-5' src={project6} />
-                 </div>
-              </div>
-            </Tabs.Item>
-            <Tabs.Item active title="Multifunctional Space">
-              <div className='flex justify-center'>
-                <div className='w-[50vw]'>
-                  <div className='text-center'>
-                    This is <span className="font-medium text-gray-800 dark:text-white">Dashboard tab's associated content</span>.
-          Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to
-          control the content visibility and styling.
-                  </div>
-                  <img className='h-[50vh] w-[50vw] mt-5' src={project6} />
-                 </div>
-              </div>
-        </Tabs.Item>
-      </Tabs>
-    </div>
+          <LandingTemplate header="AV SOLUTIONS FOR HOSPITALITY & ENTERTAINMENT" description="Audiovisual integration for businesses that rely on memorable experiences." buttontext="GET STARTED NOW" imagepath={VerticalsHosp}/>
+          
+        <div >
+          <div className='flex justify-center mb-8'>
+                <div className='w-[60vw]'>
+                <div className={`md:text-2xl md:font-bold text-xl font-semibold text-center mb-5 text-[#a142a5]`}>
+                    AUDIOVISUAL INTEGRATION 
+                </div>
+                <div className={`md:text-1xl md:font-bold text-xl font-semibold text-center  text-[#5b255d]`}>
+                For Those Whose Success Relies on Making an Impact
+                </div>
+                <div className='text-lg mt-6 text-[#424141] text-center mb-8 '>
+                    Communicate your brand and bring your space to life with creative AV and communication technologies engineered, installed, and fully supported by Avidex.  Highlight your commitment to service, add subtle ambiance, set the mood, amaze your guests, or communicate important information with the latest audiovisual solutions for the hospitality and entertainment industries. Avidex helps our hospitality and entertainment clients exceed their guest’s expectations with audiovisual and communication technologies.
+                </div>
+            </div>
           </div>
+        </div>
+
+          
           <div className='bg-[#9864a21d]'>
               <ContentTemplate direction='right' heading="Network & Security Command Centers" description="Network and security command facilities (NOCs and SOCs) are highly technical and require a deep understanding of best practices for these specialized spaces. Avidex provides systems for secure content delivery, multi-screen displays, and all-day remote monitoring. When seconds matter, having reliable, advanced technology solutions are essential." imagepath="https://www.avidex.com/hs-fs/hubfs/Website%20Optimized/Corporate/1200x900/Gov-NOC-SOC-DisplaySolutions-1.jpg?width=1000&height=750&name=Gov-NOC-SOC-DisplaySolutions-1.jpg"/>
       </div>
@@ -96,6 +47,7 @@ const Hospitality = () => {
           <VerticalBox header="Room Scheduling" description="Finding and scheduling an available meeting space can be frustrating and time-consuming for users. Secure and scalable room scheduling solutions allow team members to view room availability, technology capabilities, and make room reservations from your organization's existing calendaring service or scheduling panels." imagepath='https://www.avidex.com/hubfs/Website%20Optimized/Corporate/Room%20Occupancy%20%20and%20Scheduling/1200x630/room-scheduling-technology.jpg'/>
         </div>
       </div>
+      <Footers />
     </div>
   )
 }

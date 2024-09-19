@@ -16,66 +16,66 @@ const Support = () =>{
                 <form >
                     <div style={{ display: 'flex', flexWrap: 'wrap', gap: '15px' }}>
                         <div style={{ flex: '1 1 45%' }}>
-                            <label style={{ display: 'block', marginBottom: '5px', fontWeight: 'bold' }}>First Name</label>
+                            <label style={{ display: 'block', marginBottom: '5px', fontWeight: '600' }}>First Name</label>
                             <input type='text' name='firstName' className='contactBox'/>
                         </div>
                         <div style={{ flex: '1 1 45%' }}>
-                            <label style={{ display: 'block', marginBottom: '5px', fontWeight: 'bold' }}>Last Name</label>
+                            <label style={{ display: 'block', marginBottom: '5px', fontWeight: '600' }}>Last Name</label>
                             <input type='text' name='lastName' className='contactBox'  />
                         </div>
                     </div>
 
                     <div style={{ display: 'flex', flexWrap: 'wrap', gap: '15px' }}>
                         <div style={{ flex: '1 1 45%' }}>
-                            <label style={{ display: 'block', marginBottom: '5px', fontWeight: 'bold' }}>Email</label>
+                            <label style={{ display: 'block', marginBottom: '5px', fontWeight: '600' }}>Email</label>
                             <input type='email' name='email' className='contactBox'  />
                         </div>
                         <div style={{ flex: '1 1 45%' }}>
-                            <label style={{ display: 'block', marginBottom: '5px', fontWeight: 'bold' }}>Phone Number</label>
+                            <label style={{ display: 'block', marginBottom: '5px', fontWeight: '600' }}>Phone Number</label>
                             <input type='tel' name='phone' className='contactBox'  />
                         </div>
                     </div>
 
                     <div style={{ display: 'flex', flexWrap: 'wrap', gap: '15px' }}>
                         <div style={{ flex: '1 1 45%' }}>
-                            <label style={{ display: 'block', marginBottom: '5px', fontWeight: 'bold' }}>Company Name</label>
+                            <label style={{ display: 'block', marginBottom: '5px', fontWeight: '600' }}>Company Name</label>
                             <input type='text' name='companyName' className='contactBox'  />
                         </div>
                         <div style={{ flex: '1 1 45%' }}>
-                            <label style={{ display: 'block', marginBottom: '5px', fontWeight: 'bold' }}>Title</label>
+                            <label style={{ display: 'block', marginBottom: '5px', fontWeight: '600' }}>Title</label>
                             <input type='text' name='title' className='contactBox'  />
                         </div>
                     </div>
 
                     <div style={{ display: 'flex', flexWrap: 'wrap', gap: '15px' }}>
                         <div style={{ flex: '1 1 45%' }}>
-                            <label style={{ display: 'block', marginBottom: '5px', fontWeight: 'bold' }}>Street Address 1</label>
+                            <label style={{ display: 'block', marginBottom: '5px', fontWeight: '600' }}>Street Address 1</label>
                             <input type='text' name='streetAddress1' className='contactBox'  />
                         </div>
                         <div style={{ flex: '1 1 45%' }}>
-                            <label style={{ display: 'block', marginBottom: '5px', fontWeight: 'bold' }}>Street Address 2</label>
+                            <label style={{ display: 'block', marginBottom: '5px', fontWeight: '600' }}>Street Address 2</label>
                             <input type='text' name='streetAddress2' className='contactBox'  />
                         </div>
                     </div>
 
                     <div style={{ display: 'flex', flexWrap: 'wrap', gap: '15px' }}>
                         <div style={{ flex: '1 1 30%' }}>
-                            <label style={{ display: 'block', marginBottom: '5px', fontWeight: 'bold' }}>City</label>
+                            <label style={{ display: 'block', marginBottom: '5px', fontWeight: '600' }}>City</label>
                             <input type='text' name='city' className='contactBox'  />
                         </div>
                         <div style={{ flex: '1 1 30%' }}>
-                            <label style={{ display: 'block', marginBottom: '5px', fontWeight: 'bold' }}>State</label>
+                            <label style={{ display: 'block', marginBottom: '5px', fontWeight: '600' }}>State</label>
                             <input type='text' name='state' className='contactBox'  />
                         </div>
                         <div style={{ flex: '1 1 30%' }}>
-                            <label style={{ display: 'block', marginBottom: '5px', fontWeight: 'bold' }}>Zip Code</label>
+                            <label style={{ display: 'block', marginBottom: '5px', fontWeight: '600' }}>Zip Code</label>
                             <input type='text' name='zipCode' className='contactBox'  />
                         </div>
                     </div>
 
                     <div style={{ display: 'flex', flexWrap: 'wrap', gap: '15px' }}>
                         <div style={{ flex: '1 1 100%' }}>
-                            <label style={{ display: 'block', marginBottom: '5px', fontWeight: 'bold' }}>Description</label>
+                            <label style={{ display: 'block', marginBottom: '5px', fontWeight: '600' }}>Description</label>
                             <textarea name='description' rows='4' style={{ width: '100%', padding: '10px', borderRadius: '4px', border: '1px solid #ccc' }}></textarea>
                         </div>
                     </div>

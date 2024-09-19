@@ -15,10 +15,10 @@ const ContentTemplate = (props: {
           </div>
           <div className="w-[50vw] flex items-center">
                       <div>
-                          <div className="text-2xl font-semibold text-[#5b255d] mb-7">
+                          <div className="text-2xl font-bold text-[#5b255d] mb-7">
                   {props.heading}
               </div>
-              <div className="w-[36vw]">
+              <div className="w-[36vw] text-[#424141] text-[18px]" >
                   {props.description}
               </div>
               </div>
@@ -30,10 +30,10 @@ const ContentTemplate = (props: {
           <div className="h-[58vh] w-[100vw] flex gap-32">
           <div className="w-[50vw] flex items-center justify-end ">
                       <div>
-                          <div className="text-2xl font-semibold text-[#5b255d] mb-7">
+                          <div className="text-2xl font-bold text-[#5b255d] mb-7">
                   {props.heading}
               </div>
-              <div className="w-[36vw]">
+              <div className="w-[36vw] text-[#424141] text-[18px]">
                   {props.description}
               </div>
               </div>
