@@ -1,0 +1,170 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+body{
+    font-family: "Open Sans", sans-serif;
+}
+.projects-section {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.project-gallery {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+  }
+
+.gallery{
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #0067A5; /* Similar to the color in the screenshot */
+    margin-bottom: 0.5rem;
+}
+
+.section-description {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+.divider {
+    width: 50px;
+    height: 2px;
+    background-color: #0067A5;
+    margin: 0 auto 2rem auto;
+}
+
+.projects-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #0067A5;
+}
+
+.locationCover{
+    background-color: rgb(45 30 75 / 92%);
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/src/assets/PurpleGraphics.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.overlay {
+    position: absolute; /* Position the overlay absolutely within the card */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the overlay */
+    color: white; /* Set text color */
+    padding: 10px; /* Add padding for text */
+    text-align: center; /* Center text horizontally */
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+.locationInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px;
+    gap: 25px;
+}
+
+.LocationCard {
+    position: relative; /* Make the card a relative container */
+    width: 350px; /* Adjust the card width as needed */
+    height: 250px; /* Adjust the card height as needed */
+    overflow: hidden; /* Clip content if it overflows */
+}
+
+.LocationCardImage {
+    width: 100%; /* Make the image fill the card's width */
+    height: 100%; /* Make the image fill the card's height */
+    object-fit: cover; /* Scale image to fit container, maintaining aspect ratio */
+}
+
+.LocationCardImage:hover {
+    transform: scale(1.2); /* Adjust the scale factor as needed */
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.LocationCardText {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.supportDesign{
+
+    width: 100%;
+    height: max-content;
+    background-color: rgb(243, 232, 253);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.primaryH{
+    color: rgb(57, 27, 112);
+  }
+
+  .primaryP{
+    color:#444444;
+  }
+
+  .image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    margin: 70px;
+  }
+
+  .image-container {
+    width: 25%; /* Adjust width as needed */
+    border: 2px solid #fff;
+    box-shadow: 0px 0px 17px rgba(0, 0, 0, 0.2);
+    margin: 2px;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+  }
+
+
+/* Market filter links styling */
+.market-filter {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .market-filter .filter-link {
+    display: inline-block;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 5px;
+    transition: border-bottom 0.3s ease, color 0.3s ease;
+  }
+  
+  .market-filter .filter-link:hover,
+  .market-filter .filter-link.active {
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+  }
+  

@@ -1,0 +1,238 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+body{
+    font-family: "Open Sans", sans-serif;
+}
+.projects-section {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.gallery{
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.section-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #0067A5; 
+    margin-bottom: 0.5rem;
+    align-items: left;
+}
+
+.section-description {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+    align-content: left;
+}
+
+.divider {
+    width: 50px;
+    height: 2px;
+    background-color: #0067A5;
+    margin: 0 auto 2rem auto;
+}
+
+.projects-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #0067A5;
+}
+
+.locationCover{
+    background-color: rgb(45 30 75 / 92%);
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/src/assets/PurpleGraphics.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.overLays{
+    height: max-content;
+    width: 80%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    padding: 40px;
+    
+}
+
+
+.locationInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px;
+    gap: 25px;
+}
+
+.LocationCard {
+    width: 25%; /* Adjust based on your needs */
+    margin: 10px; /* To add some space between cards */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(243, 232, 253);
+}
+
+.LocationCardImage {
+    width: 100%;
+    height: auto;
+}
+
+.LocationCardText {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.supportDesign{
+
+    width: 100%;
+    height: max-content;
+    background-color: rgb(243, 232, 253);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.primaryH{
+    color: rgb(57, 27, 112);
+  }
+
+  .primaryP{
+    color:#444444;
+  }
+
+  .image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    margin: 70px;
+  }
+
+  .image-container {
+    width: 25%; /* Adjust width as needed */
+    border: 2px solid #fff;
+    box-shadow: 0px 0px 17px rgba(0, 0, 0, 0.2);
+    margin: 2px;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+  }
+
+  .hospital-info-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  .info-section {
+    display: flex;
+    justify-content: space-around;
+    background-color: #F3E8FD;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .info-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .info-item img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .info-item h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    color: #005792;
+  }
+  /* #F3E8FD; */
+  .info-item p {
+    font-size: 1.1em;
+    color: #333;
+  }
+  
+  .solutions-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    padding-left: 360px;
+    padding-top: 40px;
+    background-color: #F3E8FD;
+    
+  }
+
+  .hospital-image {
+    width: 450px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .solutions-text {
+    flex: 1;
+    padding-left: 30px;
+  }
+  
+  .solutions-text h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: purple;
+  }
+  
+  .solutions-text ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 0;
+  }
+  
+  .solutions-text ul li::marker {
+    color: purple; /* Set the bullet color to purple */
+    font-size: 1.2rem; /* Adjust the bullet size if needed */
+    margin-bottom: 5px;
+  }
+  
+  .challenge-section {
+    /* Overall section styles */
+    max-width: 1100px; /* Adjust maximum width as needed */
+    margin: 0 auto; /* Center horizontally */
+  }
+  
+  .challenge-title {
+    /* Title styles */
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: purple;
+  }
+  
+  .challenge-text {
+    /* Text styles */
+    font-size: 18px;
+    line-height: 1.7;
+    text-align: justify; /* Justify text alignment */
+  }

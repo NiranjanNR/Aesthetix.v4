@@ -5,16 +5,20 @@ import Nav from './components/Nav/Nav';
 import AboutAes from './components/Company/AboutAesthetix/AboutAes';
 import CallSupport from './components/Company/CallSupport/Support';
 import Location from './components/Company/Locations/Location';
+import ProjectProfile from './components/Resources/ProjectProfiles/ProjectProfile';
+import Casestudy from './components/Resources/CaseStudies/Casestudy';
 
 function App() {
   return (
     <>
       <Nav />
       {/* <AboutAes /> */}
-      <Corporate />
+      {/* <Corporate /> */}
       {/* <Location /> */}
       {/* <CallSupport /> */}
       {/* <Culture /> */}
+      {/* <ProjectProfile /> */}
+      <Casestudy />
     </>
   )
 }
