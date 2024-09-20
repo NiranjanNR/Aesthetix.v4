@@ -39,6 +39,7 @@ body{
     flex-wrap: wrap;
     padding: 50px;
     gap: 25px;
+    flex-direction: row !important;
 }
 
 .LocationCard {

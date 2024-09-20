@@ -29,40 +29,40 @@
 }
 
 .cards{
-    justify-content: center;
-    align-items: center;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 50px; /* Adjust the gap between the boxes as needed */
-    margin: auto;
-    width: max-content;
-    height: 50vh;
-    background-color: white;
+    justify-content: center !important;
+    align-items: center !important;
+    display: grid !important;
+    grid-template-columns: repeat(5, 1fr) !important;
+    gap: 50px !important; /* Adjust the gap between the boxes as needed */
+    margin: auto !important;
+    width: max-content !important;
+    height: 50vh !important;
+    background-color: white !important;
 }
 
 .missionContainers{
-    justify-content: center;
-    align-items: center;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    justify-content: center !important;
+    align-items: center !important;
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
     gap: 50px; /* Adjust the gap between the boxes as needed */
-    margin: auto;
-    width: max-content;
-    height: max-content;
-    background-color: white;
+    margin: auto !important;
+    width: max-content !important;
+    height: max-content !important ;
+    background-color: white !important;
 }
 
 @media (max-width: 768px) {
     .cards {
-      grid-template-columns: 1fr;
+      grid-template-columns: 1fr !important;
     }
 
     .missionCards {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr !important;
       }
 
       .AesthetixLifeCards{
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr !important;
       }
   }
 

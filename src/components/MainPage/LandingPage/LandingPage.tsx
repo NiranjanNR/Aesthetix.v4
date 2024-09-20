@@ -1,19 +1,18 @@
-// import React from 'react'
-// import './LandingPage.css'
-// import NavBar from '../NavBar/NavBar'
-
-// export default LandingPage
-
 import './LandingPage.css'
 import Aes from '../../../assets/aes.mp4'
+import Partners from '../Partner/Partners'
+import Footers from '../Footer/Footers'
 
 const LandingPage = () => {
     return (
-        <div className='video-background'>
+        <div>
+<div className='video-background'>
             <video autoPlay loop muted className='background-video'>
                 <source src={Aes} type='video/mp4' />
                 Your browser does not support the video tag.
             </video>
+
+            
 
             {/* <img src={Room} /> */}
             {/* <div className="container-land">
@@ -35,6 +34,12 @@ const LandingPage = () => {
                 </div>
             </div> */}
         </div>
+        <Partners />
+        <Footers />
+
+
+        </div>
+        
     )
 }
 

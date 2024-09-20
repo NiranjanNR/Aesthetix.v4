@@ -1,97 +1,101 @@
 import './Support.css';
 
-const Support = () =>{
-    return(
-        <div>
-            <div className='flex content-center items-center flex-col'>
-                <div className='contactFirst'>
+const Support = () => {
+    return (
+        <div className='flex justify-center items-center flex-col'>
+            {/* Contact Section */}
+            <div className='w-full lg:w-100vw flex justify-center items-center flex-col'>
+                <div className='contactFirst text-center'>
                     <div className='contactText'>
-                        <div className='text-1xl font-semibold py-[5px]'>CONTACT</div>
-                        <div className='text-4xl font-bold py-[5px]'>SUMBIT A SERVICE TICKET</div>
-                        <div className='text-1xl font-semibold'>avsupport@aesthetix.com</div>
+                        <div className='text-xl sm:text-2xl font-semibold py-2'>CONTACT</div>
+                        <div className='text-2xl sm:text-4xl font-bold py-2'>SUBMIT A SERVICE TICKET</div>
+                        <div className='text-lg sm:text-xl font-semibold'>avsupport@aesthetix.com</div>
                         <div className='text-2xl font-bold'>542.438.110</div>
                     </div>
                 </div>
-                <div className='contactForm' style={{ marginTop: '-70px', padding: '50px' }}>
-                <form >
-                    <div style={{ display: 'flex', flexWrap: 'wrap', gap: '15px' }}>
-                        <div style={{ flex: '1 1 45%' }}>
-                            <label style={{ display: 'block', marginBottom: '5px', fontWeight: 'bold' }}>First Name</label>
-                            <input type='text' name='firstName' className='contactBox'/>
-                        </div>
-                        <div style={{ flex: '1 1 45%' }}>
-                            <label style={{ display: 'block', marginBottom: '5px', fontWeight: 'bold' }}>Last Name</label>
-                            <input type='text' name='lastName' className='contactBox'  />
-                        </div>
-                    </div>
 
-                    <div style={{ display: 'flex', flexWrap: 'wrap', gap: '15px' }}>
-                        <div style={{ flex: '1 1 45%' }}>
-                            <label style={{ display: 'block', marginBottom: '5px', fontWeight: 'bold' }}>Email</label>
-                            <input type='email' name='email' className='contactBox'  />
+                {/* Contact Form */}
+                <div className='contactForm mt-6 sm:mt-[-70px] p-4 sm:p-10 bg-white shadow-md rounded-lg w-full lg:w-[80%]'>
+                    <form className="space-y-6">
+                        {/* First and Last Name */}
+                        <div className='grid grid-cols-1 sm:grid-cols-2 gap-4'>
+                            <div>
+                                <label className='block font-semibold mb-1'>First Name</label>
+                                <input type='text' name='firstName' className='contactBox w-full p-2 border rounded-md' />
+                            </div>
+                            <div>
+                                <label className='block font-semibold mb-1'>Last Name</label>
+                                <input type='text' name='lastName' className='contactBox w-full p-2 border rounded-md' />
+                            </div>
                         </div>
-                        <div style={{ flex: '1 1 45%' }}>
-                            <label style={{ display: 'block', marginBottom: '5px', fontWeight: 'bold' }}>Phone Number</label>
-                            <input type='tel' name='phone' className='contactBox'  />
-                        </div>
-                    </div>
 
-                    <div style={{ display: 'flex', flexWrap: 'wrap', gap: '15px' }}>
-                        <div style={{ flex: '1 1 45%' }}>
-                            <label style={{ display: 'block', marginBottom: '5px', fontWeight: 'bold' }}>Company Name</label>
-                            <input type='text' name='companyName' className='contactBox'  />
+                        {/* Email and Phone Number */}
+                        <div className='grid grid-cols-1 sm:grid-cols-2 gap-4'>
+                            <div>
+                                <label className='block font-semibold mb-1'>Email</label>
+                                <input type='email' name='email' className='contactBox w-full p-2 border rounded-md' />
+                            </div>
+                            <div>
+                                <label className='block font-semibold mb-1'>Phone Number</label>
+                                <input type='tel' name='phone' className='contactBox w-full p-2 border rounded-md' />
+                            </div>
                         </div>
-                        <div style={{ flex: '1 1 45%' }}>
-                            <label style={{ display: 'block', marginBottom: '5px', fontWeight: 'bold' }}>Title</label>
-                            <input type='text' name='title' className='contactBox'  />
-                        </div>
-                    </div>
 
-                    <div style={{ display: 'flex', flexWrap: 'wrap', gap: '15px' }}>
-                        <div style={{ flex: '1 1 45%' }}>
-                            <label style={{ display: 'block', marginBottom: '5px', fontWeight: 'bold' }}>Street Address 1</label>
-                            <input type='text' name='streetAddress1' className='contactBox'  />
+                        {/* Company Name and Title */}
+                        <div className='grid grid-cols-1 sm:grid-cols-2 gap-4'>
+                            <div>
+                                <label className='block font-semibold mb-1'>Company Name</label>
+                                <input type='text' name='companyName' className='contactBox w-full p-2 border rounded-md' />
+                            </div>
+                            <div>
+                                <label className='block font-semibold mb-1'>Title</label>
+                                <input type='text' name='title' className='contactBox w-full p-2 border rounded-md' />
+                            </div>
                         </div>
-                        <div style={{ flex: '1 1 45%' }}>
-                            <label style={{ display: 'block', marginBottom: '5px', fontWeight: 'bold' }}>Street Address 2</label>
-                            <input type='text' name='streetAddress2' className='contactBox'  />
-                        </div>
-                    </div>
 
-                    <div style={{ display: 'flex', flexWrap: 'wrap', gap: '15px' }}>
-                        <div style={{ flex: '1 1 30%' }}>
-                            <label style={{ display: 'block', marginBottom: '5px', fontWeight: 'bold' }}>City</label>
-                            <input type='text' name='city' className='contactBox'  />
+                        {/* Street Address 1 and 2 */}
+                        <div className='grid grid-cols-1 sm:grid-cols-2 gap-4'>
+                            <div>
+                                <label className='block font-semibold mb-1'>Street Address 1</label>
+                                <input type='text' name='streetAddress1' className='contactBox w-full p-2 border rounded-md' />
+                            </div>
+                            <div>
+                                <label className='block font-semibold mb-1'>Street Address 2</label>
+                                <input type='text' name='streetAddress2' className='contactBox w-full p-2 border rounded-md' />
+                            </div>
                         </div>
-                        <div style={{ flex: '1 1 30%' }}>
-                            <label style={{ display: 'block', marginBottom: '5px', fontWeight: 'bold' }}>State</label>
-                            <input type='text' name='state' className='contactBox'  />
-                        </div>
-                        <div style={{ flex: '1 1 30%' }}>
-                            <label style={{ display: 'block', marginBottom: '5px', fontWeight: 'bold' }}>Zip Code</label>
-                            <input type='text' name='zipCode' className='contactBox'  />
-                        </div>
-                    </div>
 
-                    <div style={{ display: 'flex', flexWrap: 'wrap', gap: '15px' }}>
-                        <div style={{ flex: '1 1 100%' }}>
-                            <label style={{ display: 'block', marginBottom: '5px', fontWeight: 'bold' }}>Description</label>
-                            <textarea name='description' rows='4' style={{ width: '100%', padding: '10px', borderRadius: '4px', border: '1px solid #ccc' }}></textarea>
+                        {/* City, State, and Zip Code */}
+                        <div className='grid grid-cols-1 sm:grid-cols-3 gap-4'>
+                            <div>
+                                <label className='block font-semibold mb-1'>City</label>
+                                <input type='text' name='city' className='contactBox w-full p-2 border rounded-md' />
+                            </div>
+                            <div>
+                                <label className='block font-semibold mb-1'>State</label>
+                                <input type='text' name='state' className='contactBox w-full p-2 border rounded-md' />
+                            </div>
+                            <div>
+                                <label className='block font-semibold mb-1'>Zip Code</label>
+                                <input type='text' name='zipCode' className='contactBox w-full p-2 border rounded-md' />
+                            </div>
                         </div>
-                    </div>
 
-                    <div style={{ marginTop: '20px' }}>
-                        <button type='submit' style={{ padding: '10px 20px', border: 'none', borderRadius: '4px', backgroundColor: '#007bff', color: '#fff', fontSize: '16px', cursor: 'pointer' }}>Submit</button>
-                    </div>
-                </form>
+                        {/* Description */}
+                        <div>
+                            <label className='block font-semibold mb-1'>Description</label>
+                            <textarea name='description' rows='4' className='w-full p-3 border rounded-md' />
+                        </div>
 
+                        {/* Submit Button */}
+                        <div className='mt-6'>
+                            <button type='submit' className='bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded-md font-bold'>Submit</button>
+                        </div>
+                    </form>
                 </div>
-
             </div>
-           
-            
         </div>
-    )
+    );
 }
 
 export default Support;

@@ -7,7 +7,8 @@ const Nav = () => {
       <div className="ml-6 mr-10 font-semibold pt-2">
           <Navbar fluid rounded >
       <Navbar.Brand>
-        <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">aesthetix</span>
+      <Link to="/"><span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">aesthetix</span></Link>
+        
               </Navbar.Brand>
     <Navbar.Toggle />
         <NavbarCollapse>
@@ -25,11 +26,11 @@ const Nav = () => {
             <Link to="/about">About</Link>
           </Dropdown.Item>
           <Dropdown.Item>
-            <Link to="/our-people">Our People</Link>
+            <Link to="/our-people">Our People & Culture</Link>
           </Dropdown.Item>
-          <Dropdown.Item>
+          {/* <Dropdown.Item>
             <Link to="/career">Career</Link>
-          </Dropdown.Item>
+          </Dropdown.Item> */}
           <Dropdown.Item>
             <Link to="/location">Location</Link>
           </Dropdown.Item>
@@ -78,7 +79,7 @@ const Nav = () => {
             <Link to="/it-service">IT Service</Link>
           </Dropdown.Item>
           <Dropdown.Item>
-            <Link to="/elt">ELT</Link>
+            <Link to="/elv">ELV</Link>
           </Dropdown.Item>
           
         </Dropdown>
