@@ -60,7 +60,7 @@ body{
 
 }
 
-.cards{
+.itcards{
     display: flex;
     justify-content: center;
     align-items: center;

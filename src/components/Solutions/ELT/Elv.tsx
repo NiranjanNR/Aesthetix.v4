@@ -110,7 +110,7 @@ const Elv = () =>{
         <div className='text-[#5b255d] text-[18px] font-bold '>Explore Our Audiovisual Solutions by Market</div>
     </div>   
     
-    <div className='cards'>
+    <div className='Elvcards'>
     <div className='LocationCard'>
             <img src={collab} className='LocationCardImage'/>
             <div className='LocationCardText'>
