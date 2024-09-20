@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body{
+    font-family: "Open Sans", sans-serif;
+}
+.background {
+    position: relative;
+    background-size: cover;
+    z-index: 1;
+}
+
+.background::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../../../assets/audioVisual.jpg") !important;
+    background-size: cover;
+    opacity: 0.6; /* Change this value for desired opacity */
+    z-index: -1; /* Make sure the pseudo-element is behind the content */
+}
+
+.backgroundColor{
+    background-color: #9864a21d;
+    
+}
+
+.LocationCard {
+    width: 20%; /* Adjust based on your needs */
+    margin: 10px; /* To add some space between cards */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.LocationCardImage {
+    width: 100%;
+    height: auto;
+}
+
+.LocationCardText {
+    text-align: center;
+    padding-bottom: 20px;
+    color: rgb(91 37 93);
+
+}
+
+.locationInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px;
+    gap: 25px;
+    flex-direction: column;
+
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}

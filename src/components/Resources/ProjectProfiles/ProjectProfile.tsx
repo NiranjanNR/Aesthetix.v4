@@ -8,7 +8,7 @@ const ProjectProfile = () =>{
         <div>
             <div className='locationCover'>
                 <div className='overLays'>
-                    <div className='text-4xl text-white font-bold py-[15px]'>Project Profiles</div>
+                    <div className='text-4xl text-white font-semibold py-[15px]'>PROJECT PROFILES</div>
                 </div>
             </div>
 
@@ -16,11 +16,11 @@ const ProjectProfile = () =>{
 
                   {/* Section for title and description */}
             <div className="projects-section">
-                <h2 className="section-title">INSPIRING AUDIOVISUAL INSTALLATIONS</h2>
-                <p className="section-description">
+                <h2 className="sectiontitle">INSPIRING AUDIOVISUAL INSTALLATIONS</h2>
+                <p className="sectionDescription">
                     We believe our work speaks for itself. View our projects to see how leaders in the corporate, healthcare, and education markets have partnered with Avidex for audiovisual solutions that change the way they work, learn, and live.
                 </p>
-                <hr className="divider" />
+                <hr className="0" />
                 <h3 className="projects-title">PROJECTS BY MARKET</h3>
             </div>
 
@@ -33,55 +33,55 @@ const ProjectProfile = () =>{
                 <a href="#" className="filter-link">FINANCIAL SERVICES</a>
             </div>
 
-            <div class="project-gallery">
-                <div class="LocationCard">
-                    <img src={Dubai} class="LocationCardImage"/>
-                    <div class="overlay">Immersive Experience Center</div>
+            <div className="project-gallery">
+                <div className="LocationCard">
+                    <img src={Dubai} className="LocationCardImage"/>
+                    <div className="overlay">Immersive Experience Center</div>
                 </div>
 
-                <div class="LocationCard">
-                    <img src={Dubai} class="LocationCardImage"/>
-                    <div class="overlay">Immersive Experience Center</div>
+                <div className="LocationCard">
+                    <img src={Dubai} className="LocationCardImage"/>
+                    <div className="overlay">Immersive Experience Center</div>
                 </div>
 
-                <div class="LocationCard">
-                    <img src={Dubai} class="LocationCardImage"/>
-                    <div class="overlay">Immersive Experience Center</div>
+                <div className="LocationCard">
+                    <img src={Dubai} className="LocationCardImage"/>
+                    <div className="overlay">Immersive Experience Center</div>
                 </div>
             </div>
 
-            <div class="project-gallery">
-                <div class="LocationCard">
-                    <img src={Dubai} class="LocationCardImage"/>
-                    <div class="overlay">Immersive Experience Center</div>
+            <div className="project-gallery">
+                <div className="LocationCard">
+                    <img src={Dubai} className="LocationCardImage"/>
+                    <div className="overlay">Immersive Experience Center</div>
                 </div>
 
-                <div class="LocationCard">
-                    <img src={Dubai} class="LocationCardImage"/>
-                    <div class="overlay">Immersive Experience Center</div>
+                <div className="LocationCard">
+                    <img src={Dubai} className="LocationCardImage"/>
+                    <div className="overlay">Immersive Experience Center</div>
                 </div>
 
-                <div class="LocationCard">
-                    <img src={Dubai} class="LocationCardImage"/>
-                    <div class="overlay">Immersive Experience Center</div>
+                <div className="LocationCard">
+                    <img src={Dubai} className="LocationCardImage"/>
+                    <div className="overlay">Immersive Experience Center</div>
                 </div>
             </div>
 
             
-            <div class="project-gallery">
-                <div class="LocationCard">
-                    <img src={Dubai} class="LocationCardImage"/>
-                    <div class="overlay">Immersive Experience Center</div>
+            <div className="project-gallery">
+                <div className="LocationCard">
+                    <img src={Dubai} className="LocationCardImage"/>
+                    <div className="overlay">Immersive Experience Center</div>
                 </div>
 
-                <div class="LocationCard">
-                    <img src={Dubai} class="LocationCardImage"/>
-                    <div class="overlay">Immersive Experience Center</div>
+                <div className="LocationCard">
+                    <img src={Dubai} className="LocationCardImage"/>
+                    <div className="overlay">Immersive Experience Center</div>
                 </div>
 
-                <div class="LocationCard">
-                    <img src={Dubai} class="LocationCardImage"/>
-                    <div class="overlay">Immersive Experience Center</div>
+                <div className="LocationCard">
+                    <img src={Dubai} className="LocationCardImage"/>
+                    <div className="overlay">Immersive Experience Center</div>
                 </div>
             </div>
 
@@ -107,7 +107,14 @@ const ProjectProfile = () =>{
                     <div className="image-container">
                         <img src={Dubai} />
                     </div>
+                    <div className="image-container">
+                        <img src={Dubai} />
                     </div>
+                    <div className="image-container">
+                        <img src={Dubai} />
+                    </div>
+                    
+                </div>
 
             <div>
                 <div className="waves top-waves">

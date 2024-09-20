@@ -13,6 +13,7 @@ import project4 from '../../../assets/project4.jpg';
 import project5 from '../../../assets/project5.jpg';
 import project6 from '../../../assets/project6.jpg';
 import Footers from '../../MainPage/Footer/Footers'
+import ContactTemplate from '../../ContentTemplate/ContactTemplate';
 
 
 const AboutAes = () => {
@@ -112,17 +113,7 @@ const AboutAes = () => {
                 </div>
             
             </div>
-            <div style={{height: '40vh', display: 'flex', justifyContent:'center', alignItems: 'center', flexDirection: 'column'}}>
-            <div style={{position: 'relative', top: '0', width: '60px', height: '3px', backgroundColor: 'rgb(120, 68, 172)', borderRadius: '4px', margin: '10px'}}></div>
-
-                <div className='helpHead'>
-                    HOW CAN WE HELP ?
-                </div>
-                <div className='helpText'>
-                    Connect with one of our audiovisual experts and start creating an unforgettable AV experience today!
-                </div>
-                <input type='button' className='TouchButton' value="GET IN TOUCH" /> 
-            </div>
+            <ContactTemplate />
             <Footers />
         </div>
     )
