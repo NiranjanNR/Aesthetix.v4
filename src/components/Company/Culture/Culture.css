@@ -36,7 +36,8 @@
     gap: 50px !important; /* Adjust the gap between the boxes as needed */
     margin: auto !important;
     width: max-content !important;
-    height: 50vh !important;
+    min-height: 70vh !important;
+    height: max-content !important;
     background-color: white !important;
 }
 
@@ -67,6 +68,7 @@
   }
 
   .cardBox{
+    padding: 20px 0px ;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     transition: transform 0.5s ease; /* corrected transition */
     cursor: pointer;
