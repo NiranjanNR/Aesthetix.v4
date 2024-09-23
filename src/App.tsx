@@ -6,7 +6,6 @@ import Government from './components/Verticals/Government/Government';
 import Education from './components/Verticals/Education/Education';
 import Hospitality from './components/Verticals/Hospitality/Hospitality';
 import Retail from './components/Verticals/Retail/Retail';
-import LandingPage from './components/MainPage/LandingPage/LandingPage';
 import Culture from './components/Company/Culture/Culture';
 import Location from './components/Company/Locations/Location';
 import CallSupport from './components/Company/CallSupport/Support';
@@ -19,8 +18,7 @@ function App() {
     <Router>
       <Nav />
       <Routes>
-        <Route path="/" element={<LandingPage/>} />
-        <Route path="/about" element={<AboutAes />} />
+        <Route path="/" element={<AboutAes />} />
         <Route path="/corporate" element={<Corporate />} />
         <Route path="/government" element={<Government />} />
         <Route path="/education" element={<Education />} />

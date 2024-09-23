@@ -17,20 +17,20 @@ import Footers from '../../MainPage/Footer/Footers'
 const Culture = () =>{
     return(
         <div className='font'>
-            <div className='WeImage'>
+            <div className='WeImage relative'>
                 <div className='overLay'></div>
-                <div className='text-[40px] text-white z-10 font font-bold'>OUR PEOPLE & CULTURE</div>
-                <div className='text-1xl text-white z-10 pt-3'> AV Innovation improving the way we work, learn and live.</div>
+                <div className='text-[28px] sm:text-[40px] text-white z-10 font font-bold'>OUR PEOPLE & CULTURE</div>
+                <div className='text-sm sm:text-1xl text-white z-10 pt-3'> AV Innovation improving the way we work, learn and live.</div>
             </div>
-            <div className='About'>
-                <div className='text-3xl primaryH font-bold my-5 z-10'>CONNECTING PEOPLE THROUGH INNOVATION</div>
-                <div className='text-[18px] primaryP text-black z-10 text-center mx-[10rem] align-center'>
+            <div className='About px-4 sm:px-8'>
+                <div className='text-xl sm:text-3xl primaryH font-bold my-5 z-10 text-center'>CONNECTING PEOPLE THROUGH INNOVATION</div>
+                <div className='text-[18px] sm:text-[18px] primaryP  z-10 text-center mx-auto sm:mx-[10rem]'>
                 The experienced professionals of the Avidex team represent the best in the audiovisual industry. With our year-over-year growth, Avidex continues to enhance our team by adding individuals who can provide excellent service while promoting a culture that reflects our company values. If you're seeking a rewarding career with a top-tier AV integrator, apply for an open position today.                
                 </div>
             </div>
             <div className='cards'>
 
-                <div className='flex flex-col w-[200px] cardBox'>
+                <div className='flex flex-col w-[225px] cardBox'>
                     <div>
                         <img src={card1} />
                     </div>
@@ -39,7 +39,7 @@ const Culture = () =>{
                     </div>
                 </div>
 
-                <div className='flex flex-col w-[200px] cardBox'>
+                <div className='flex flex-col w-[225px] cardBox'>
                     <div>
                         <img src={card2} />
                     </div>
@@ -48,7 +48,7 @@ const Culture = () =>{
                     </div>
                 </div>
 
-                <div className='flex flex-col w-[200px] cardBox'>
+                <div className='flex flex-col w-[225px] cardBox'>
                     <div>
                         <img src={card3} />
                     </div>
@@ -57,7 +57,7 @@ const Culture = () =>{
                     </div>
                 </div>
 
-                <div className='flex flex-col w-[200px] cardBox' >
+                <div className='flex flex-col w-[225px] cardBox' >
                     <div>
                         <img src={card4} />
                     </div>
@@ -66,7 +66,7 @@ const Culture = () =>{
                     </div>
                 </div>
 
-                <div className='flex flex-col w-[200px] cardBox'>
+                <div className='flex flex-col w-[225px] cardBox'>
                     <div>
                         <img src={card5} />
                     </div>
@@ -79,13 +79,13 @@ const Culture = () =>{
             <div className='text-center flex contents-center flex-col p-[20px]'>
                 <div className='text-[25px] primaryH font-bold py-[1.25rem]'>MISSION & VALUES</div>
 
-                <div className='text-[19px] mx-[10rem] text-black font-normal primaryP'>
+                <div className='text-[16px] sm:text-[18px] primaryP z-10 text-center mx-auto sm:mx-[10rem]'>
                 At Aesthetix we believe in five core values: accountability, integrity, passion, teamwork, and innovation to achieve our mission and vision to provide audiovisual solutions and services that enhance communication and improve the way people work, learn, and live.
                 </div>
             </div>
 
-            <div className='missionContainers grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4'>
-                    <div className='Missioncards' style={{ backgroundColor: '#0ba6df' }}>
+            <div className='missionContainers grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 p-4'>
+            <div className='Missioncards' style={{ backgroundColor: '#0ba6df' }}>
                         <img src={m1} className='h-[150px]' />
                         <div className='text-3xl text-white p-[10px]'>Mission & Vision</div>
                     </div>
@@ -114,7 +114,7 @@ const Culture = () =>{
                         <img src={m6} className='h-[150px]' />
                         <div className='text-3xl text-white p-[10px]'>Innovation</div>
                     </div>
-                </div>
+            </div>
 
 
             <div className='text-center flex contents-center flex-col height-[max-content] py-[5rem]'>
@@ -135,7 +135,6 @@ const Culture = () =>{
                     <img src={card3} />
                 </div>
 
-                
             </div>
 
         <div className='OurLeaders p-10 h-[80vh]'>
