@@ -1,5 +1,3 @@
-import { Footer, Tabs } from 'flowbite-react';
-import project6 from '../../../assets/project6.jpg';
 import ContentTemplate from '../../ContentTemplate/ContentTemplate';
 import HeaderDescription from '../../ContentTemplate/HeaderDescription';
 import VerticalBox from '../../ContentTemplate/VerticalBox';

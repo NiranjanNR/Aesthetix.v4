@@ -84,7 +84,7 @@ const Support = () => {
                         {/* Description */}
                         <div>
                             <label className='block font-semibold mb-1'>Description</label>
-                            <textarea name='description' rows='4' className='w-full p-3 border rounded-md' />
+                            <textarea name='description' className='w-full p-3 border rounded-md' />
                         </div>
 
                         {/* Submit Button */}
