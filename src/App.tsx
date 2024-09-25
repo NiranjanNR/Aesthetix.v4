@@ -13,6 +13,8 @@ import Av from './components/Solutions/AudioVisual/Av';
 import ITServices from './components/Solutions/ITServices/Services'
 import Elv from './components/Solutions/ELT/Elv'; 
 import LandingPage from './components/MainPage/LandingPage/LandingPage';
+import ProjectProfile from './components/Resources/ProjectProfiles/ProjectProfile';
+import Casestudy from './components/Resources/CaseStudies/Casestudy';
 
 function App() {
   return (
@@ -32,6 +34,8 @@ function App() {
         <Route path="/av" element={<Av />} />
         <Route path="/it-service" element={<ITServices />} />
         <Route path="/elv" element={<Elv />} />
+        <Route path="/project-files" element={<ProjectProfile />} />
+        <Route path="/case-study" element={<Casestudy />} />
 
       </Routes>
     </Router>

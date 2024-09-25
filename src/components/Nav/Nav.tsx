@@ -1,8 +1,9 @@
 import { Dropdown, Navbar, NavbarCollapse } from "flowbite-react";
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import './Nav.css';
 
 const Nav = () => {
+  const navigate = useNavigate();
   return (
       <div className="ml-6 mr-10 font-semibold pt-2">
           <Navbar fluid rounded >
@@ -22,20 +23,20 @@ const Nav = () => {
             </div>
           }
         >
-          <Dropdown.Item>
-            <Link to="/about">About</Link>
+          <Dropdown.Item onClick={() => navigate('/about')}>
+            About
           </Dropdown.Item>
-          <Dropdown.Item>
-            <Link to="/our-people">Our People & Culture</Link>
+          <Dropdown.Item onClick={() => navigate('/our-people')}>
+            Our People & Culture
           </Dropdown.Item>
           {/* <Dropdown.Item>
             <Link to="/career">Career</Link>
           </Dropdown.Item> */}
-          <Dropdown.Item>
-            <Link to="/location">Location</Link>
+          <Dropdown.Item onClick={() => navigate('/location')}>
+            Location
           </Dropdown.Item>
-          <Dropdown.Item>
-            <Link to="/support">Support</Link>
+          <Dropdown.Item onClick={() => navigate('/support')}>
+            Support
           </Dropdown.Item>
         </Dropdown>
               <Dropdown size="lg"
@@ -47,20 +48,20 @@ const Nav = () => {
             </div>
           }
         >
-          <Dropdown.Item>
-            <Link to="/corporate">Corporate</Link>
+          <Dropdown.Item onClick={() => navigate('/corporate')}>
+            Corporate
           </Dropdown.Item>
-          <Dropdown.Item>
-            <Link to="/government">Government</Link>
+          <Dropdown.Item onClick={() => navigate('/government')}>
+            Government
           </Dropdown.Item>
-          <Dropdown.Item>
-            <Link to="/hospitality">Hospitality</Link>
+          <Dropdown.Item onClick={() => navigate('/hospitality')}>
+            Hospitality
           </Dropdown.Item>
-          <Dropdown.Item>
-            <Link to="/education">Education</Link>
+          <Dropdown.Item onClick={() => navigate('/education')}>
+            Education
           </Dropdown.Item>
-          <Dropdown.Item>
-            <Link to="/retail">Retail</Link>
+          <Dropdown.Item onClick={() => navigate('/retail')}>
+            Retail
           </Dropdown.Item>
         </Dropdown>
         <Dropdown size="lg"
@@ -72,14 +73,14 @@ const Nav = () => {
             </div>
           }
         >
-          <Dropdown.Item>
-            <Link to="/av">AV</Link>
+          <Dropdown.Item onClick={() => navigate('/av')}>
+            AV
           </Dropdown.Item>
-          <Dropdown.Item>
-            <Link to="/it-service">IT Service</Link>
+          <Dropdown.Item onClick={() => navigate('/it-service')}>
+            IT Service
           </Dropdown.Item>
-          <Dropdown.Item>
-            <Link to="/elv">ELV</Link>
+          <Dropdown.Item onClick={() => navigate('/elv')}>
+            ELV
           </Dropdown.Item>
           
         </Dropdown>
@@ -92,11 +93,11 @@ const Nav = () => {
             </div>
           }
         >
-          <Dropdown.Item>
-            <Link to="/project-files">Project Files</Link>
+          <Dropdown.Item onClick={() => navigate('/project-files')}>
+            Project Files
           </Dropdown.Item>
-          <Dropdown.Item>
-            <Link to="/case-study">Case Study</Link>
+          <Dropdown.Item onClick={() => navigate('/case-study')}>
+            Case Study
           </Dropdown.Item>
         </Dropdown>
       </div>
