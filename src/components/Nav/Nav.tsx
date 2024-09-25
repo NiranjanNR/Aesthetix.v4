@@ -23,7 +23,7 @@ const Nav = () => {
           }
         >
           <Dropdown.Item>
-            <Link to="/">About</Link>
+            <Link to="/about">About</Link>
           </Dropdown.Item>
           <Dropdown.Item>
             <Link to="/our-people">Our People & Culture</Link>

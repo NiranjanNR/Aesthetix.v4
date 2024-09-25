@@ -12,13 +12,15 @@ import CallSupport from './components/Company/CallSupport/Support';
 import Av from './components/Solutions/AudioVisual/Av';
 import ITServices from './components/Solutions/ITServices/Services'
 import Elv from './components/Solutions/ELT/Elv'; 
+import LandingPage from './components/MainPage/LandingPage/LandingPage';
 
 function App() {
   return (
     <Router>
       <Nav />
       <Routes>
-        <Route path="/" element={<AboutAes />} />
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/about" element={<AboutAes />} />
         <Route path="/corporate" element={<Corporate />} />
         <Route path="/government" element={<Government />} />
         <Route path="/education" element={<Education />} />

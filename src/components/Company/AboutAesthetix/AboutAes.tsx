@@ -96,7 +96,7 @@ const AboutAes = () => {
                         </div>
                         <div className="projectBox relative" style={{ backgroundImage: `url(${project2})` }}>
                             <div className='overLay rounded-lg'></div>
-                            <div className='absolute bottom-0 left-0 w-full p-4 text-xl sm:text-2xl text-white z-10'>Education</div>
+                            <div className='absolute bottom-0 left-0 w-full p-4 text-xl sm:text-2xl text-white z-10'>Hospitality</div>
                         </div>
                         <div className="projectBox relative" style={{ backgroundImage: `url(${project3})` }}>
                             <div className='overLay rounded-lg'></div>
@@ -104,16 +104,13 @@ const AboutAes = () => {
                         </div>
                         <div className="projectBox relative" style={{ backgroundImage: `url(${project4})` }}>
                             <div className='overLay rounded-lg'></div>
-                            <div className='absolute bottom-0 left-0 w-full p-4 text-xl sm:text-2xl text-white z-10'>House of Worship</div>
+                            <div className='absolute bottom-0 left-0 w-full p-4 text-xl sm:text-2xl text-white z-10'>Education</div>
                         </div>
                         <div className="projectBox relative" style={{ backgroundImage: `url(${project5})` }}>
                             <div className='overLay rounded-lg'></div>
-                            <div className='absolute bottom-0 left-0 w-full p-4 text-xl sm:text-2xl text-white z-10'>Sports</div>
+                            <div className='absolute bottom-0 left-0 w-full p-4 text-xl sm:text-2xl text-white z-10'>Retail</div>
                         </div>
-                        <div className="projectBox relative" style={{ backgroundImage: `url(${project6})` }}>
-                            <div className='overLay rounded-lg'></div>
-                            <div className='absolute bottom-0 left-0 w-full p-4 text-xl sm:text-2xl text-white z-10'>Transportation</div>
-                        </div>
+                       
                     </div>
                 </div>
             </div>
