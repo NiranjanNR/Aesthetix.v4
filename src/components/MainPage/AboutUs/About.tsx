@@ -1,9 +1,5 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import './About.css';
-import every from '../../assets/every.mp4';
-import First from '../../assets/FIRST.mp4';
-import Second from '../../assets/SECOND.mp4';
 
 const About = () => {
   return (

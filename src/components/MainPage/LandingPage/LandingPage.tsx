@@ -1,8 +1,5 @@
-import React from 'react'
 import './LandingPage.css'
-import NavBar from '../../Nav/Nav'
 import Aes from '../../../assets/aes.mp4'
-import Room from '../../assets/room.jpg'
 import AboutUs from '../AboutUs/About'
 import Partners from '../Partner/Partners'
 import Footers from '../Footer/Footers'

@@ -5,9 +5,9 @@ const HeaderDescription = (props: {
  }) => {
   return (
       <div>
-          <div className='flex justify-center mb-8'>
+          <div className='flex justify-center mb-2'>
               <div className='w-[60vw]'>
-              <div className={`md:text-2xl md:font-bold text-xl font-semibold text-center mb-5 ${props.className}`}>
+              <div className={`md:text-3xl md:font-bold text-xl font-semibold text-center mb-5 ${props.className}`}>
               {props.header}
                     </div>
                   <div className='text-lg mt-6 text-[#424141] text-center mb-8'>
