@@ -9,19 +9,24 @@ const Hospitality = () => {
   return (
       <div>
           {/* Landing */}
-          <LandingTemplate header="AV SOLUTIONS FOR HOSPITALITY & ENTERTAINMENT" description="Audiovisual integration for businesses that rely on memorable experiences." buttontext="GET STARTED NOW" imagepath={VerticalsHosp}/>
+          <LandingTemplate header="AUDIOVISUAL TECHNOLOGY FOR HEALTHCARE" description="Aesthetix delivers innovative and collaborative solutions specifically designed for the healthcare industry to improve the patient, staff, and visitor experience." buttontext="GET STARTED NOW" imagepath={VerticalsHosp}/>
           
         <div >
           <div className='flex justify-center mb-8'>
-                <div className='w-[60vw]'>
+                <div className='w-[80vw]'>
                 <div className={`md:text-2xl md:font-bold text-xl font-semibold text-center mb-5 text-[#a142a5]`}>
-                    AUDIOVISUAL INTEGRATION 
+                AV INTEGRATION for Better Healthcare Experiences
                 </div>
                 <div className={`md:text-1xl md:font-bold text-xl font-semibold text-center  text-[#5b255d]`}>
-                For Those Whose Success Relies on Making an Impact
+                Inside and Outside the Patient Room
                 </div>
                 <div className='text-lg mt-6 text-[#424141] text-center mb-8 '>
-                    Communicate your brand and bring your space to life with creative AV and communication technologies engineered, installed, and fully supported by Avidex.  Highlight your commitment to service, add subtle ambiance, set the mood, amaze your guests, or communicate important information with the latest audiovisual solutions for the hospitality and entertainment industries. Avidex helps our hospitality and entertainment clients exceed their guest’s expectations with audiovisual and communication technologies.
+                The Avidex healthcare team specializes in meeting the unique needs and requirements of healthcare environments with audiovisual technology solutions that enhance the healthcare experience for patients, visitors, and staff. With decades of experience in the healthcare market and more than 2,500 hospital and healthcare clients nationwide, Avidex has a legacy of designing, integrating, supporting, and servicing complex audiovisual solutions inside and outside of the patient room. Avidex’s proprietary TigrPX interactive patient engagement solution (IPS) helps hospitals educate, engage, and entertain patients to improve patient outcomes, care quality, and hospital performance. 
+
+                <br />
+                <br />
+                Our longevity in the healthcare industry has enabled us to develop longstanding, trusted relationships with solutions that help drive quality metrics for patient satisfaction and clinical performance amidst an ever-changing healthcare landscape. 
+
                 </div>
             </div>
           </div>

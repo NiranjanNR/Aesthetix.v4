@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 .WeImage{
-    background-image: url('../../../assets/GrpPic.jpeg');
+    background-image: url('../../../assets/cover2.jpg');
+    background-size: cover;
     height: 70vh;
     position: relative;
     text-align: center;
@@ -93,15 +94,19 @@
 
 
   .AesthetixLifeCards{
+    background-image: url('../../../assets/cover1.jpg');
+    background-size: cover;
     justify-content: center;
     align-items: center;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin: auto;
-    width: max-content;
-    height: max-content;
+    width: 100vw;
+    height: 70vh;
     background-color: white;
     margin: 0px 20px;
+
+
   }
 
   .heroCard{

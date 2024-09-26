@@ -18,7 +18,7 @@ const AboutAes = () => {
     return (
         <div className='Main'>
             {/* Hero Section */}
-            <div className='WeImage relative'>
+            <div className='AboutImage relative'>
                 <div className='overLay'></div>
                 <div className='text-4xl sm:text-5xl text-white z-10 font-bold py-5 text-center'>WE ARE AESTHETIX</div>
                 <div className='text-lg sm:text-2xl text-white z-10 pt-3 text-center'>AV Innovation improving the way we work, learn, and live.</div>

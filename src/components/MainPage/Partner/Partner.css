@@ -20,9 +20,8 @@
 }
 
 .partner2Images{
-    height: 50px;
+    height: 70px;
     padding: 20px;
-    width: 100%;
 }
 .cards-container {
     display: grid;
@@ -35,13 +34,13 @@
 .cards {
     background-color: rgb(241, 241, 241);
     /* border-radius: 8px; */
-    overflow: hidden !important;
-    width: 400px !important; /* Adjust the width as needed */
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: center !important;
-    text-align: center !important;
-    padding: 15px !important;
+    overflow: hidden;
+    width: 400px; /* Adjust the width as needed */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
 }
 
 .card-image {
@@ -162,8 +161,8 @@
   }
   
   .partner2Images {
-    height:70px;
-    width: 60%;
+    width: 60%; /* Make images responsive */
+    height: 80px;
   }
   
   .partners-container {

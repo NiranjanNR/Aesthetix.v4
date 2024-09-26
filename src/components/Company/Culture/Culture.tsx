@@ -13,6 +13,7 @@ import m6 from '../../../assets/mission6.webp'
 import ceo from '../../../assets/dp.jfif'
 import career from '../../../assets/career.webp'
 import Footers from '../../MainPage/Footer/Footers'
+import cover1 from '../../../assets/cover1.jpg';
 
 const Culture = () =>{
     return(
@@ -125,14 +126,14 @@ const Culture = () =>{
                 </div>
 
                 <div className='AesthetixLifeCards py-[5rem]'>
-                    <img src={card1} />
-                    <img src={card2} />
+                    {/* <img src={cover1} style={{width: '100vw'}}/> */}
+                    {/* <img src={card2} />
                     <img src={card3} />
                     <img src={card4} />
                     <img src={card5} />
                     <img src={card1} />
                     <img src={card2} />
-                    <img src={card3} />
+                    <img src={card3} /> */}
                 </div>
 
             </div>
