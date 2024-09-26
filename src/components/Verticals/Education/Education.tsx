@@ -1,11 +1,11 @@
 import { Tabs } from 'flowbite-react';
-import project6 from '../../../assets/project6.jpg';
 import ContentTemplate from '../../ContentTemplate/ContentTemplate';
 import HeaderDescription from '../../ContentTemplate/HeaderDescription';
 import VerticalBox from '../../ContentTemplate/VerticalBox';
 import LandingTemplate from '../../ContentTemplate/LandingTemplate';
 import VerticalEdu from '../../../assets/Vertical-edu.jpg'
-import Footers from '../../Footer/Footers';
+import VideoTemplate from '../../ContentTemplate/VideoTemplate';
+import Footers from '../../MainPage/Footer/Footers';
 
 const Education = () => {
   return (
@@ -16,76 +16,66 @@ const Education = () => {
         <HeaderDescription className='text-[#5b255d]' header='TECHNOLOGY FOR ENHANCED LEARNING OUTCOMES' description='Embracing and integrating technology into the classroom and campus creates a more engaging campus environment and helps make learning fun. Technology enhances the learning experience, helps to keep our campuses safe, and encourages collaboration to support the way today’s students want to learn. From immersive and hybrid learning classrooms to digital signage and security solutions, Avidex provides audiovisual technology integration services to help you create an engaging and effective educational experience.' />
       </div>
           <div className='flex justify-center mb-10 '>
-              <div className="overflow-x-auto w-[80vw] border-2 p-5 rounded-xl">
-      <Tabs aria-label="Full width tabs" variant="fullWidth">
-            <Tabs.Item active title="Conference Rooms">
+              <div className="overflow-x-auto w-[80vw] border-2 p-5 rounded-xl bg-white">
+      <Tabs aria-label="Full width tabs" variant="fullWidth" className='text-lg' >
+            <Tabs.Item active title="Classrooms">
               <div className='flex justify-center'>
                 <div className='w-[50vw]'>
-                  <div className='text-center'>
-                    This is <span className="font-medium text-gray-800 dark:text-white">Dashboard tab's associated content</span>.
-          Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to
-          control the content visibility and styling.
+                  <div className='text-center mt-3'>
+                    Behold the classrooms where everyone of your children get their personalities and shape tomorrows world.
                   </div>
-                  <img className='h-[50vh] w-[50vw] mt-5' src="https://www.avidex.com/hs-fs/hubfs/Website%20Optimized/Corporate/1200x900/Gov-NOC-SOC-DisplaySolutions-1.jpg?width=1000&height=750&name=Gov-NOC-SOC-DisplaySolutions-1.jpg" />
+                  <img className='h-[50vh] w-[50vw] mt-5' src="https://images.pexels.com/photos/5212345/pexels-photo-5212345.jpeg?auto=compress&cs=tinysrgb&w=800" />
                  </div>
               </div>
         </Tabs.Item>
-        <Tabs.Item active title="Reception/Lobby">
+        <Tabs.Item active title="Common Areas">
               <div className='flex justify-center'>
                 <div className='w-[50vw]'>
-                  <div className='text-center'>
-                    This is <span className="font-medium text-gray-800 dark:text-white">Dashboard tab's associated content</span>.
-          Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to
-          control the content visibility and styling.
+                  <div className='text-center mt-3'>
+                    Inform and delight your visitors and staff throughout your campus with digital signage, wayfinding, and video wall solutions. 
                   </div>
-                  <img className='h-[50vh] w-[50vw] mt-5' src={project6} />
+                  <div className='flex justify-center mt-4'>
+                    <img className='h-[50vh] mt-5' src="https://images.pexels.com/photos/3042432/pexels-photo-3042432.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" />
+                  </div>
                  </div>
               </div>
             </Tabs.Item>
-            <Tabs.Item active title="Auditorium/Training centers">
+            <Tabs.Item active title="Administration">
               <div className='flex justify-center'>
                 <div className='w-[50vw]'>
-                  <div className='text-center'>
-                    This is <span className="font-medium text-gray-800 dark:text-white">Dashboard tab's associated content</span>.
-          Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to
-          control the content visibility and styling.
+                  <div className='text-center mt-3'>
+                    Our collaboration solutions serve conference rooms of all sizes with HD displays.
                   </div>
-                  <img className='h-[50vh] w-[50vw] mt-5' src={project6} />
+                  <div className='flex justify-center mt-4'>
+                    <img className='h-[50vh] mt-5' src="https://images.pexels.com/photos/1181396/pexels-photo-1181396.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" />
+                  </div>
                  </div>
               </div>
             </Tabs.Item>
-            <Tabs.Item active title="Open Workspaces">
+            <Tabs.Item active title="Sports Venues">
               <div className='flex justify-center'>
                 <div className='w-[50vw]'>
-                  <div className='text-center'>
-                    This is <span className="font-medium text-gray-800 dark:text-white">Dashboard tab's associated content</span>.
-          Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to
-          control the content visibility and styling.
+                  <div className='text-center mt-3'>
+                    Sports venues to embrace the vast richness of your childrens freedom.
                   </div>
-                  <img className='h-[50vh] w-[50vw] mt-5' src={project6} />
+                  <div className='flex justify-center mt-4'>
+                    <img className='h-[50vh] mt-5' src="https://images.pexels.com/photos/1171084/pexels-photo-1171084.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" />
+                  </div>
                  </div>
               </div>
             </Tabs.Item>
-            <Tabs.Item active title="Multifunctional Space">
-              <div className='flex justify-center'>
-                <div className='w-[50vw]'>
-                  <div className='text-center'>
-                    This is <span className="font-medium text-gray-800 dark:text-white">Dashboard tab's associated content</span>.
-          Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to
-          control the content visibility and styling.
-                  </div>
-                  <img className='h-[50vh] w-[50vw] mt-5' src={project6} />
-                 </div>
-              </div>
-        </Tabs.Item>
       </Tabs>
     </div>
           </div>
           <div className='bg-[#9864a21d]'>
-              <ContentTemplate direction='right' heading="VIRTUAL & HYBRID LEARNING SOLUTIONS" description="Create engaging learning experiences with interactive hybrid classroom and online learning solutions to support today's varied learning environments. Integrating easy-to-use and reliable classroom tools such as interactive displays, cameras, and audio solutions brings a consistent 'on-campus experience' to in-person and virtual students alike. Capabilities include video conferencing and flexible collaboration tools on your chosen platform whether it's Google Classroom, Microsoft Teams, Zoom, or another platform. We also bring structured cabling and infrastructure expertise and services to ensure your campus technology investments are connected, supported, and optimally running. " imagepath="https://www.avidex.com/hs-fs/hubfs/Website%20Optimized/Corporate/1200x900/Gov-NOC-SOC-DisplaySolutions-1.jpg?width=1000&height=750&name=Gov-NOC-SOC-DisplaySolutions-1.jpg"/>
+              <ContentTemplate direction='right' heading="VIRTUAL & HYBRID LEARNING SOLUTIONS" description="Create engaging learning experiences with interactive hybrid classroom and online learning solutions to support today's varied learning environments. Integrating easy-to-use and reliable classroom tools such as interactive displays, cameras, and audio solutions brings a consistent to in-person and virtual students alike. " imagepath="https://images.pexels.com/photos/5676733/pexels-photo-5676733.jpeg?auto=compress&cs=tinysrgb&w=800"/>
       </div>
       <div>
-        <ContentTemplate direction='left' heading='Video Conferencing & Collaboration spaces' description='From powerful executive boardrooms to auditoriums and efficient huddle spaces, you can trust Avidex to create reliable audiovisual and unified communications environments. Effective meeting and collaboration spaces increase productivity and drive innovation for both in-office and hybrid work cultures.' imagepath='https://www.avidex.com/hubfs/Website%20Optimized/Government/1200x900/Rally%20LS%20Large%20Conference%20Room%20Single%20Speaker%20BTY%203-1.jpg' />
+        <ContentTemplate direction='left' heading='Classroom Audio Solutions' description='Classroom audio solutions ensure that every student receives proper volume and clarity of instruction from anywhere in the classroom. Creating a consistent, quality audio experience throughout the classroom maximizes the intelligibility of subject matter, with proven results in raising test scores, improving on-task behavior, and reduced educator vocal strain.' imagepath='https://images.pexels.com/photos/5427648/pexels-photo-5427648.jpeg?auto=compress&cs=tinysrgb&w=800' />
+      </div>
+      <VideoTemplate header='Using AV Solutions to Elevate the Hospitality Experience ' smallheader='Veryable / Operators Club of Dallas' description='The Operators Club contacted Avidex with a vision for a unique restaurant and event space that catered to the entertainment demands of the hard-working Dallas community, one where patrons could watch their favorite sports teams from every seat and celebrate the wins in life. Within two days of the initial inquiry, Avidex experts were on site with suggestions on how to best make this vision a reality. ' videolink='https://www.youtube.com/watch?v=UCBmcIuHAXY' />
+      <div>
+        <ContentTemplate direction='left' heading='Video Conferencing for Classes' description='From powerful executive boardrooms to auditoriums and efficient huddle spaces, you can trust Avidex to create reliable audiovisual and unified communications environments. Effective meeting and collaboration spaces increase productivity and drive innovation for both in-office and hybrid work cultures.' imagepath='https://images.pexels.com/photos/5088022/pexels-photo-5088022.jpeg?auto=compress&cs=tinysrgb&w=800' />
       </div>
       <div>
         <HeaderDescription header='INTERACTIVE CLASSROOM DISPLAYS' description="Inspire brilliance and enhance the learning experience with captivating visuals, user-friendly collaboration, and simplified management with today's dynamic digital classroom display technology." />

@@ -9,16 +9,16 @@ const ContentTemplate = (props: {
   return (
       <div>
           {props.direction === "right" ? 
-          <div className="h-[58vh] w-[100vw] flex">
+          <div className="md:h-[58vh] w-[100vw] md:flex">
           <div className="w-[50vw] flex justify-center items-center">
-          <img className={` w-[30vw] h-[40vh]`} src={props.imagepath} style={props.style}/>
+          <img className={`  md:h-[40vh]`} src={props.imagepath} style={props.style}/>
           </div>
-          <div className="w-[50vw] flex items-center">
+          <div className="md:w-[50vw] flex items-center">
                       <div>
                           <div className="text-2xl font-bold text-[#5b255d] mb-7">
                   {props.heading}
               </div>
-              <div className="w-[36vw] text-[#424141] text-[18px]" >
+              <div className="md:w-[36vw] text-[#424141] text-[18px]" >
                   {props.description}
               </div>
               </div>
@@ -27,19 +27,19 @@ const ContentTemplate = (props: {
 
               : 
 
-          <div className="h-[58vh] w-[100vw] flex gap-32">
-          <div className="w-[50vw] flex items-center justify-end ">
+          <div className="md:h-[58vh] w-[100vw] md:flex gap-32">
+          <div className="md:w-[50vw] flex items-center md:justify-end ">
                       <div>
                           <div className="text-2xl font-bold text-[#5b255d] mb-7">
                   {props.heading}
               </div>
-              <div className="w-[36vw] text-[#424141] text-[18px]">
+              <div className="md:w-[36vw] text-[#424141] text-[18px]">
                   {props.description}
               </div>
               </div>
           </div>
-                  <div className="w-[50vw] flex justify-start items-center">
-              <img className="w-[30vw] h-[40vh]" src={props.imagepath} />
+                  <div className="md:w-[50vw] flex justify-start items-center">
+              <img className=" md:h-[40vh]" src={props.imagepath} />
           </div>
     </div>
           }
