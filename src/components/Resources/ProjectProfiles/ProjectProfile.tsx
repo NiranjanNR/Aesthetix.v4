@@ -7,9 +7,9 @@ const ProjectProfile = () =>{
     return(
         <div>
             <div className='locationCover'>
-                <div className='overLays'>
+                {/* <div className='overLays'> */}
                     <div className='text-4xl text-white font-semibold py-[15px]'>PROJECT PROFILES</div>
-                </div>
+                {/* </div> */}
             </div>
 
             <div className='locationInfo'>

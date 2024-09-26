@@ -106,6 +106,10 @@ const AboutAes = () => {
                             <div className='overLay rounded-lg'></div>
                             <div className='absolute bottom-0 left-0 w-full p-4 text-xl sm:text-2xl text-white z-10'>Education</div>
                         </div>
+                        <div className="projectBox relative" style={{ backgroundImage: `url(${project1})` }}>
+                            <div className='overLay rounded-lg'></div>
+                            <div className='absolute bottom-0 left-0 w-full p-4 text-xl sm:text-2xl text-white z-10'>Entertainment</div>
+                        </div>
                         <div className="projectBox relative" style={{ backgroundImage: `url(${project5})` }}>
                             <div className='overLay rounded-lg'></div>
                             <div className='absolute bottom-0 left-0 w-full p-4 text-xl sm:text-2xl text-white z-10'>Retail</div>

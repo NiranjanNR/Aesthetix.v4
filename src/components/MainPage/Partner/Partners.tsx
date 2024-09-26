@@ -29,16 +29,17 @@ import globe from '../../../assets/maps1.png';
 
 const Partners = () => {
     return (
-        <div className="flex flex-col items-center p-8">
+        <div className="flex flex-col p-8">
             <h1 className="text-3xl font-semibold my-8">Trusted by</h1>
 
             <div className="w-full overflow-hidden">
-                <div className="flex justify-center items-center space-x-4 animate-scrollLeft">
+                <div className="flex justify-center items-center justify-between animate-scrollLeft">
                     {[p1, p2, p3, p4, p5, p6, p7, p8].map((img, index) => (
-                        <img key={index} src={img} className="h-16 mx-4" alt="Partner" />
+                        <img key={index} src={img} className="h-16" alt="Partner" />
                     ))}
                 </div>
             </div>
+
 
             <h1 className="text-3xl font-semibold my-8">Our Recent Works</h1>
 
@@ -49,7 +50,7 @@ const Partners = () => {
                 {img: fourth, title: 'PGA Headquarters', description: 'Dallas, TX...'},
                 {img: fifth, title: 'William P. Hobby Airport', description: 'Houston, TX...'},
                 {img: sixth, title: 'Crossroads Christian Church', description: 'Grand Prairie, TX...'}].map((work, index) => (
-                    <div key={index} className="bg-gray-100 p-4 rounded-lg shadow-md">
+                    <div key={index} className="bg-gray-100 p-4 rounded-lg ">
                         <img src={work.img} className="w-full h-auto object-cover" alt={work.title} />
                         <div className="mt-4">
                             <h2 className="text-xl font-bold">{work.title}</h2>
@@ -65,7 +66,7 @@ const Partners = () => {
                 {[{img: ten, title: 'Intelligent Meetings...', description: 'In our latest webinar...'},
                 {img: eleven, title: 'Experience Extraordinary...', description: 'At Aesthetix...'},
                 {img: twelve, title: 'Innovation in Medical...', description: 'Imagine practicing a complex surgical...'}].map((solution, index) => (
-                    <div key={index} className="bg-gray-100 p-4 rounded-lg shadow-md">
+                    <div key={index} className="bg-gray-100 p-4 rounded-lg">
                         <img src={solution.img} className="w-full h-auto object-cover" alt={solution.title} />
                         <div className="mt-4">
                             <h2 className="text-xl font-bold">{solution.title}</h2>
@@ -77,13 +78,13 @@ const Partners = () => {
 
             <h1 className="text-3xl font-semibold my-8">Partnerships</h1>
 
-            <div className="grid grid-cols-2 md:grid-cols-6 gap-4">
+            <div className="grid grid-cols-2 md:grid-cols-6 justify-between w-[100vw]">
                 {[p1, p2, p3, p4, p7, p8, p2, p3, p7, p5, p6, p8].map((partner, index) => (
-                    <img key={index} src={partner} className="w-32 h-20 object-cover mx-auto" alt="Partner" />
+                    <img key={index} src={partner} className="partnerImages h-20 object-cover mx-auto py-[5px]" alt="Partner" />
                 ))}
             </div>
 
-            <h1 className="text-3xl font-semibold my-8">Contact Us</h1>
+            {/* <h1 className="text-3xl font-semibold my-8">Contact Us</h1>
 
             <div className="w-full flex flex-col md:flex-row justify-between">
                 <form className="w-full md:w-3/5 p-4">
@@ -123,7 +124,7 @@ const Partners = () => {
                 <div className="w-full md:w-2/5 flex justify-center items-center p-4">
                     <img src={globe} className="w-full h-96 object-cover" alt="Map with locations" />
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 };
