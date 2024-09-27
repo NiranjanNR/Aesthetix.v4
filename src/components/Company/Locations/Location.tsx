@@ -182,8 +182,8 @@ AL Farazdaq ST, Ad Dhubat
             <div>
                 <ContentTemplate
                     direction='left'
-                    heading='PSNI ALLIANCE'
-                    description='Aesthetix is proud to serve our global clients throughout North America, South America, Europe, Asia, and the Middle East. Aesthetix is a member of PSNI Global Alliance, a certified network of global technology providers and AV integrators delivering consistent service and support worldwide. We offer a combined talent pool of thousands of premier integrators committed to forward-thinking education, resources, collaboration, and support.'
+                    heading='AV solution and system integration experts'
+                    description='At Aesthetix Technologies, we are re imagining communication and collaboration to design work and living spaces of the 21st century. We are one of the most experienced and leading provider of audio-visual automation solutions that seamlessly integrate audio, video, lighting, display equipment and system controls for wide ranging applications such as in auditoriums, digital classroom/training/presentation/boardrooms, retail stores, hotels, smart homes, and much more. Based out of Dubai, U.A.E., we undertake turnkey audio visual and automation projects that are backed by our state-of-the-art solutions and global partnerships with esteemed technology solutions manufacturers.'
                     imagepath={WorldImg}
                     style={{ width: '100% !important', height: 'auto' }} // Pass style as an object
                 />
