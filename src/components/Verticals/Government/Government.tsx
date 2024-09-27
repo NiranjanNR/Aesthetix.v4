@@ -6,7 +6,6 @@ import LandingTemplate from '../../ContentTemplate/LandingTemplate';
 import VerticalsGovt from '../../../assets/Verticals-govt.jpg';
 import ContactTemplate from '../../ContentTemplate/ContactTemplate';
 import Footers from '../../Footer/Footers';
-import Blogs from '../../ContentTemplate/Blogs';
 
 const Government = () => {
   return (
@@ -73,14 +72,6 @@ const Government = () => {
       </div>
       <div>
         <ContentTemplate direction='left' heading='DIGITAL SIGNANGE & WAYFINDING' description='From powerful executive boardrooms to auditoriums and efficient huddle spaces, you can trust Aesthetix to create reliable audiovisual and unified communications environments. Effective meeting and collaboration spaces increase productivity and drive innovation for both in-office and hybrid work cultures.' imagepath='https://images.pexels.com/photos/704767/pexels-photo-704767.jpeg?auto=compress&cs=tinysrgb&w=800' />
-      </div>
-      <div>
-        <Blogs />
-        <HeaderDescription className='text-[#5b255d]' header='MASTER PURCHASING CONTRACTS' description="
-        Aesthetix holds contracts with multiple state and local agencies as a provider of audiovisual and unified communications technologies, including Washington State DES and CMAS in California.
-
-Let us guide you through the contract process and bring our audiovisual design and integration expertise to your next project.
-        " />
       </div>
      <div className='grid md:grid-cols-2 grid-cols-1 gap-x-28 mx-[100px]'>
         <div className='bg-[#7a7a7a15] flex justify-center'>

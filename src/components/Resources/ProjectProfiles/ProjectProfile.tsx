@@ -1,7 +1,4 @@
 import './ProjectProfile.css'
-import Dubai from '../../../assets/dubai.jpg'
-import ContentTemplate from '../../ContentTemplate/ContentTemplate'
-import WorldImg from '../../../assets/worlds.jpg'
 import Footers from '../../Footer/Footers'
 import caseImage1 from '../../../assets/caseImage1.jpeg'
 import caseImage2 from '../../../assets/caseImage2.jpeg'
@@ -135,12 +132,7 @@ const ProjectProfile = () =>{
                 </div>
             </div>
 
-            <div>
-                <ContentTemplate direction='left'  description='Aesthetix is proud to serve our global clients throughout North America, South America, Europe, Asia, and the Middle East. Aesthetix is a member of PSNI Global Alliance, a certified network of global technology providers and AV integrators delivering consistent service and support worldwide. We offer a combined talent pool of thousands of premier integrators committed to forward-thinking education, resources, collaboration, and support.'
-                imagepath={WorldImg} 
-                style={{ width: '100% !important', height: 'auto' }} // Pass style as an object
-                />
-            </div>
+            
 
             <Footers />
         </div>

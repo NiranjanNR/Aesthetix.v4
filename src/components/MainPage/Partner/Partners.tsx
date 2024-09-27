@@ -1,4 +1,3 @@
-import React from 'react';
 import p1 from '../../../assets/p1.png';
 import p2 from '../../../assets/p2.jpg';
 import p3 from '../../../assets/p3.png';
@@ -7,25 +6,18 @@ import p5 from '../../../assets/p5.png';
 import p6 from '../../../assets/p6.png';
 import p7 from '../../../assets/p7.png';
 import p8 from '../../../assets/p8.png';
-import first from '../../../assets/first.jpg';
-import second from '../../../assets/second.jpg';
-import third from '../../../assets/third.jpg';
-import fourth from '../../../assets/fourth.jpg';
-import fifth from '../../../assets/fifth.jpg';
-import sixth from '../../../assets/sixth.jpg';
-import seventh from '../../../assets/seventh.jpg';
-import eight from '../../../assets/eight.jpg';
-import nine from '../../../assets/nine.jpg';
+import first from '../../../assets/first.png';
+import second from '../../../assets/second.png';
+import third from '../../../assets/third.png';
+import fourth from '../../../assets/fourth.png';
+import fifth from '../../../assets/fifth.png';
+import sixth from '../../../assets/sixth.png';
 import ten from '../../../assets/ten.png';
 import eleven from '../../../assets/eleven.jpg';
 import twelve from '../../../assets/twelve.jpg';
 import thirteen from '../../../assets/thirteen.jpg';
 import fourteen from '../../../assets/fourteen.jpg';
 import fifteen from '../../../assets/fifteen.jpg';
-import sixteen from '../../../assets/sixteen.jpg';
-import seventeen from '../../../assets/seventeen.jpg';
-import eighteen from '../../../assets/eighteen.jpg';
-import globe from '../../../assets/maps1.png';
 
 const Partners = () => {
     return (
@@ -33,7 +25,7 @@ const Partners = () => {
             <h1 className="text-3xl font-semibold my-8">Trusted by</h1>
 
             <div className="w-full overflow-hidden">
-                <div className="flex justify-center items-center justify-between animate-scrollLeft">
+                <div className="flex items-center justify-between animate-scrollLeft">
                     {[p1, p2, p3, p4, p5, p6, p7, p8].map((img, index) => (
                         <img key={index} src={img} className="h-16" alt="Partner" />
                     ))}
@@ -44,17 +36,17 @@ const Partners = () => {
             <h1 className="text-3xl font-semibold my-8">Our Recent Works</h1>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                {[{img: first, title: 'Western Midstream', description: 'Houston, TX...'},
-                {img: second, title: 'Indeed', description: 'Multiple Global Locations...'},
-                {img: third, title: 'Apple Park', description: 'Apple’s corporate headquarters...'},
-                {img: fourth, title: 'PGA Headquarters', description: 'Dallas, TX...'},
-                {img: fifth, title: 'William P. Hobby Airport', description: 'Houston, TX...'},
-                {img: sixth, title: 'Crossroads Christian Church', description: 'Grand Prairie, TX...'}].map((work, index) => (
-                    <div key={index} className="bg-gray-100 p-4 rounded-lg ">
-                        <img src={work.img} className="w-full h-auto object-cover" alt={work.title} />
+                {[{img: first, title: 'How do you transform a workspace into a smart, connected environment?', description: "At Aesthetix Technologies, we're all about transforming ordinary offices into smart, connected environments. We recently partnered with a leading corporate client to deliver cutting-edge meeting rooms and dynamic digital signage that are as functional as they are impressive."},
+                {img: second, title: 'Welcoming the Week with New Insights: Elevating the Future of Smart Environments!', description: "We’ve recently completed a cutting-edge project that sets a new standard for innovation and efficiency, integrating smart systems for seamless operations and superior experiences."},
+                { img: third, title: 'Redefining Education with Immersive Technology!', description: "We're thrilled to have partnered with a prestigious educational institution to deliver an interactive solution that transforms traditional learning into an engaging, immersive experience." },
+                {img: fourth, title: 'Cutting-edge technology for a prestigious organization.', description: "Aesthetix Technologies recently completed an incredible project for a prestigious organization in KSA! This project showcases our team's dedication and expertise in transforming spaces with cutting-edge technology."},
+                {img: fifth, title: 'Cutting-edge technology for a prestigious organization.', description: "Aesthetix Technologies recently completed an incredible project for a prestigious organization in KSA! This project showcases our team's dedication and expertise in transforming spaces with cutting-edge technology."},
+                    { img: sixth, title: 'Enhancing connectivity and collaboration with our latest project.', description: "'Behind every successful project is a stellar team!'. Kudos to the Aesthetix Technologies crew."}].map((work, index) => (
+                    <div key={index} className="bg-gray-100 h-[] p-4 rounded-lg ">
+                        <img src={work.img} className="w-full h-[60%] object-cover" alt={work.title} />
                         <div className="mt-4">
                             <h2 className="text-xl font-bold">{work.title}</h2>
-                            <p className="text-gray-600 mt-2">{work.description}</p>
+                            <p className="text-gray-600 text-sm mt-2">{work.description}</p>
                         </div>
                     </div>
                 ))}

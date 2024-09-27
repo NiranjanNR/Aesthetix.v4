@@ -34,7 +34,7 @@ const Footers = () => {
                     </div>
                     <div className="flex flex-col mb-4 col-span-2">
                         <label className="mb-2">How may we help you?*</label>
-                        <textarea className="p-2 border border-gray-300 rounded" rows="4" required></textarea>
+                        <textarea className="p-2 border border-gray-300 rounded" required></textarea>
                     </div>
                 </div>
                 <button type="submit" className="w-full bg-red-600 text-white py-2 px-4 rounded hover:bg-red-700" style={{backgroundColor: 'rgb(45, 30, 75)'}} >Submit</button>

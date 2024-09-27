@@ -79,10 +79,10 @@ const About = () => {
           </div>
           <div className='mainText'>
             <div className='videoHeading'>
-              ISE 2024 | Integrated systems Europe
+              Transforming service stations into futuristic experiences! 
             </div>
             <div className='videoText'>
-              Reflecting on an incredible week at ISE 2024! Our team had a great time participating in one of the most dynamic and innovative events in the industry.
+              We are proud to have been the AV partner for ADNOC Distribution's groundbreaking 3D anamorphic canopy – the UAE’s first-ever! This innovative LED solution, ingeniously designed, is now showcased at Khaleej Al Arabi Street, Abu Dhabi.
             </div>
             <button type="submit" className="learn-btn">Learn More</button>
           </div>

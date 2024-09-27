@@ -1,8 +1,4 @@
 import './Casestudy.css';
-import Dubai from '../../../assets/dubai.jpg';
-import ContentTemplate from '../../ContentTemplate/ContentTemplate';
-import WorldImg from '../../../assets/worlds.jpg';
-import VerticalBox from '../../ContentTemplate/VerticalBox';
 import Footers from '../../Footer/Footers';
 import DubaiAirports from '../../../assets/DubaiAirports.jpeg';
 import GemsEdu from '../../../assets/GemsEdu.jpeg'

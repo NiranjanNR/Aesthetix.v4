@@ -19,11 +19,9 @@ import c2 from '../../../assets/card2.jpeg'
 import c3 from '../../../assets/card3.jpeg'
 import c4 from '../../../assets/card4.jpeg'
 import c5 from '../../../assets/card5.jpeg'
-import c6 from '../../../assets/card6.jpeg'
 import c7 from '../../../assets/card7.jpeg'
 import c8 from '../../../assets/card8.jpeg'
 import c9 from '../../../assets/card9.webp'
-import cover1 from '../../../assets/cover1.jpg';
 
 const Culture = () =>{
     return(
@@ -202,7 +200,7 @@ const Culture = () =>{
             <div className='text-3xl font-bold flex justify-center align-middle py-[30px] primaryH'>DIVERSITY & INCLUSION</div>
             <div className='text-1xl font-bold flex justify-center align-middle py-[20px]' style={{color: 'rgb(25 0 71)'}}>Diversifying the way we work, learn, and live to connect people and organizations.</div>
 
-            <div className='text-[18px] m-[auto] font-normal flex text-justify justify-center align-middle text-center leading-relaxed w-[1200px] m-auto'>
+            <div className='text-[18px] m-[auto] font-normal flex justify-center align-middle text-center leading-relaxed w-[1200px]'>
             Aesthetix recognizes that an inclusive and diverse work environment respects the unique characteristics, skills, and experiences of all employees, partners, and customers. At Aesthetix our mission is to provide audiovisual solutions and services that enhance communication and improve the way people work, learn, and live. We recognize, respect, and appreciate our diverse and unique global workforce and its commitment to our mission and values. That translates into maintaining a culture where individual strengths, combined with teamwork, are recognized as the foundation of our mutual success. We value the different perspectives that each of us brings to the work environment, our company, and our customers. 
             <br />
             <br />
