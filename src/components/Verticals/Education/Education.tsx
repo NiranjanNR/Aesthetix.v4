@@ -5,15 +5,15 @@ import VerticalBox from '../../ContentTemplate/VerticalBox';
 import LandingTemplate from '../../ContentTemplate/LandingTemplate';
 import VerticalEdu from '../../../assets/Vertical-edu.jpg'
 import VideoTemplate from '../../ContentTemplate/VideoTemplate';
-import Footers from '../../MainPage/Footer/Footers';
+import Footers from '../../Footer/Footers';
 
 const Education = () => {
   return (
       <div>
           {/* Landing */}
-          <LandingTemplate header="AUDIOVISUAL SOLUTIONS FOR EDUCATION" description="At every level of learning, Avidex provides audiovisual and technology integration services to help our education clients reach their instructional goals." buttontext="GET STARTED NOW" imagepath={VerticalEdu}/>
+          <LandingTemplate header="AUDIOVISUAL SOLUTIONS FOR EDUCATION" description="At every level of learning, Aesthetix provides audiovisual and technology integration services to help our education clients reach their instructional goals." buttontext="GET STARTED NOW" imagepath={VerticalEdu}/>
       <div>
-        <HeaderDescription className='text-[#5b255d]' header='TECHNOLOGY FOR ENHANCED LEARNING OUTCOMES' description='Embracing and integrating technology into the classroom and campus creates a more engaging campus environment and helps make learning fun. Technology enhances the learning experience, helps to keep our campuses safe, and encourages collaboration to support the way today’s students want to learn. From immersive and hybrid learning classrooms to digital signage and security solutions, Avidex provides audiovisual technology integration services to help you create an engaging and effective educational experience.' />
+        <HeaderDescription className='text-[#5b255d]' header='TECHNOLOGY FOR ENHANCED LEARNING OUTCOMES' description='Embracing and integrating technology into the classroom and campus creates a more engaging campus environment and helps make learning fun. Technology enhances the learning experience, helps to keep our campuses safe, and encourages collaboration to support the way today’s students want to learn. From immersive and hybrid learning classrooms to digital signage and security solutions, Aesthetix provides audiovisual technology integration services to help you create an engaging and effective educational experience.' />
       </div>
           <div className='flex justify-center mb-10 '>
               <div className="overflow-x-auto w-[80vw] border-2 p-5 rounded-xl bg-white">
@@ -73,9 +73,9 @@ const Education = () => {
       <div>
         <ContentTemplate direction='left' heading='Classroom Audio Solutions' description='Classroom audio solutions ensure that every student receives proper volume and clarity of instruction from anywhere in the classroom. Creating a consistent, quality audio experience throughout the classroom maximizes the intelligibility of subject matter, with proven results in raising test scores, improving on-task behavior, and reduced educator vocal strain.' imagepath='https://images.pexels.com/photos/5427648/pexels-photo-5427648.jpeg?auto=compress&cs=tinysrgb&w=800' />
       </div>
-      <VideoTemplate header='Using AV Solutions to Elevate the Hospitality Experience ' smallheader='Veryable / Operators Club of Dallas' description='The Operators Club contacted Avidex with a vision for a unique restaurant and event space that catered to the entertainment demands of the hard-working Dallas community, one where patrons could watch their favorite sports teams from every seat and celebrate the wins in life. Within two days of the initial inquiry, Avidex experts were on site with suggestions on how to best make this vision a reality. ' videolink='https://www.youtube.com/watch?v=UCBmcIuHAXY' />
+      <VideoTemplate header='Using AV Solutions to Elevate the Hospitality Experience ' smallheader='Veryable / Operators Club of Dallas' description='The Operators Club contacted Aesthetix with a vision for a unique restaurant and event space that catered to the entertainment demands of the hard-working Dallas community, one where patrons could watch their favorite sports teams from every seat and celebrate the wins in life. Within two days of the initial inquiry, Aesthetix experts were on site with suggestions on how to best make this vision a reality. ' videolink='https://www.youtube.com/watch?v=UCBmcIuHAXY' />
       <div>
-        <ContentTemplate direction='left' heading='Video Conferencing for Classes' description='From powerful executive boardrooms to auditoriums and efficient huddle spaces, you can trust Avidex to create reliable audiovisual and unified communications environments. Effective meeting and collaboration spaces increase productivity and drive innovation for both in-office and hybrid work cultures.' imagepath='https://images.pexels.com/photos/5088022/pexels-photo-5088022.jpeg?auto=compress&cs=tinysrgb&w=800' />
+        <ContentTemplate direction='left' heading='Video Conferencing for Classes' description='From powerful executive boardrooms to auditoriums and efficient huddle spaces, you can trust Aesthetix to create reliable audiovisual and unified communications environments. Effective meeting and collaboration spaces increase productivity and drive innovation for both in-office and hybrid work cultures.' imagepath='https://images.pexels.com/photos/5088022/pexels-photo-5088022.jpeg?auto=compress&cs=tinysrgb&w=800' />
       </div>
       <div>
         <HeaderDescription header='INTERACTIVE CLASSROOM DISPLAYS' description="Inspire brilliance and enhance the learning experience with captivating visuals, user-friendly collaboration, and simplified management with today's dynamic digital classroom display technology." />

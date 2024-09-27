@@ -63,9 +63,13 @@ const Partners = () => {
             <h1 className="text-3xl font-semibold my-8">Latest Solutions</h1>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                {[{img: ten, title: 'Intelligent Meetings...', description: 'In our latest webinar...'},
-                {img: eleven, title: 'Experience Extraordinary...', description: 'At Aesthetix...'},
-                {img: twelve, title: 'Innovation in Medical...', description: 'Imagine practicing a complex surgical...'}].map((solution, index) => (
+                {[{img: ten, title: 'Improve Workplace Productivity with the Right Tools: AV Technology for Remote and Hybrid Work ', description: 'As the modern workplace continues to evolve, the distinction between remote and in-office work is increasingly blurred, making hybrid work models the new norm.'},
+                {img: eleven, title: 'How Interactive Whiteboards Enhance Business Communication and Boost Engagement', description: 'Digital interactive whiteboards have transformed how teams collaborate, offering innovative features to boost productivity, enhance communication, and streamline workflows.'},
+                {img: twelve, title: 'Top AI Cameras for Meeting Spaces: Smart Framing, Auto Tracking, and Integration with Teams and Zoom', description: 'As hybrid work environments become the norm, achieving meeting equity—where participants are equally seen and heard whether they are at their desks or in a conference room—has become a priority. A significant challenge is that remote attendees are often more visible and audible than those physically present in the meeting room.'},
+                {img: thirteen, title: '5 AV Practices Large Enterprise Companies Use When Adopting Technology', description: 'What can large enterprise organizations teach about designing and deploying technology?  Ford AV serves top U.S. brands such as AT&T, Apple, Capital One, ExxonMobil, and Marriott. These enterprise companies share five key technology approaches and strategies for adopting new tech solutions that enhance business workflows and drive success in the global economy.'},
+                {img: fourteen, title: 'Intelligent Meetings with Microsoft Teams Rooms: Insights from Our Recent Webinar', description: 'In our latest webinar, we delved into how AI is transforming workplace meetings, focusing specifically on Microsoft Teams Rooms (MTRs).'},
+                {img: fifteen, title: 'Experience Extraordinary with Ford AV', description: 'At Ford, we are driven by more than just technology. We are a team of extraordinary people who take immense pride in crafting exceptional experiences.'},
+                ].map((solution, index) => (
                     <div key={index} className="bg-gray-100 p-4 rounded-lg">
                         <img src={solution.img} className="w-full h-auto object-cover" alt={solution.title} />
                         <div className="mt-4">

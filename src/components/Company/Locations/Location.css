@@ -42,7 +42,7 @@ body{
     flex-direction: row !important;
 }
 
-.LocationCard {
+.LocationCards {
     width: 25%; /* Adjust based on your needs */
     margin: 10px; /* To add some space between cards */
     display: flex;

@@ -11,10 +11,14 @@ import project3 from '../../../assets/project3.jpg';
 import project4 from '../../../assets/project4.jpg';
 import project5 from '../../../assets/project5.jpg';
 import project6 from '../../../assets/project6.jpg';
-import Footers from '../../MainPage/Footer/Footers'
+import Footers from '../../Footer/Footers'
 import ContactTemplate from '../../ContentTemplate/ContactTemplate';
+import { useNavigate } from 'react-router-dom';
+
 
 const AboutAes = () => {
+    const navigate = useNavigate();
+
     return (
         <div className='Main'>
             {/* Hero Section */}
@@ -87,22 +91,28 @@ const AboutAes = () => {
 
             {/* Projects Section */}
             <div className='projectsSection'>
+
                 <div className='p-6 sm:p-[40px] flex flex-col justify-center items-center'>
                     <div className='primaryHeadings text-xl sm:text-2xl font-bold py-[15px]'>TYPES OF PROJECTS WE HAVE DONE</div>
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 container">
-                        <div className="projectBox relative" style={{ backgroundImage: `url(${project1})` }}>
+
+                        <div className="projectBox relative" style={{ backgroundImage: `url(${project1})`}}
+                        onClick={() => navigate("/corporate")}>
                             <div className='overLay rounded-lg'></div>
                             <div className='absolute bottom-0 left-0 w-full p-4 text-xl sm:text-2xl text-white z-10'>Corporate</div>
                         </div>
-                        <div className="projectBox relative" style={{ backgroundImage: `url(${project2})` }}>
+                        <div className="projectBox relative" style={{ backgroundImage: `url(${project2})` }}
+                        onClick={() => navigate("/hospitality")}>
                             <div className='overLay rounded-lg'></div>
                             <div className='absolute bottom-0 left-0 w-full p-4 text-xl sm:text-2xl text-white z-10'>Hospitality</div>
                         </div>
-                        <div className="projectBox relative" style={{ backgroundImage: `url(${project3})` }}>
+                        <div className="projectBox relative" style={{ backgroundImage: `url(${project3})` }}
+                        onClick={() => navigate("/government")}>
                             <div className='overLay rounded-lg'></div>
                             <div className='absolute bottom-0 left-0 w-full p-4 text-xl sm:text-2xl text-white z-10'>Government</div>
                         </div>
-                        <div className="projectBox relative" style={{ backgroundImage: `url(${project4})` }}>
+                        <div className="projectBox relative" style={{ backgroundImage: `url(${project4})` }}
+                        onClick={() => navigate("/education")}>
                             <div className='overLay rounded-lg'></div>
                             <div className='absolute bottom-0 left-0 w-full p-4 text-xl sm:text-2xl text-white z-10'>Education</div>
                         </div>
@@ -110,13 +120,16 @@ const AboutAes = () => {
                             <div className='overLay rounded-lg'></div>
                             <div className='absolute bottom-0 left-0 w-full p-4 text-xl sm:text-2xl text-white z-10'>Entertainment</div>
                         </div>
-                        <div className="projectBox relative" style={{ backgroundImage: `url(${project5})` }}>
+                        <div className="projectBox relative" style={{ backgroundImage: `url(${project5})` }}
+                        onClick={() => navigate("/retail")}>
                             <div className='overLay rounded-lg'></div>
                             <div className='absolute bottom-0 left-0 w-full p-4 text-xl sm:text-2xl text-white z-10'>Retail</div>
                         </div>
                        
                     </div>
                 </div>
+
+
             </div>
 
             <ContactTemplate />

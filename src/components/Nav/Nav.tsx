@@ -8,7 +8,7 @@ const Nav = () => {
       <div className="ml-6 mr-10 font-semibold pt-2">
           <Navbar fluid rounded >
       <Navbar.Brand>
-      <Link to="/"><span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">aesthetix</span></Link>
+      <Link to="/"><span className="self-center whitespace-nowrap text-2xl font-semibold dark:text-white">aesthetix</span></Link>
         
               </Navbar.Brand>
     <Navbar.Toggle />

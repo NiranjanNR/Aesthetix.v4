@@ -5,7 +5,7 @@ import VerticalBox from '../../ContentTemplate/VerticalBox';
 import LandingTemplate from '../../ContentTemplate/LandingTemplate';
 import VerticalsGovt from '../../../assets/Verticals-govt.jpg';
 import ContactTemplate from '../../ContentTemplate/ContactTemplate';
-import Footers from '../../MainPage/Footer/Footers';
+import Footers from '../../Footer/Footers';
 import Blogs from '../../ContentTemplate/Blogs';
 
 const Government = () => {
@@ -69,25 +69,25 @@ const Government = () => {
     </div>
           </div>
           <div className='bg-[#9864a21d]'>
-              <ContentTemplate direction='right' heading="MISSION-CRITICAL COMMAND CENTERS" description="Network and security command facilities (NOCs and SOCs) are highly technical and require a deep understanding of best practices for these specialized spaces. Avidex provides systems for secure content delivery, multi-screen displays, and all-day remote monitoring. When seconds matter, having reliable, advanced technology solutions are essential." imagepath="https://images.pexels.com/photos/518543/pexels-photo-518543.jpeg?auto=compress&cs=tinysrgb&w=800"/>
+              <ContentTemplate direction='right' heading="MISSION-CRITICAL COMMAND CENTERS" description="Network and security command facilities (NOCs and SOCs) are highly technical and require a deep understanding of best practices for these specialized spaces. Aesthetix provides systems for secure content delivery, multi-screen displays, and all-day remote monitoring. When seconds matter, having reliable, advanced technology solutions are essential." imagepath="https://images.pexels.com/photos/518543/pexels-photo-518543.jpeg?auto=compress&cs=tinysrgb&w=800"/>
       </div>
       <div>
-        <ContentTemplate direction='left' heading='DIGITAL SIGNANGE & WAYFINDING' description='From powerful executive boardrooms to auditoriums and efficient huddle spaces, you can trust Avidex to create reliable audiovisual and unified communications environments. Effective meeting and collaboration spaces increase productivity and drive innovation for both in-office and hybrid work cultures.' imagepath='https://images.pexels.com/photos/704767/pexels-photo-704767.jpeg?auto=compress&cs=tinysrgb&w=800' />
+        <ContentTemplate direction='left' heading='DIGITAL SIGNANGE & WAYFINDING' description='From powerful executive boardrooms to auditoriums and efficient huddle spaces, you can trust Aesthetix to create reliable audiovisual and unified communications environments. Effective meeting and collaboration spaces increase productivity and drive innovation for both in-office and hybrid work cultures.' imagepath='https://images.pexels.com/photos/704767/pexels-photo-704767.jpeg?auto=compress&cs=tinysrgb&w=800' />
       </div>
       <div>
         <Blogs />
         <HeaderDescription className='text-[#5b255d]' header='MASTER PURCHASING CONTRACTS' description="
-        Avidex holds contracts with multiple state and local agencies as a provider of audiovisual and unified communications technologies, including Washington State DES and CMAS in California.
+        Aesthetix holds contracts with multiple state and local agencies as a provider of audiovisual and unified communications technologies, including Washington State DES and CMAS in California.
 
 Let us guide you through the contract process and bring our audiovisual design and integration expertise to your next project.
         " />
       </div>
      <div className='grid md:grid-cols-2 grid-cols-1 gap-x-28 mx-[100px]'>
         <div className='bg-[#7a7a7a15] flex justify-center'>
-          <VerticalBox header='Washington State DES' description='Avidex is an awarded Washington State Department of Enterprise Services (DES) awarded vendor for AV design, consultation, installation, and managed services and support.' imagepath='https://www.avidex.com/hubfs/Website%20Optimized/Government/DES200x630.jpg'/>
+          <VerticalBox header='Washington State DES' description='Aesthetix is an awarded Washington State Department of Enterprise Services (DES) awarded vendor for AV design, consultation, installation, and managed services and support.' imagepath='https://www.avidex.com/hubfs/Website%20Optimized/Government/DES200x630.jpg'/>
         </div>
         <div className='bg-[#9864a21d] flex justify-center'>
-          <VerticalBox header="California CMAS/GSA " description="Avidex is proud to be a California Multiple Awards Schedule (CMAS) certified supplier of professional audiovisual solutions, assessment, design, and integration services." imagepath='https://www.avidex.com/hubfs/Website%20Optimized/Government/CMAS1200x630.jpg'/>
+          <VerticalBox header="California CMAS/GSA " description="Aesthetix is proud to be a California Multiple Awards Schedule (CMAS) certified supplier of professional audiovisual solutions, assessment, design, and integration services." imagepath='https://www.avidex.com/hubfs/Website%20Optimized/Government/CMAS1200x630.jpg'/>
         </div>
       </div>
       <ContactTemplate />

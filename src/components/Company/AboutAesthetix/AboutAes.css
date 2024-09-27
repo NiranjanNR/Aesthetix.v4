@@ -63,6 +63,12 @@
     background-size: cover;
     background-position: center;
     position: relative;
+    transition-duration: 0.5s;
+    cursor: pointer;
+  }
+
+  .projectBox:hover{
+    transform: scale(1.05);
   }
   
   /* Mobile screen */
