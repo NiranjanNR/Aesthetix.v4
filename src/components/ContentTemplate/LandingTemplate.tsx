@@ -1,5 +1,7 @@
+import { useNavigate } from "react-router-dom"
 
 const LandingTemplate = (props: { header: string | undefined, description: string | undefined, imagepath: string | undefined, buttontext: string | undefined }) => {
+  const navigate = useNavigate();
   return (
           <div style={{ backgroundImage: `url(${props.imagepath})` }} className="bg-cover h-[70vh] w-[100vw] flex items-center mb-10">
               <div className='h-[max-content] lg:w-[48vw] w-[70vw] min-h-[31vh] bg-white/75 ml-20 lg:p-9 p-4'>
@@ -9,7 +11,7 @@ const LandingTemplate = (props: { header: string | undefined, description: strin
                   <div className='text-xl md:font-bold mt-6 text-[#424141] mb-8'>
                         {props.description}
                   </div>
-              <button className='bg-[#6d2950] text-white md:px-[30px] md:py-[10px] px-4 py-2 rounded'>{props.buttontext}</button>
+              <button onClick={()=>{navigate("/support")}} className='bg-[#6d2950] text-white md:px-[30px] md:py-[10px] px-4 py-2 rounded'>{props.buttontext}</button>
               </div>
           </div>
   )
