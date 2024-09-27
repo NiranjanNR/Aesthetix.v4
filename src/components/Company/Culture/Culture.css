@@ -94,8 +94,8 @@
 
 
   .AesthetixLifeCards{
-    background-image: url('../../../assets/cover1.jpg');
-    background-size: cover;
+    /* background-image: url('../../../assets/cover1.jpg');
+    background-size: cover; */
     justify-content: center;
     align-items: center;
     display: grid;
@@ -111,8 +111,19 @@
 
   .heroCard{
         background-color: white;
-        width: 250px;
-        height: max-content;
+        width: 270px;
+        height: 400px;
+  }
+
+  .heroName{
+    font-size: 22px;
+    padding: 20px;
+    font-weight: 600;
+  }
+
+  .heroDes{
+    font-weight: 400;
+    padding: 5px 20px;
   }
 
   .OurLeaders{
@@ -149,4 +160,5 @@
     opacity: 0.35;
     z-index: -1;
   }
+  
   

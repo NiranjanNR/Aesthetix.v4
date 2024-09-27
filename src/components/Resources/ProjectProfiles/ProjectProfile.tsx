@@ -2,67 +2,86 @@ import './ProjectProfile.css'
 import Dubai from '../../../assets/dubai.jpg'
 import ContentTemplate from '../../ContentTemplate/ContentTemplate'
 import WorldImg from '../../../assets/worlds.jpg'
+import Footers from '../../Footer/Footers'
+import caseImage1 from '../../../assets/caseImage1.jpeg'
+import caseImage2 from '../../../assets/caseImage2.jpeg'
+import caseImage3 from '../../../assets/caseImage3.jpeg'
+import caseImage4 from '../../../assets/caseImage4.jpeg'
+import caseImage5 from '../../../assets/caseImage5.jpeg'
+import caseImage6 from '../../../assets/caseImage6.jpeg'
+import caseImage7 from '../../../assets/caseImage7.jpeg'
+import caseImage8 from '../../../assets/caseImage8.jpeg'
+import caseImage9 from '../../../assets/caseImage9.jpeg'
+import { motion } from 'framer-motion';
+
 
 const ProjectProfile = () =>{
+    const fadeIn = {
+        hidden: { opacity: 0, y: 20 },
+        visible: { opacity: 1, y: 0 },
+    };
+
+    
     return(
         <div>
-            <div className='locationCover'>
-                {/* <div className='overLays'> */}
-                    <div className='text-4xl text-white font-semibold py-[15px]'>PROJECT PROFILES</div>
-                {/* </div> */}
-            </div>
+             <motion.div
+                className='locationCoverProject'
+                initial="hidden"
+                animate="visible"
+                variants={fadeIn}
+                transition={{ duration: 0.5 }}
+            >
+                <div className='text-4xl text-white font-semibold py-[15px]'>PROJECT PROFILES</div>
+            </motion.div>
 
-            <div className='locationInfo'>
+            <motion.div
+                className='locationInfo'
+                initial="hidden"
+                animate="visible"
+                variants={fadeIn}
+                transition={{ duration: 0.5, delay: 0.2 }}
+            >
 
                   {/* Section for title and description */}
             <div className="projects-section">
                 <h2 className="sectiontitle">INSPIRING AUDIOVISUAL INSTALLATIONS</h2>
                 <p className="sectionDescription">
-                    We believe our work speaks for itself. View our projects to see how leaders in the corporate, healthcare, and education markets have partnered with Avidex for audiovisual solutions that change the way they work, learn, and live.
+                    We believe our work speaks for itself. View our projects to see how leaders in the corporate, and education markets have partnered with Aesthetix for audiovisual solutions that change the way they work, learn, and live.
                 </p>
                 <hr className="0" />
-                <h3 className="projects-title">PROJECTS BY MARKET</h3>
-            </div>
-
-            <div className="market-filter">
-                <a href="#" className="filter-link active">ALL</a>
-                <a href="#" className="filter-link">CORPORATE</a>
-                <a href="#" className="filter-link">HEALTHCARE</a>
-                <a href="#" className="filter-link">EDUCATION</a>
-                <a href="#" className="filter-link">HOSPITALITY</a>
-                <a href="#" className="filter-link">FINANCIAL SERVICES</a>
+                <h3 className="projects-titles">PROJECTS</h3>
             </div>
 
             <div className="project-gallery">
                 <div className="LocationCard">
-                    <img src={Dubai} className="LocationCardImage"/>
+                    <img src={caseImage1} className="LocationCardImage"/>
                     <div className="overlay">Immersive Experience Center</div>
                 </div>
 
                 <div className="LocationCard">
-                    <img src={Dubai} className="LocationCardImage"/>
+                    <img src={caseImage2} className="LocationCardImage"/>
                     <div className="overlay">Immersive Experience Center</div>
                 </div>
 
                 <div className="LocationCard">
-                    <img src={Dubai} className="LocationCardImage"/>
+                    <img src={caseImage3} className="LocationCardImage"/>
                     <div className="overlay">Immersive Experience Center</div>
                 </div>
             </div>
 
             <div className="project-gallery">
                 <div className="LocationCard">
-                    <img src={Dubai} className="LocationCardImage"/>
+                    <img src={caseImage4} className="LocationCardImage"/>
                     <div className="overlay">Immersive Experience Center</div>
                 </div>
 
                 <div className="LocationCard">
-                    <img src={Dubai} className="LocationCardImage"/>
+                    <img src={caseImage5} className="LocationCardImage"/>
                     <div className="overlay">Immersive Experience Center</div>
                 </div>
 
                 <div className="LocationCard">
-                    <img src={Dubai} className="LocationCardImage"/>
+                    <img src={caseImage6} className="LocationCardImage"/>
                     <div className="overlay">Immersive Experience Center</div>
                 </div>
             </div>
@@ -70,51 +89,28 @@ const ProjectProfile = () =>{
             
             <div className="project-gallery">
                 <div className="LocationCard">
-                    <img src={Dubai} className="LocationCardImage"/>
+                    <img src={caseImage7} className="LocationCardImage"/>
                     <div className="overlay">Immersive Experience Center</div>
                 </div>
 
                 <div className="LocationCard">
-                    <img src={Dubai} className="LocationCardImage"/>
+                    <img src={caseImage8} className="LocationCardImage"/>
                     <div className="overlay">Immersive Experience Center</div>
                 </div>
 
                 <div className="LocationCard">
-                    <img src={Dubai} className="LocationCardImage"/>
+                    <img src={caseImage9} className="LocationCardImage"/>
                     <div className="overlay">Immersive Experience Center</div>
                 </div>
             </div>
 
-            </div>
+            </motion.div>
             
             <hr className="divider" />
 
-            <div className="gallery">
-                <h2 className="section-title">Project Gallery</h2>
-                </div> 
-
+            
                  
-                <div className="image-gallery">
-                    <div className="image-container">
-                        <img src={Dubai} />
-                    </div>
-                    <div className="image-container">
-                        <img src={Dubai} />
-                    </div>
-                    <div className="image-container">
-                        <img src={Dubai} />
-                    </div>
-                    <div className="image-container">
-                        <img src={Dubai} />
-                    </div>
-                    <div className="image-container">
-                        <img src={Dubai} />
-                    </div>
-                    <div className="image-container">
-                        <img src={Dubai} />
-                    </div>
-                    
-                </div>
+               
 
             <div>
                 <div className="waves top-waves">
@@ -140,11 +136,13 @@ const ProjectProfile = () =>{
             </div>
 
             <div>
-        <ContentTemplate direction='left' heading='PSNI ALLIANCE' description='Aesthetix is proud to serve our global clients throughout North America, South America, Europe, Asia, and the Middle East. Avidex is a member of PSNI Global Alliance, a certified network of global technology providers and AV integrators delivering consistent service and support worldwide. We offer a combined talent pool of thousands of premier integrators committed to forward-thinking education, resources, collaboration, and support.'
-         imagepath={WorldImg} 
-         style={{ width: '100% !important', height: 'auto' }} // Pass style as an object
-         />
-      </div>
+                <ContentTemplate direction='left'  description='Aesthetix is proud to serve our global clients throughout North America, South America, Europe, Asia, and the Middle East. Aesthetix is a member of PSNI Global Alliance, a certified network of global technology providers and AV integrators delivering consistent service and support worldwide. We offer a combined talent pool of thousands of premier integrators committed to forward-thinking education, resources, collaboration, and support.'
+                imagepath={WorldImg} 
+                style={{ width: '100% !important', height: 'auto' }} // Pass style as an object
+                />
+            </div>
+
+            <Footers />
         </div>
     )
 }

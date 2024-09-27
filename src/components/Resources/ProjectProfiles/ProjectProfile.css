@@ -7,7 +7,7 @@ body{
 }
 .projects-section {
     text-align: center;
-    margin: 2rem 0;
+    margin: 0rem 0 !important;
 }
 
 .project-gallery {
@@ -24,7 +24,7 @@ body{
 }
 
 .sectiontitle {
-    font-size: 1.5rem;
+  font-size: 1.75rem;
     font-weight: bold;
     color: rgb(91 37 93); /* Similar to the color in the screenshot */
     margin-bottom: 0.5rem;
@@ -43,13 +43,15 @@ body{
     margin: 0 auto 2rem auto;
 }
 
-.projects-title {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #0067A5;
+.projects-titles {
+  padding: 50px 0px 30px 0px;
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: rgb(91 37 93); /* Similar to the color in the screenshot */
+  margin-bottom: 0.5rem;
 }
 
-.locationCover{
+.locationCoverProject{
     background-color: rgb(45 30 75 / 92%);
     height: 40vh;
     width: 100%;

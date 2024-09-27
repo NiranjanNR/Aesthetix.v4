@@ -16,17 +16,17 @@ body{
 }
 
 .section-title {
-    font-size: 1.5rem;
+  font-size: 1.75rem;
     font-weight: bold;
-    color: #0067A5; 
+    color: rgb(91 37 93); /* Similar to the color in the screenshot */
     margin-bottom: 0.5rem;
     align-items: left;
 }
 
 .section-description {
-    font-size: 1rem;
+    font-size: 1.25rem;
     color: #333;
-    margin-bottom: 1.5rem;
+    margin  : 1.5rem;
     align-content: left;
 }
 
@@ -53,6 +53,7 @@ body{
     background-image: url("/src/assets/PurpleGraphics.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    flex-direction: column;
 }
 
 .overLays{

@@ -2,7 +2,7 @@ import ContentTemplate from '../../ContentTemplate/ContentTemplate';
 import LandingTemplate from '../../ContentTemplate/LandingTemplate';
 import VerticalsHosp from '../../../assets/Verticals-hosp.jpg'
 import VideoTemplate from '../../ContentTemplate/VideoTemplate';
-import Footers from '../../MainPage/Footer/Footers';
+import Footers from '../../Footer/Footers';
 import ContactTemplate from '../../ContentTemplate/ContactTemplate';
 
 const Hospitality = () => {

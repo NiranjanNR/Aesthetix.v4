@@ -5,7 +5,7 @@ import VerticalBox from '../../ContentTemplate/VerticalBox';
 import LandingTemplate from '../../ContentTemplate/LandingTemplate';
 import VerticalsGovt from '../../../assets/Verticals-govt.jpg';
 import ContactTemplate from '../../ContentTemplate/ContactTemplate';
-import Footers from '../../MainPage/Footer/Footers';
+import Footers from '../../Footer/Footers';
 import Blogs from '../../ContentTemplate/Blogs';
 
 const Government = () => {

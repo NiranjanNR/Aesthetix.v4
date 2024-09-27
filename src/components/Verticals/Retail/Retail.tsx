@@ -4,7 +4,7 @@ import HeaderDescription from '../../ContentTemplate/HeaderDescription';
 import VerticalBox from '../../ContentTemplate/VerticalBox';
 import LandingTemplate from '../../ContentTemplate/LandingTemplate';
 import Blogs from '../../ContentTemplate/Blogs';
-import Footers from '../../MainPage/Footer/Footers';
+import Footers from '../../Footer/Footers';
 
 const Retail = () => {
   return (

@@ -5,7 +5,7 @@ import VerticalBox from '../../ContentTemplate/VerticalBox';
 import LandingTemplate from '../../ContentTemplate/LandingTemplate';
 import VerticalEdu from '../../../assets/Vertical-edu.jpg'
 import VideoTemplate from '../../ContentTemplate/VideoTemplate';
-import Footers from '../../MainPage/Footer/Footers';
+import Footers from '../../Footer/Footers';
 
 const Education = () => {
   return (

@@ -101,7 +101,7 @@ const Location = () => {
             <div className='locationInfo flex flex-wrap justify-center items-center gap-6 py-10 px-4 sm:px-10'>
                 {/* Location Cards */}
                 {[...Array(3)].map((_, index) => (
-                    <div key={index} className='LocationCard w-full sm:w-1/3 p-4'>
+                    <div key={index} className='LocationCards w-full sm:w-1/3 p-4'>
                         <img src={Dubai} className='LocationCardImage w-full h-48 object-cover rounded-md' alt='Dubai' />
                         <div className='LocationCardText mt-4'>
                             <div className='text-lg sm:text-xl font-bold py-2'>
