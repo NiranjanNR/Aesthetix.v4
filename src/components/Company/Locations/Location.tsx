@@ -115,7 +115,7 @@ const Location = () => {
                         </div>
                     </div>
                     <div className='LocationCards w-full sm:w-1/3 p-4'>
-                        <img src="https://images.unsplash.com/photo-1591054457135-3e2c2e51c5bc?q=80&w=2874&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" className='LocationCardImage w-full h-48 object-cover rounded-md' alt='Dubai' />
+                        <img src="https://images.pexels.com/photos/2830460/pexels-photo-2830460.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" className='LocationCardImage w-full h-48 object-cover rounded-md' alt='Dubai' />
                         <div className='LocationCardText mt-4'>
                             <div className='text-lg sm:text-xl font-bold py-2'>
                             Riyadh,<br /> Saudi Arabia
