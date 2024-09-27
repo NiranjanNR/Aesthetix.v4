@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import './About.css';
+import ReactPlayer from 'react-player';
 
 const About = () => {
   return (
@@ -66,16 +67,15 @@ const About = () => {
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.9, ease: 'easeOut' }}
         >
-          <div className='mainVideo'>
-            <iframe
-              width="660"
-              height="415"
-              src="https://www.youtube.com/embed/UytHN0NmSmw"
-              title="YouTube video player"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            ></iframe>
+          <div className=''>
+            <div className="w-full">
+                  <ReactPlayer
+        className="react-player"
+                      url="https://youtu.be/uG5XBnRuvBY?si=dwM_OHVDDcBlkH-2"
+                      width="100%"
+                      controls
+      />
+          </div>
           </div>
           <div className='mainText'>
             <div className='videoHeading'>

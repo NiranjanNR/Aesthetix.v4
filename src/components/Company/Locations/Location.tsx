@@ -100,20 +100,50 @@ const Location = () => {
             {/* Location Info Section */}
             <div className='locationInfo flex flex-wrap justify-center items-center gap-6 py-10 px-4 sm:px-10'>
                 {/* Location Cards */}
-                {[...Array(3)].map((_, index) => (
-                    <div key={index} className='LocationCards w-full sm:w-1/3 p-4'>
+                
+                    <div className='LocationCards w-full sm:w-1/3 p-4'>
                         <img src={Dubai} className='LocationCardImage w-full h-48 object-cover rounded-md' alt='Dubai' />
                         <div className='LocationCardText mt-4'>
                             <div className='text-lg sm:text-xl font-bold py-2'>
                                 DUBAI,<br /> UNITED ARAB EMIRATES
                             </div>
                             <div className='text-sm sm:text-base font-medium py-2'>
-                                123 26th St<br /> Al Quoz Industrial Area 4
+                                Aesthetix Technologies LLC
+                                26th Street, AL Quoz Industrial Area 4, 
                             </div>
                             <div className='text-sm sm:text-base font-bold py-2'>04 320 9096</div>
                         </div>
                     </div>
-                ))}
+                    <div className='LocationCards w-full sm:w-1/3 p-4'>
+                        <img src="https://images.unsplash.com/photo-1591054457135-3e2c2e51c5bc?q=80&w=2874&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" className='LocationCardImage w-full h-48 object-cover rounded-md' alt='Dubai' />
+                        <div className='LocationCardText mt-4'>
+                            <div className='text-lg sm:text-xl font-bold py-2'>
+                            Riyadh,<br /> Saudi Arabia
+                            
+                            </div>
+                            <div className='text-sm sm:text-base font-medium py-2'>
+                                Golden Offices 
+Building number : 6759
+                            Office number : 428, 2nd floor
+AL Farazdaq ST, Ad Dhubat
+                            
+                            </div>
+                            <div className='text-sm sm:text-base font-bold py-2'>Riyadh 12627</div>
+                        </div>
+                </div>
+                <div className='LocationCards w-full sm:w-1/3 p-4'>
+                        <img src="https://images.unsplash.com/photo-1672131367565-0c8f1e379368?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHNhdWRpfGVufDB8fDB8fHww" className='LocationCardImage w-full h-48 object-cover rounded-md' alt='Dubai' />
+                        <div className='LocationCardText mt-4'>
+                            <div className='text-lg sm:text-xl font-bold py-2'>
+                                ABU DHABI,<br /> UNITED ARAB EMIRATES
+                            </div>
+                            <div className='text-sm sm:text-base font-medium py-2'>
+                                Aesthetix Technologies LLC
+                            </div>
+                            <div className='text-sm sm:text-base font-bold py-2'>04 320 9096</div>
+                        </div>
+                    </div>
+
             </div>
 
             {/* Support Section with Waves */}
