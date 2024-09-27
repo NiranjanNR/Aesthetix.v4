@@ -9,7 +9,7 @@
 //             <div className='locationCover'>
 //                 <div className='overLays'>
 //                     <div className='text-4xl text-white font-bold py-[15px]'>OUR LOCATIONS</div>
-//                     <div className='text-1xl text-white font-medium text-center' >Avidex delivers innovative AV solutions that enable organizations and enterprises to collaborate, create, and share ideas through state-of-the-art audiovisual and unified communication technologies. Avidex specializes in creating an unparalleled client experience in the use of collaborative audiovisual solutions as a global pro-AV integrator providing design, build, and service excellence.</div>
+//                     <div className='text-1xl text-white font-medium text-center' >Aesthetix delivers innovative AV solutions that enable organizations and enterprises to collaborate, create, and share ideas through state-of-the-art audiovisual and unified communication technologies. Aesthetix specializes in creating an unparalleled client experience in the use of collaborative audiovisual solutions as a global pro-AV integrator providing design, build, and service excellence.</div>
 //                 </div>
 //             </div>
 
@@ -67,7 +67,7 @@
 //             </div>
 
 //             <div>
-//         <ContentTemplate direction='left' heading='PSNI ALLIANCE' description='Aesthetix is proud to serve our global clients throughout North America, South America, Europe, Asia, and the Middle East. Avidex is a member of PSNI Global Alliance, a certified network of global technology providers and AV integrators delivering consistent service and support worldwide. We offer a combined talent pool of thousands of premier integrators committed to forward-thinking education, resources, collaboration, and support.'
+//         <ContentTemplate direction='left' heading='PSNI ALLIANCE' description='Aesthetix is proud to serve our global clients throughout North America, South America, Europe, Asia, and the Middle East. Aesthetix is a member of PSNI Global Alliance, a certified network of global technology providers and AV integrators delivering consistent service and support worldwide. We offer a combined talent pool of thousands of premier integrators committed to forward-thinking education, resources, collaboration, and support.'
 //          imagepath={WorldImg} 
 //          style={{ width: '100% !important', height: 'auto' }} // Pass style as an object
 //          />
@@ -92,7 +92,7 @@ const Location = () => {
                 <div className='overLays'>
                     <div className='text-2xl sm:text-4xl text-white font-bold py-3'>OUR LOCATIONS</div>
                     <div className='text-sm sm:text-xl text-white font-medium max-w-3xl'>
-                        Avidex delivers innovative AV solutions that enable organizations and enterprises to collaborate, create, and share ideas through state-of-the-art audiovisual and unified communication technologies. Avidex specializes in creating an unparalleled client experience in the use of collaborative audiovisual solutions as a global pro-AV integrator providing design, build, and service excellence.
+                        Aesthetix delivers innovative AV solutions that enable organizations and enterprises to collaborate, create, and share ideas through state-of-the-art audiovisual and unified communication technologies. Aesthetix specializes in creating an unparalleled client experience in the use of collaborative audiovisual solutions as a global pro-AV integrator providing design, build, and service excellence.
                     </div>
                 </div>
             </div>
@@ -153,7 +153,7 @@ const Location = () => {
                 <ContentTemplate
                     direction='left'
                     heading='PSNI ALLIANCE'
-                    description='Aesthetix is proud to serve our global clients throughout North America, South America, Europe, Asia, and the Middle East. Avidex is a member of PSNI Global Alliance, a certified network of global technology providers and AV integrators delivering consistent service and support worldwide. We offer a combined talent pool of thousands of premier integrators committed to forward-thinking education, resources, collaboration, and support.'
+                    description='Aesthetix is proud to serve our global clients throughout North America, South America, Europe, Asia, and the Middle East. Aesthetix is a member of PSNI Global Alliance, a certified network of global technology providers and AV integrators delivering consistent service and support worldwide. We offer a combined talent pool of thousands of premier integrators committed to forward-thinking education, resources, collaboration, and support.'
                     imagepath={WorldImg}
                     style={{ width: '100% !important', height: 'auto' }} // Pass style as an object
                 />

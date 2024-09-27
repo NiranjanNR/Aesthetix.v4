@@ -22,7 +22,7 @@ const Blogs = () => {
                   <div className="card shadow">
               <img className=' m-[0.2px]' src="https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&w=800" />
                       <div className='m-4'>
-                          In an exclusive, in-depth interview, Aesthetix spoke with Commercial Integrator on Avidex's recent...
+                          In an exclusive, in-depth interview, Aesthetix spoke with Commercial Integrator on Aesthetix's recent...
                 </div>
             </div>
             

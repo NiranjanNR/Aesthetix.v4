@@ -90,7 +90,7 @@ const Services = () =>{
 
     <div className='grid grid-cols-2 gap-x-28 mx-[100px]'>
       <div className='bg-[#7a7a7a15]'>
-        <VerticalBox header='SOUND MASKING' description='Hospitals and corporate offices can benefit from the acoustic privacy of sound masking for their visitors and staff. A sound masking solution installed by Avidex features multizone capabilities, program scheduling, direct or indirect positioning, and can be integrated within a paging system' imagepath='https://www.avidex.com/hubfs/Website%20Optimized/Corporate/Room%20Occupancy%20%20and%20Scheduling/1200x630/Install_2017_SSW-MUMK_002A_v1.jpg'/>
+        <VerticalBox header='SOUND MASKING' description='Hospitals and corporate offices can benefit from the acoustic privacy of sound masking for their visitors and staff. A sound masking solution installed by Aesthetix features multizone capabilities, program scheduling, direct or indirect positioning, and can be integrated within a paging system' imagepath='https://www.avidex.com/hubfs/Website%20Optimized/Corporate/Room%20Occupancy%20%20and%20Scheduling/1200x630/Install_2017_SSW-MUMK_002A_v1.jpg'/>
       </div>
       <div className='bg-[#9864a21d] '>
         <VerticalBox header="CLASSROOM AUDIO" description="The classroom presents its own unique challenges when it comes to audio clarity and intelligibility. Classroom audio solutions are specifically designed to create educational equity for both in-person and remote students while reducing strain on educators" imagepath='https://www.avidex.com/hubfs/Website%20Optimized/Corporate/Room%20Occupancy%20%20and%20Scheduling/1200x630/room-scheduling-technology.jpg'/>

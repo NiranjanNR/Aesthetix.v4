@@ -36,7 +36,7 @@ const Culture = () =>{
             <div className='About px-4 sm:px-8'>
                 <div className='text-xl sm:text-3xl primaryH font-bold my-5 z-10 text-center'>CONNECTING PEOPLE THROUGH INNOVATION</div>
                 <div className='text-[18px] sm:text-[18px] primaryP  z-10 text-center mx-auto sm:mx-[10rem]'>
-                The experienced professionals of the Avidex team represent the best in the audiovisual industry. With our year-over-year growth, Avidex continues to enhance our team by adding individuals who can provide excellent service while promoting a culture that reflects our company values. If you're seeking a rewarding career with a top-tier AV integrator, apply for an open position today.                
+                The experienced professionals of the Aesthetix team represent the best in the audiovisual industry. With our year-over-year growth, Aesthetix continues to enhance our team by adding individuals who can provide excellent service while promoting a culture that reflects our company values. If you're seeking a rewarding career with a top-tier AV integrator, apply for an open position today.                
                 </div>
             </div>
             <div className='cards'>
@@ -203,13 +203,13 @@ const Culture = () =>{
             <div className='text-1xl font-bold flex justify-center align-middle py-[20px]' style={{color: 'rgb(25 0 71)'}}>Diversifying the way we work, learn, and live to connect people and organizations.</div>
 
             <div className='text-[18px] m-[auto] font-normal flex text-justify justify-center align-middle text-center leading-relaxed w-[1200px] m-auto'>
-            Avidex recognizes that an inclusive and diverse work environment respects the unique characteristics, skills, and experiences of all employees, partners, and customers. At Avidex our mission is to provide audiovisual solutions and services that enhance communication and improve the way people work, learn, and live. We recognize, respect, and appreciate our diverse and unique global workforce and its commitment to our mission and values. That translates into maintaining a culture where individual strengths, combined with teamwork, are recognized as the foundation of our mutual success. We value the different perspectives that each of us brings to the work environment, our company, and our customers. 
+            Aesthetix recognizes that an inclusive and diverse work environment respects the unique characteristics, skills, and experiences of all employees, partners, and customers. At Aesthetix our mission is to provide audiovisual solutions and services that enhance communication and improve the way people work, learn, and live. We recognize, respect, and appreciate our diverse and unique global workforce and its commitment to our mission and values. That translates into maintaining a culture where individual strengths, combined with teamwork, are recognized as the foundation of our mutual success. We value the different perspectives that each of us brings to the work environment, our company, and our customers. 
             <br />
             <br />
-            Avidex strives to foster belonging and empowerment at work through our commitment to promote accountability, integrity, passion, teamwork, and innovation among people from diverse backgrounds. In this environment, these values guide the efforts of all of our team members, as well as Avidex’s policies and practices.
+            Aesthetix strives to foster belonging and empowerment at work through our commitment to promote accountability, integrity, passion, teamwork, and innovation among people from diverse backgrounds. In this environment, these values guide the efforts of all of our team members, as well as Aesthetix’s policies and practices.
             <br />
             <br />
-            Avidex will continue to empower and understand how to lead diverse groups of employees to achieve success and live out our mission. It is also imperative that Avidex attracts and develops the best candidates in an increasingly more diverse talent pool to be the leader in collaborative solutions, connecting people and organizations today and in the future.
+            Aesthetix will continue to empower and understand how to lead diverse groups of employees to achieve success and live out our mission. It is also imperative that Aesthetix attracts and develops the best candidates in an increasingly more diverse talent pool to be the leader in collaborative solutions, connecting people and organizations today and in the future.
             <br />
             <br />
             </div>
@@ -225,7 +225,7 @@ const Culture = () =>{
             <div>
                 <div className='text-2xl py-[20px] font-bold primaryH'>JOIN OUR TEAM</div>
                 <div className='text-[16px] py-[20px] font-medium primaryP text-justify'>
-                When you join the Avidex team, you join a team of passionate, creative, top-notch AV industry professionals. You will enjoy a company culture where ideas are encouraged, creativity flourishes, hard work is valued, and results are rewarded. Furthermore, Avidex is fundamentally committed to the success and continued professional development of each of its employees. Avidex provides extensive and ongoing training such as manufacturer training and certification, as well as industry training such as AVIXA's CTS programs and Project Management Institute's PMP certification. We are an equal opportunity employer and attract and retain qualified candidates through experience-and-knowledge-based selection.
+                When you join the Aesthetix team, you join a team of passionate, creative, top-notch AV industry professionals. You will enjoy a company culture where ideas are encouraged, creativity flourishes, hard work is valued, and results are rewarded. Furthermore, Aesthetix is fundamentally committed to the success and continued professional development of each of its employees. Aesthetix provides extensive and ongoing training such as manufacturer training and certification, as well as industry training such as AVIXA's CTS programs and Project Management Institute's PMP certification. We are an equal opportunity employer and attract and retain qualified candidates through experience-and-knowledge-based selection.
                 </div>
                 <button className='bg-[#75016b] text-white md:px-[30px] md:py-[10px] px-4 py-2 rounded'>Find Your Opportunity</button>
             </div>
