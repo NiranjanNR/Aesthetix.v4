@@ -18,7 +18,7 @@
 }
 
 .learn-btn {
-    background-color: #d40000;
+    background-color: #4e0346;
     color: #ffffff;
     padding: 10px 20px;
     border: none;
@@ -26,14 +26,15 @@
     width: 150px;
     height: 50px;
     border-style: groove;
-    border: 3px solid #d40000;
+    border: 3px solid #4e0346;
     font-size: 18px;
 }
 
 .learn-btn:hover {
     background-color: #ffffff;
-    color: #d40000;
+    color: #4e0346;
     transition-duration: 0.25s;
+    border: 3px solid #4e0346;
 }
 
 .Abtus{
@@ -95,7 +96,7 @@
 
 
 .talk-btn{
-    background-color: #d40000;
+    background-color: #4e0346;
     color: #ffffff;
     padding: 10px 20px;
     border: none;
@@ -103,14 +104,14 @@
     width: 180px;
     height: 50px;
     border-style: groove;
-    border: 3px solid #d40000;
+    border: 3px solid #4e0346;
     font-size: 17px;
     white-space: nowrap;
 }
 
 .talk-btn:hover {
-    background-color: #ffffff;
-    color: #d40000;
+    background-color: #ffffff39;
+    color: #ffffff;
     transition-duration: 0.25s;
 }
 

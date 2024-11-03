@@ -72,13 +72,13 @@ const Partners = () => {
                 ))}
             </div>
 
-            <h1 className="text-3xl font-semibold my-8">Partnerships</h1>
+            {/* <h1 className="text-3xl font-semibold my-8">Partnerships</h1>
 
             <div className="grid grid-cols-2 md:grid-cols-6 justify-between w-[100vw]">
                 {[p1, p2, p3, p4, p7, p8, p2, p3, p7, p5, p6, p8].map((partner, index) => (
                     <img key={index} src={partner} className="partnerImages h-20 object-cover mx-auto py-[5px]" alt="Partner" />
                 ))}
-            </div>
+            </div> */}
 
             {/* <h1 className="text-3xl font-semibold my-8">Contact Us</h1>
 

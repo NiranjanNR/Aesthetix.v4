@@ -109,11 +109,6 @@ const Culture = () =>{
                         <div className='text-3xl text-white p-[10px]'>Integrity</div>
                     </div>
 
-                    <div className='Missioncards' style={{ backgroundColor: '#f7b536' }}>
-                        <img src={m4} className='h-[150px]' />
-                        <div className='text-3xl text-white p-[10px]'>Passion</div>
-                    </div>
-
                     <div className='Missioncards' style={{ backgroundColor: '#ed284f' }}>
                         <img src={m5} className='h-[150px]' />
                         <div className='text-3xl text-white p-[10px]'>Teamwork</div>
@@ -122,6 +117,11 @@ const Culture = () =>{
                     <div className='Missioncards' style={{ backgroundColor: '#b0d249' }}>
                         <img src={m6} className='h-[150px]' />
                         <div className='text-3xl text-white p-[10px]'>Innovation</div>
+                    </div>
+
+                    <div className='Missioncards' style={{ backgroundColor: '#f7b536' }}>
+                        <img src={m4} className='h-[150px]' />
+                        <div className='text-3xl text-white p-[10px]'>Client Support</div>
                     </div>
             </div>
 
