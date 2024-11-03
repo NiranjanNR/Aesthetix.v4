@@ -9,31 +9,19 @@ import caseImage6 from '../../../assets/caseImage6.jpeg'
 import caseImage7 from '../../../assets/caseImage7.jpeg'
 import caseImage8 from '../../../assets/caseImage8.jpeg'
 import caseImage9 from '../../../assets/caseImage9.jpeg'
-import { motion } from 'framer-motion';
 import ProfileCard from '../../ContentTemplate/ProfileCard'
 
 const ProjectProfile = () =>{
-    const fadeIn = {
-        hidden: { opacity: 0, y: 20 },
-        visible: { opacity: 1, y: 0 },
-    };
+    
     return(
         <div>
-             <motion.div
+             <div
                 className='locationCoverProject'
-                initial="hidden"
-                animate="visible"
-                variants={fadeIn}
-                transition={{ duration: 0.5 }}
-            >
+                >
                 <div className='text-4xl text-white font-semibold py-[15px]'>PROJECT PROFILES</div>
-            </motion.div>
-            <motion.div
+            </div>
+            <div
                 className='locationInfo'
-                initial="hidden"
-                animate="visible"
-                variants={fadeIn}
-                transition={{ duration: 0.5, delay: 0.2 }}
             >
                   {/* Section for title and description */}
             <div className="projects-section">
@@ -44,7 +32,7 @@ const ProjectProfile = () =>{
                 <hr className="0" />
                 <h3 className="projects-titles">PROJECTS</h3>
             </div>
-            <div className="grid grid-cols-3 gap-4">
+            <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-4">
                     <ProfileCard
                         imagepath={caseImage1}
                         heading='Immersive Experience Center'
@@ -91,7 +79,7 @@ const ProjectProfile = () =>{
                         description="The European Union’s General Data Protection Regulation (G.D.P.R.) goes into effect on May 25 and is meant to ensure a common set of data rights in the European Union. It requires organizations to notify users as soon as possible of high-risk data breaches that could personally affect them."
                     />
             </div>
-            </motion.div>
+            </div>
             <hr className="divider" />
             <div>
                 <div className="waves top-waves">
