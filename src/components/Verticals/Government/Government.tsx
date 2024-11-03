@@ -1,10 +1,8 @@
 import { Tabs } from 'flowbite-react';
 import ContentTemplate from '../../ContentTemplate/ContentTemplate';
 import HeaderDescription from '../../ContentTemplate/HeaderDescription';
-import VerticalBox from '../../ContentTemplate/VerticalBox';
 import LandingTemplate from '../../ContentTemplate/LandingTemplate';
 import VerticalsGovt from '../../../assets/Verticals-govt.jpg';
-import ContactTemplate from '../../ContentTemplate/ContactTemplate';
 import Footers from '../../Footer/Footers';
 import Blogs from '../../ContentTemplate/Blogs';
 
@@ -60,7 +58,7 @@ const Government = () => {
                     Dynamic spaces need technology to match. The audiovisual solutions in these areas are designed to meet the demands of the day, with multiple presentation capabilities, audio coverage zones, and easy-to-use system control.
                   </div>
                   <div className='flex justify-center mt-4'>
-                    <img className='h-[50vh] mt-5' src="https://plus.unsplash.com/premium_photo-1682434215596-19f988ca440a?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8b3BlbiUyMHdvcmtzcGFjZXxlbnwwfHwwfHx8MA%3D%3D" />
+                    <img className='h-[50vh] mt-5' src="https://images.pexels.com/photos/7750126/pexels-photo-7750126.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" />
                   </div>
                  </div>
               </div>
@@ -75,22 +73,8 @@ const Government = () => {
         <ContentTemplate direction='left' heading='DIGITAL SIGNANGE & WAYFINDING' description='From powerful executive boardrooms to auditoriums and efficient huddle spaces, you can trust Aesthetix to create reliable audiovisual and unified communications environments. Effective meeting and collaboration spaces increase productivity and drive innovation for both in-office and hybrid work cultures.' imagepath='https://images.pexels.com/photos/704767/pexels-photo-704767.jpeg?auto=compress&cs=tinysrgb&w=800' />
       </div>
       <div>
-        <Blogs />
-        <HeaderDescription className='text-[#5b255d]' header='MASTER PURCHASING CONTRACTS' description="
-        Aesthetix holds contracts with multiple state and local agencies as a provider of audiovisual and unified communications technologies, including Washington State DES and CMAS in California.
-
-Let us guide you through the contract process and bring our audiovisual design and integration expertise to your next project.
-        " />
+        <Blogs page="Government"/>
       </div>
-     <div className='grid md:grid-cols-2 grid-cols-1 gap-x-28 mx-[100px]'>
-        <div className='bg-[#7a7a7a15] flex justify-center'>
-          <VerticalBox header='Washington State DES' description='Aesthetix is an awarded Washington State Department of Enterprise Services (DES) awarded vendor for AV design, consultation, installation, and managed services and support.' imagepath='https://www.avidex.com/hubfs/Website%20Optimized/Government/DES200x630.jpg'/>
-        </div>
-        <div className='bg-[#9864a21d] flex justify-center'>
-          <VerticalBox header="California CMAS/GSA " description="Aesthetix is proud to be a California Multiple Awards Schedule (CMAS) certified supplier of professional audiovisual solutions, assessment, design, and integration services." imagepath='https://www.avidex.com/hubfs/Website%20Optimized/Government/CMAS1200x630.jpg'/>
-        </div>
-      </div>
-      <ContactTemplate />
       <Footers />
     </div>
   )

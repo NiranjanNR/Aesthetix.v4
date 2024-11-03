@@ -18,7 +18,7 @@ const Education = () => {
           <div className='flex justify-center mb-10 '>
               <div className="overflow-x-auto w-[80vw] border-2 p-5 rounded-xl bg-white">
       <Tabs aria-label="Full width tabs" variant="fullWidth" className='text-lg' >
-            <Tabs.Item active title="Classrooms">
+            <Tabs.Item active title="Education k12">
               <div className='flex justify-center'>
                 <div className='w-[50vw]'>
                   <div className='text-center mt-3'>
@@ -28,7 +28,7 @@ const Education = () => {
                  </div>
               </div>
         </Tabs.Item>
-        <Tabs.Item active title="Common Areas">
+        <Tabs.Item active title="Education technology">
               <div className='flex justify-center'>
                 <div className='w-[50vw]'>
                   <div className='text-center mt-3'>
@@ -40,7 +40,7 @@ const Education = () => {
                  </div>
               </div>
             </Tabs.Item>
-            <Tabs.Item active title="Administration">
+            <Tabs.Item active title="Higher Education">
               <div className='flex justify-center'>
                 <div className='w-[50vw]'>
                   <div className='text-center mt-3'>
@@ -52,7 +52,7 @@ const Education = () => {
                  </div>
               </div>
             </Tabs.Item>
-            <Tabs.Item active title="Sports Venues">
+            <Tabs.Item active title="Universities">
               <div className='flex justify-center'>
                 <div className='w-[50vw]'>
                   <div className='text-center mt-3'>

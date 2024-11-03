@@ -3,7 +3,6 @@ import LandingTemplate from '../../ContentTemplate/LandingTemplate';
 import VerticalsHosp from '../../../assets/Verticals-hosp.jpg'
 import VideoTemplate from '../../ContentTemplate/VideoTemplate';
 import Footers from '../../Footer/Footers';
-import ContactTemplate from '../../ContentTemplate/ContactTemplate';
 
 const Hospitality = () => {
   return (
@@ -14,7 +13,7 @@ const Hospitality = () => {
           <div className='flex justify-center mb-8'>
                 <div className='w-[80vw]'>
                 <div className={`md:text-2xl md:font-bold text-xl font-semibold text-center mb-5 text-[#a142a5]`}>
-                AV INTEGRATION for Better Healthcare Experiences
+                AV Integration for Better Healthcare Experiences
                 </div>
                 <div className={`md:text-1xl md:font-bold text-xl font-semibold text-center  text-[#5b255d]`}>
                 Inside and Outside the Patient Room
@@ -32,7 +31,7 @@ const Hospitality = () => {
 
           
           <div className='bg-[#9864a21d]'>
-              <ContentTemplate direction='right' heading="TigrPx: Interactive Patient Engagement s" description="Aesthetix’s TigrPX Interactive Patient Engagement System (IPS) transforms how patients are engaged, educated, entertained, and cared for to improve the patient and staff hospital experience. Developed from decades of evidence-based research and a deep understanding of the patient experience, TigrPX delivers patient-centered engagement tools, staff-patient communication, automated staff workflows with EMR/hospital system integrations, and optimizes the patient care environment with virtual care platform partners." imagepath="https://images.pexels.com/photos/3771110/pexels-photo-3771110.jpeg?auto=compress&cs=tinysrgb&w=800"/>
+              <ContentTemplate direction='right' heading="TigrPx: Interactive Patient Engagements" description="Aesthetix’s TigrPX Interactive Patient Engagement System (IPS) transforms how patients are engaged, educated, entertained, and cared for to improve the patient and staff hospital experience. Developed from decades of evidence-based research and a deep understanding of the patient experience, TigrPX delivers patient-centered engagement tools, staff-patient communication, automated staff workflows with EMR/hospital system integrations, and optimizes the patient care environment with virtual care platform partners." imagepath="https://images.pexels.com/photos/3771110/pexels-photo-3771110.jpeg?auto=compress&cs=tinysrgb&w=800"/>
       </div>
       <div>
         <ContentTemplate direction='left' heading='DIGITAL SIGNAGE & VIDEO WALLS' description='From powerful executive boardrooms to auditoriums and efficient huddle spaces, you can trust Aesthetix to create reliable audiovisual and unified communications environments. Effective meeting and collaboration spaces increase productivity and drive innovation for both in-office and hybrid work cultures.' imagepath='https://www.avidex.com/hubfs/Website%20Optimized/Government/1200x900/Rally%20LS%20Large%20Conference%20Room%20Single%20Speaker%20BTY%203-1.jpg' />
@@ -41,8 +40,6 @@ const Hospitality = () => {
       <div>
         <ContentTemplate direction='left' heading='Meeting & Conference Spaces' description='Healthcare facilities need meeting and conference spaces just like businesses, to connect staff and drive productivity.  From large board rooms to clinical team huddle spaces, our meeting spaces are designed to quickly and easily enable collaboration for in-person and hybrid meetings.' imagepath='https://www.avidex.com/hs-fs/hubfs/HealthcareBoardRoom_2016-005A_v3-WithNurseimage.png?width=2400&height=1800&name=HealthcareBoardRoom_2016-005A_v3-WithNurseimage.png' />
       </div>
-      <ContactTemplate />
-      
       <Footers />
     </div>
   )

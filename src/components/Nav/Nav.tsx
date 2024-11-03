@@ -55,7 +55,7 @@ const Nav = () => {
             Government
           </Dropdown.Item>
           <Dropdown.Item onClick={() => navigate('/hospitality')}>
-            Hospitality
+            Hospitality & Entertainment
           </Dropdown.Item>
           <Dropdown.Item onClick={() => navigate('/education')}>
             Education

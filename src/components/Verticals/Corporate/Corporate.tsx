@@ -45,7 +45,7 @@ const Corporate = () => {
                     Today's auditoriums and training centers are high-capacity collaborative learning and presentation environments for hybrid audiences. While the presentation and audio systems are advanced, user-friendly control is essential. We can help!
                   </div>
                   <div className='flex justify-center mt-4'>
-                    <img className='h-[50vh] mt-5' src="https://images.unsplash.com/photo-1559223694-98ed5e272fef?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
+                    <img className='h-[50vh] mt-5' src="https://images.pexels.com/photos/1709003/pexels-photo-1709003.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" />
                   </div>
                  </div>
               </div>
@@ -77,10 +77,7 @@ const Corporate = () => {
       </Tabs>
     </div>
           </div>
-          <div className='bg-[#9864a21d]'>
-              <ContentTemplate direction='right' heading="Network & Security Command Centers" description="Network and security command facilities (NOCs and SOCs) are highly technical and require a deep understanding of best practices for these specialized spaces. Aesthetix provides systems for secure content delivery, multi-screen displays, and all-day remote monitoring. When seconds matter, having reliable, advanced technology solutions are essential." imagepath="https://www.avidex.com/hs-fs/hubfs/Website%20Optimized/Corporate/1200x900/Gov-NOC-SOC-DisplaySolutions-1.jpg?width=1000&height=750&name=Gov-NOC-SOC-DisplaySolutions-1.jpg"/>
-      </div>
-      <div>
+      <div className='bg-[#9864a21d] mb-14'>
         <ContentTemplate direction='left' heading='Video Conferencing & Collaboration spaces' description='From powerful executive boardrooms to auditoriums and efficient huddle spaces, you can trust Aesthetix to create reliable audiovisual and unified communications environments. Effective meeting and collaboration spaces increase productivity and drive innovation for both in-office and hybrid work cultures.' imagepath='https://www.avidex.com/hubfs/Website%20Optimized/Government/1200x900/Rally%20LS%20Large%20Conference%20Room%20Single%20Speaker%20BTY%203-1.jpg' />
       </div>
       <div>

@@ -1,10 +1,13 @@
 import './Content.css'
-const Blogs = () => {
+
+const Blogs = (props: {
+  page: string | undefined
+}) => {
   return (
       <div className="bg-[#3f1846f0] md:h-[65vh] flex justify-center items-center gap-20 mb-10">
           <div>
               <div className='text-3xl flex justify-center mb-10 text-white font-semibold'>
-              News, Blogs and Events
+              Recent {props.page} Projects
           </div>
           <div className='md:flex items-center justify-center mb-5 gap-14'>
             <div className="card shadow">
