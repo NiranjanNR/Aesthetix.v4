@@ -5,10 +5,10 @@ import './Nav.css';
 const Nav = () => {
   const navigate = useNavigate();
   return (
-      <div className="ml-6 mr-10 font-semibold pt-2">
+      <div className="ml-6 mr-10 font-semibold pt-2 primary-color">
           <Navbar fluid rounded >
       <Navbar.Brand>
-      <Link to="/"><span className="self-center whitespace-nowrap text-2xl font-semibold dark:text-white">aesthetix</span></Link>
+      <Link to="/"><span className="self-center whitespace-nowrap text-2xl font-bold dark:text-white">aesthetix</span></Link>
         
               </Navbar.Brand>
     <Navbar.Toggle />

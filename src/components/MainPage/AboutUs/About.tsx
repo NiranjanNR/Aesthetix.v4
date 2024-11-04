@@ -73,8 +73,9 @@ const About = () => {
         className="react-player"
                       url="https://youtu.be/uG5XBnRuvBY?si=dwM_OHVDDcBlkH-2"
                       width="100%"
+                      height="400px"
                       controls
-      />
+            />
           </div>
           </div>
           <div className='mainText'>
@@ -97,7 +98,7 @@ const About = () => {
           <div className='mainVideo'>
             <iframe
               width="660"
-              height="415"
+              height="400"
               src="https://www.youtube.com/embed/rVz1XkXo0eE"
               title="YouTube video player"
               frameBorder="0"
