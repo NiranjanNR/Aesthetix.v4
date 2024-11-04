@@ -8,7 +8,6 @@ import HoW from '../../../assets/HoW.jpg'
 import Audit from '../../../assets/audi-govt.webp'
 import collab from '../../../assets/collab-room.jpg'
 import edu from '../../../assets/edu.jpg'
-import ContactTemplate from '../../ContentTemplate/ContactTemplate';
 
 const Services = () =>{
     return(
@@ -144,7 +143,6 @@ const Services = () =>{
     </div>
 
     </div>
-    <ContactTemplate backgroundColor='#9864a21d'/>
 
   </div>
     )}
