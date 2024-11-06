@@ -40,8 +40,7 @@ const AboutAes = () => {
                 <div className='w-full lg:w-1/2'>
                     <div className='text-xl sm:text-2xl font-bold my-6 primaryHeadings'>CONNECTING PEOPLE THROUGH INNOVATION</div>
                     <div className='text-[16px] sm:text-[18px] primaryParas'>
-                        Working with Aesthetix means working with an award-winning team of AV industry professionals who have designed, engineered, and integrated thousands of innovative, custom audiovisual and communication solutions. Aesthetix has a large national presence, making us one of the top 10 largest AV integrators in the U.S. Aesthetix is a wholly-owned subsidiary of ITOCHU International, Inc., a Fortune Global 500 corporation.
-                    </div>
+                    Working with Aesthetix means working with an award-winning team of AV industry professionals who have designed, engineered, and integrated thousands of innovative, custom audiovisual and communication solutions. We are committed to delivering exceptional experiences and sustainable solutions that bring your vision to life. Join us in shaping the future!                    </div>
                 </div>
                 <div className='w-full lg:w-[500px] mb-6 lg:mb-0'>
                     <img src={Connecting} className='w-full lg:w-[500px]' />
@@ -82,7 +81,7 @@ const AboutAes = () => {
                         <div className='flex flex-1 p-2 flex-col justify-center items-center'>
                             <img src={five} className='h-[40px] w-[40px]' />
                             <div className='py-[10px] primaryHeadings font-bold text-[1.125rem]'>Repeat</div>
-                            <div className='text-center primaryParas text-[16px] sm:text-[18px]'>With over 17 years in the Pro AV business, much of our success comes from repeat clients. Aesthetix continues our valued partnerships by designing and integrating world-class audiovisual systems with excellence in design and innovation with a focus on integrity and quality.</div>
+                            <div className='text-center primaryParas text-[16px] sm:text-[18px]'>With over 20 years in the  AV business, much of our success comes from repeat clients. Aesthetix continues our valued partnerships by designing and integrating world-class audiovisual systems with excellence in design and innovation with a focus on integrity and quality.</div>
                         </div>
                     </div>
                 </div>
