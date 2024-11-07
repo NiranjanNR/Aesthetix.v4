@@ -15,6 +15,7 @@ import Elv from './components/Solutions/ELT/Elv';
 import LandingPage from './components/MainPage/LandingPage/LandingPage';
 import ProjectProfile from './components/Resources/ProjectProfiles/ProjectProfile';
 import Casestudy from './components/Resources/CaseStudies/Casestudy';
+import CaseStudy1 from './components/Resources/Study/CaseStudy1';
 
 function App() {
   return (
@@ -36,7 +37,7 @@ function App() {
         <Route path="/elv" element={<Elv />} />
         <Route path="/project-files" element={<ProjectProfile />} />
         <Route path="/case-study" element={<Casestudy />} />
-
+        <Route path="/case-studies/youth-hub" element={<CaseStudy1 />} />
       </Routes>
     </Router>
   );
