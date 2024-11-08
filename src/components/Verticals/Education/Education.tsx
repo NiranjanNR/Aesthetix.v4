@@ -26,25 +26,25 @@ const Education = () => {
                     Aesthetix Technologies enhances learning environments with innovative audio-visual solutions that empower educators and inspire students.
                     <div className="h-56 sm:h-64 xl:h-[60vh] 2xl:h-96 mt-5">
                       <Carousel>
-                        <div className="flex h-full items-center justify-center bg-gray-300/50 dark:bg-gray-700 dark:text-white">
+                        <div className="flex h-full items-center justify-center bg-gray-400/50 dark:bg-gray-700 dark:text-white">
                           <div>
                             <img className='h-[40vh] rounded-lg' src="https://images.pexels.com/photos/15467758/pexels-photo-15467758/free-photo-of-close-up-of-woman-scanning-a-qr-code-from-a-tv-screen-with-her-smartphone.jpeg?auto=compress&cs=tinysrgb&w=800" />
                             <p className='mt-10 font-semibold'>Digital Signage</p>
                           </div>
                         </div>
-                        <div className="flex h-full items-center justify-center bg-gray-300/50 dark:bg-gray-700 dark:text-white">
+                        <div className="flex h-full items-center justify-center bg-gray-400/50 dark:bg-gray-700 dark:text-white">
                           <div>
                             <img className='h-[40vh] rounded-lg' src="https://images.pexels.com/photos/8199135/pexels-photo-8199135.jpeg?auto=compress&cs=tinysrgb&w=800" />
                             <p className='mt-10 font-semibold'>Interactive smart classrooms</p>
                           </div>
                         </div>
-                        <div className="flex h-full items-center justify-center bg-gray-300/50 dark:bg-gray-700 dark:text-white">
+                        <div className="flex h-full items-center justify-center bg-gray-400/50 dark:bg-gray-700 dark:text-white">
                           <div>
                             <img className='h-[40vh] rounded-lg' src="https://images.pexels.com/photos/14501973/pexels-photo-14501973.jpeg?auto=compress&cs=tinysrgb&w=800" />
                             <p className='mt-10 font-semibold'>Auditoriums</p>
                           </div>
                         </div>
-                        <div className="flex h-full items-center justify-center bg-gray-300/50 dark:bg-gray-700 dark:text-white">
+                        <div className="flex h-full items-center justify-center bg-gray-400/50 dark:bg-gray-700 dark:text-white">
                           <div>
                             <img className='h-[40vh] rounded-lg' src="https://images.pexels.com/photos/7972710/pexels-photo-7972710.jpeg?auto=compress&cs=tinysrgb&w=800" />
                             <p className='mt-10 font-semibold'>Education Technology</p>
@@ -63,25 +63,25 @@ const Education = () => {
                     We integrate cutting-edge technology to create dynamic learning environments that engage students and enhance educational outcomes.
                     <div className="h-56 sm:h-64 xl:h-[60vh] 2xl:h-96 mt-5">
                       <Carousel>
-                        <div className="flex h-full items-center justify-center bg-gray-300/50 dark:bg-gray-700 dark:text-white">
+                        <div className="flex h-full items-center justify-center bg-gray-400/50 dark:bg-gray-700 dark:text-white">
                           <div>
                             <img className='h-[40vh] rounded-lg' src="https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800" />
                             <p className='mt-10 font-semibold'>Steam & robotics & AI</p>
                           </div>
                         </div>
-                        <div className="flex h-full items-center justify-center bg-gray-300/50 dark:bg-gray-700 dark:text-white">
+                        <div className="flex h-full items-center justify-center bg-gray-400/50 dark:bg-gray-700 dark:text-white">
                           <div>
                             <img className='h-[40vh] rounded-lg' src="https://images.pexels.com/photos/7868892/pexels-photo-7868892.jpeg?auto=compress&cs=tinysrgb&w=800" />
                             <p className='mt-10 font-semibold'>Interactive learning technologies</p>
                           </div>
                         </div>
-                        <div className="flex h-full items-center justify-center bg-gray-300/50 dark:bg-gray-700 dark:text-white">
+                        <div className="flex h-full items-center justify-center bg-gray-400/50 dark:bg-gray-700 dark:text-white">
                           <div>
                             <img className='h-[40vh] rounded-lg' src="https://images.pexels.com/photos/7241309/pexels-photo-7241309.jpeg?auto=compress&cs=tinysrgb&w=800" />
                             <p className='mt-10 font-semibold'>Virtual & Augmented reality</p>
                           </div>
                         </div>
-                        <div className="flex h-full items-center justify-center bg-gray-300/50 dark:bg-gray-700 dark:text-white">
+                        <div className="flex h-full items-center justify-center bg-gray-400/50 dark:bg-gray-700 dark:text-white">
                           <div>
                             <img className='h-[40vh] rounded-lg' src="https://images.pexels.com/photos/159213/hall-congress-architecture-building-159213.jpeg?auto=compress&cs=tinysrgb&w=800" />
                             <p className='mt-10 font-semibold'>School technology facilities</p>
@@ -100,31 +100,31 @@ const Education = () => {
                     We deliver advanced audio-visual and collaboration solutions that empower higher education institutions to foster innovation and enhance the learning experience.
                     <div className="h-56 sm:h-64 xl:h-[60vh] 2xl:h-96 mt-5">
                       <Carousel>
-                        <div className="flex h-full items-center justify-center bg-gray-300/50 dark:bg-gray-700 dark:text-white">
+                        <div className="flex h-full items-center justify-center bg-gray-400/50 dark:bg-gray-700 dark:text-white">
                           <div>
                             <img className='h-[40vh] rounded-lg' src="https://images.pexels.com/photos/7562417/pexels-photo-7562417.jpeg?auto=compress&cs=tinysrgb&w=800" />
                             <p className='mt-10 font-semibold'>Immersive space</p>
                           </div>
                         </div>
-                        <div className="flex h-full items-center justify-center bg-gray-300/50 dark:bg-gray-700 dark:text-white">
+                        <div className="flex h-full items-center justify-center bg-gray-400/50 dark:bg-gray-700 dark:text-white">
                           <div>
                             <img className='h-[40vh] rounded-lg' src="https://images.pexels.com/photos/8192246/pexels-photo-8192246.jpeg?auto=compress&cs=tinysrgb&w=800" />
                             <p className='mt-10 font-semibold'>Hybrid classroom</p>
                           </div>
                         </div>
-                        <div className="flex h-full items-center justify-center bg-gray-300/50 dark:bg-gray-700 dark:text-white">
+                        <div className="flex h-full items-center justify-center bg-gray-400/50 dark:bg-gray-700 dark:text-white">
                           <div>
                             <img className='h-[40vh] rounded-lg' src="https://images.pexels.com/photos/18471527/pexels-photo-18471527/free-photo-of-a-laboratory-with-desks-and-chairs-in-it.jpeg?auto=compress&cs=tinysrgb&w=800" />
                             <p className='mt-10 font-semibold'>Usability Labs</p>
                           </div>
                         </div>
-                        <div className="flex h-full items-center justify-center bg-gray-300/50 dark:bg-gray-700 dark:text-white">
+                        <div className="flex h-full items-center justify-center bg-gray-400/50 dark:bg-gray-700 dark:text-white">
                           <div>
                             <img className='h-[40vh] rounded-lg' src="https://images.pexels.com/photos/13834522/pexels-photo-13834522.jpeg?auto=compress&cs=tinysrgb&w=800" />
                             <p className='mt-10 font-semibold'>Multipurpose Halls</p>
                           </div>
                         </div>
-                        <div className="flex h-full items-center justify-center bg-gray-300/50 dark:bg-gray-700 dark:text-white">
+                        <div className="flex h-full items-center justify-center bg-gray-400/50 dark:bg-gray-700 dark:text-white">
                           <div>
                             <img className='h-[40vh] rounded-lg' src="https://images.pexels.com/photos/9275222/pexels-photo-9275222.jpeg?auto=compress&cs=tinysrgb&w=800" />
                             <p className='mt-10 font-semibold'>Auditoriums</p>
@@ -143,31 +143,31 @@ const Education = () => {
                     Aesthetix Technologies provides state-of-the-art audio-visual and integrated technology solutions to enhance collaboration, engagement, and learning outcomes in university environments.
                     <div className="h-56 sm:h-64 xl:h-[60vh] 2xl:h-96 mt-5">
                       <Carousel>
-                        <div className="flex h-full items-center justify-center bg-gray-300/50 dark:bg-gray-700 dark:text-white">
+                        <div className="flex h-full items-center justify-center bg-gray-400/50 dark:bg-gray-700 dark:text-white">
                           <div>
                             <img className='h-[40vh] rounded-lg' src="https://images.pexels.com/photos/27254169/pexels-photo-27254169/free-photo-of-boy-learning-at-table.jpeg?auto=compress&cs=tinysrgb&w=800" />
                             <p className='mt-10 font-semibold'>Immersive Learning environments</p>
                           </div>
                         </div>
-                        <div className="flex h-full items-center justify-center bg-gray-300/50 dark:bg-gray-700 dark:text-white">
+                        <div className="flex h-full items-center justify-center bg-gray-400/50 dark:bg-gray-700 dark:text-white">
                           <div>
                             <img className='h-[40vh] rounded-lg' src="https://images.pexels.com/photos/8197513/pexels-photo-8197513.jpeg?auto=compress&cs=tinysrgb&w=800" />
                             <p className='mt-10 font-semibold'>Smart lecture halls</p>
                           </div>
                         </div>
-                        <div className="flex h-full items-center justify-center bg-gray-300/50 dark:bg-gray-700 dark:text-white">
+                        <div className="flex h-full items-center justify-center bg-gray-400/50 dark:bg-gray-700 dark:text-white">
                           <div>
                             <img className='h-[40vh] rounded-lg' src="https://images.pexels.com/photos/7773724/pexels-photo-7773724.jpeg?auto=compress&cs=tinysrgb&w=800" />
                             <p className='mt-10 font-semibold'>Digital signage and interactive kiosks</p>
                           </div>
                         </div>
-                        <div className="flex h-full items-center justify-center bg-gray-300/50 dark:bg-gray-700 dark:text-white">
+                        <div className="flex h-full items-center justify-center bg-gray-400/50 dark:bg-gray-700 dark:text-white">
                           <div>
                             <img className='h-[40vh] rounded-lg' src="https://images.pexels.com/photos/9489089/pexels-photo-9489089.jpeg?auto=compress&cs=tinysrgb&w=800" />
                             <p className='mt-10 font-semibold'>Collaboration spaces and huddle rooms</p>
                           </div>
                         </div>
-                        <div className="flex h-full items-center justify-center bg-gray-300/50 dark:bg-gray-700 dark:text-white">
+                        <div className="flex h-full items-center justify-center bg-gray-400/50 dark:bg-gray-700 dark:text-white">
                           <div>
                             <img className='h-[40vh] rounded-lg' src="https://images.pexels.com/photos/7991226/pexels-photo-7991226.jpeg?auto=compress&cs=tinysrgb&w=800" />
                             <p className='mt-10 font-semibold'>Auditoriums</p>
