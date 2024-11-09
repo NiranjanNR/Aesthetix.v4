@@ -62,7 +62,7 @@ const ProfileCard = (props: {
                 
               <div className="p-4 md:p-5 md:px-8 space-y-4">
                 <div className='bg-slate-400/25 rounded-lg p-3 mb-4'>
-                  <p className="text-base  max-h-[27vh] overflow-scroll leading-relaxed text-gray-500 dark:text-gray-400 mb-2">
+                  <p className="text-base  max-h-[27vh] overflow-auto leading-relaxed text-gray-500 dark:text-gray-400 mb-2">
                     {props.description}
                 </p>
                   </div>
