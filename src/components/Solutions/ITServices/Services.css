@@ -22,6 +22,7 @@ body{
     z-index: -1; /* Make sure the pseudo-element is behind the content */
 }
 
+
 .backgroundColor{
     background-color: #9864a21d;
     

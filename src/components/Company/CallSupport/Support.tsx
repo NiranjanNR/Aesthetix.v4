@@ -1,6 +1,9 @@
 import './Support.css';
 
 const Support = () => {
+
+    //sheet_id = 
+
     return (
         <div className='flex justify-center items-center flex-col'>
             {/* Contact Section */}
@@ -15,7 +18,7 @@ const Support = () => {
                 </div>
 
                 {/* Contact Form */}
-                <div className='contactForm mt-6 sm:mt-[-70px] p-4 sm:p-10 bg-white shadow-md rounded-lg w-full lg:w-[80%]'>
+                <div className='contactForm mt-6 sm:mt-[-70px] p-4 sm:p-10 bg-white shadow-md rounded-lg w-full lg:w-[80%] mb-8'>
                     <form className="space-y-6">
                         {/* First and Last Name */}
                         <div className='grid grid-cols-1 sm:grid-cols-2 gap-4'>
@@ -89,7 +92,7 @@ const Support = () => {
 
                         {/* Submit Button */}
                         <div className='mt-6'>
-                            <button type='submit' className='bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded-md font-bold'>Submit</button>
+                            <button type='submit' className='bg-[#6d2950] hover:bg-[#4a1835] text-white px-6 py-2 rounded-md font-bold'>Submit</button>
                         </div>
                     </form>
                 </div>

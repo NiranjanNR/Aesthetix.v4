@@ -8,23 +8,16 @@ import HoW from '../../../assets/HoW.jpg'
 import Audit from '../../../assets/audi-govt.webp'
 import collab from '../../../assets/collab-room.jpg'
 import edu from '../../../assets/edu.jpg'
+import LandingTemplate from '../../ContentTemplate/LandingTemplate';
 
 const Elv = () =>{
     return(
         <div>
         {/* Landing */}
-        <div className="background h-[70vh] w-[100vw] flex items-center ">
-            <div className='h-[max-content] lg:w-[40vw] w-[50vw] bg-white/75 ml-20 lg:p-9 p-4'>
-                <div className='md:text-4xl md:font-bold text-xl font-semibold text-[#5b255d]'>
-                  ELT
-                </div>
-                <div className='text-xl md:font-semibold mt-4 text-[#424141] '>
-                Holistic Audio Integration for Schools, Businesses, and Healthcare Facilities
-                </div> 
-            </div>
-        </div>
 
-        <div className='py-20 backgroundColor'>
+        <LandingTemplate header="ELT" description="Holistic Audio Integration for Schools, Businesses, and Healthcare Facilities" buttontext="" imagepath="https://images.pexels.com/photos/159220/printed-circuit-board-print-plate-via-macro-159220.jpeg?auto=compress&cs=tinysrgb&w=600"/>
+
+        <div className='py-20 backgroundColor mt-[-40px]'>
         <HeaderDescription className='text-[#5b255d]' header='CUSTOM SOUND SOLUTIONS TO FIT THE ROOM ' description='All rooms come with unique acoustic challenges depending on layout, function, and architecture. As such theres no true one-size-fits-all solution when it comes to audio integration. Our team relies on decades of experience when it comes to crafting your audio ecosystem.' />
         </div>
 

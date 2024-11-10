@@ -58,7 +58,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("/src/assets/PurpleGraphics.jpg");
+    background-image: url("https://images.pexels.com/photos/3183183/pexels-photo-3183183.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;

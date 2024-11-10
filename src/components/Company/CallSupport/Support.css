@@ -22,7 +22,7 @@ body{
     left: 0;
     height: 100%;
     width: 100%;
-    background-image: url("../../../assets/PurpleGraphics.jpg");
+    background-image: url("https://images.pexels.com/photos/1773113/pexels-photo-1773113.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-size: cover;
     background-repeat: no-repeat;
     opacity: 0.5; /* Adjust the opacity of the background image */
