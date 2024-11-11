@@ -2,7 +2,6 @@ import './LandingPage.css'
 import Aes from '../../../assets/aesthexvideo.mp4'
 import AboutUs from '../AboutUs/About'
 
-
 const LandingPage = () => {
     return (
         <div>
@@ -13,9 +12,7 @@ const LandingPage = () => {
             </video>
             </div>
             <AboutUs />
-            
         </div>
-        
     )
 }
 
