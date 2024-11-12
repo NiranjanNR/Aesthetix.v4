@@ -55,7 +55,7 @@ const Retail = () => {
         
           </div>
           <div className='bg-[#9864a21d]'>
-              <ContentTemplate direction='right' heading="Network & Security Command Centers" description="Network and security command facilities (NOCs and SOCs) are highly technical and require a deep understanding of best practices for these specialized spaces. Aesthetix provides systems for secure content delivery, multi-screen displays, and all-day remote monitoring. When seconds matter, having reliable, advanced technology solutions are essential." imagepath="https://www.avidex.com/hs-fs/hubfs/Website%20Optimized/Corporate/1200x900/Gov-NOC-SOC-DisplaySolutions-1.jpg?width=1000&height=750&name=Gov-NOC-SOC-DisplaySolutions-1.jpg"/>
+              <ContentTemplate direction='right' heading="Video Surveillance Systems" description="Video surveillance systems are essential for security and loss prevention in retail environments. These systems include high-definition cameras, recording equipment, and monitoring software. They help retailers deter theft, monitor customer behavior, and ensure the safety of both employees and customers. Modern surveillance systems often feature remote access capabilities, allowing store managers to view live feeds from their devices." imagepath="https://www.avidex.com/hs-fs/hubfs/Website%20Optimized/Corporate/1200x900/Gov-NOC-SOC-DisplaySolutions-1.jpg?width=1000&height=750&name=Gov-NOC-SOC-DisplaySolutions-1.jpg"/>
       </div>
       <Blogs page='Retail'/>
       <div>

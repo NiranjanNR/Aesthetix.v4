@@ -8,7 +8,7 @@ const CaseStudy1 = () =>{
 
                 <div style={{display: 'flex', zIndex: '100', justifyContent: 'center', flexDirection: 'column', height: '100%', paddingLeft: '50px'}}>
                     <div className="heading1">CASE STUDY</div>
-                    <div className='heading2'>The Youth Hub - Federal Youth Authority</div>
+                    <div className='heading2'>Smart Dubai Office</div>
                 </div>
 
                 <div className='over-lay'></div>
@@ -16,7 +16,7 @@ const CaseStudy1 = () =>{
 
             <div className='h-[30vh] flex justify-center items-center mx-[50px]'>
                 <div className='italic text-lg justify-center flex align-middle text-justify' style={{color: '#6d2950'}}>
-                The Youth x Hub, initiated by the Federal Youth Authority, serves as a dynamic space for youth aged 15-35 across all Emirates of the UAE. This platform connects youth, fostering collaboration and the exchange of ideas, while supporting students, employees, and entrepreneurs in launching their initiatives. Aesthetix was selected by the PMO to design and implement a comprehensive audio-visual (AV) solution for Youth Hub facilities in Dubai, Abu Dhabi, Umm Al Quwain, Ajman, and Ras Al Khaimah.
+                The Smart Dubai Office (SDO) collaborates with private sector and government partners to lead Dubai’s citywide smart transformation, creating a more efficient, seamless, and impactful city experience. Aesthetix was appointed to design and integrate advanced AV solutions for SDO’s new office at Dubai Design District
                 </div>
             </div>
 
@@ -38,14 +38,13 @@ const CaseStudy1 = () =>{
 
                         <div style={{fontSize: '18px', color: '#444444', margin: '10px'}}>
                         <ul className='marker:text-green list-outside list-disc'>
-                            <li>Meeting rooms with room booking systems</li>
-                            <li>Interactive video walls with video conferencing (Dubai and Abu Dhabi)</li>
-                            <li>Edge-blended projection system (Dubai Hub)</li>
-                            <li>Portable displays for flexible usage</li>
-                            <li>Interactive displays in Innovation Labs</li>
-                            <li>Sound reinforcement and BGM solution</li>
-                            <li>Displays with wireless presentation capabilities</li>
-                            <li>Structured cabling, IT & security systems</li>
+                            <li>Virtual Reception (VR) solution with SMS and email integration</li>
+                            <li>86” interactive NEC display with Barco CSE-800 for main boardroom</li>
+                            <li>Cisco video conferencing and ceiling microphones</li>
+                            <li>Crestron control system for centralized AV management</li>
+                            <li>Bose ceiling speakers with Clearone IP amplifiers for flexible audio zoning</li>
+                            <li>Large format displays and Barco CSE-800 for select meeting rooms</li>
+                            <li>Crestron room booking panels for efficient room management</li>
                         </ul>
                         </div>
                     </div>
@@ -65,7 +64,7 @@ const CaseStudy1 = () =>{
             <div className='h-[20vh] flex justify-center mx-[50px] flex-col'>
                 <div className=' justify-start font-semibold' style={{fontSize: '19px',color: '#6d2950'}}>CHALLENGE</div>
                 <div style={{fontSize: '18px', color: '#444444', padding: '10px 0px'}}>
-                The Youth Hub required an advanced AV setup tailored to its diverse spaces, each designed for unique, interactive experiences. The AV system needed to include meeting rooms, interactive digital setups, and effective video conferencing solutions, all integrated across multiple facilities. The goal was to enable high-quality, flexible AV capabilities that could foster collaboration and support a variety of youth-focused activities.
+                To create a cohesive AV infrastructure that enhances visitor experience, supports collaborative meetings, and provides effective space management, all while seamlessly integrating with Smart Dubai Office’s systems.
                 </div>
             </div>
 
@@ -73,38 +72,32 @@ const CaseStudy1 = () =>{
                 <div className=' justify-start font-semibold' style={{fontSize: '19px',color: '#6d2950'}}>SOLUTIONS</div>
 
                 <div style={{fontSize: '18px', color: '#444444', padding: '10px 0px'}}>
-                1.Meeting Rooms with Room Booking Systems
-                    Each meeting room features an external room booking system, allowing users to easily manage bookings and schedules. This streamlines space management, ensuring that the meeting rooms are efficiently utilized.
-                
+                1.Virtual Reception (VR) Solution
+Aesthetix developed an interactive Virtual Reception system that welcomes visitors at the reception lobby. The VR solution includes a display powered by a backend player, integrated with SDO’s SMS gateway and email server. Upon arrival, visitors enter the employee’s details, triggering an automatic SMS and email notification to the respective employee. The VR display also guides visitors by showing the office layout and route to the nearest available meeting room.
                 <br /><br />
                 2.Interactive Video Walls with Video Conferencing
                     Dubai Hub – The Yard: An interactive video wall was installed, integrated with Webex video conferencing, enabling participants to hold live, interactive sessions with remote participants worldwide, fostering collaboration and engagement.
                     Abu Dhabi Hub: A 5x3 interactive video wall and a 3x3 standard video wall were installed to enhance the visual experience, providing flexible options for presentations, training sessions, and dynamic digital displays.
                     <br /><br />
-                3.Edge-Blended Projection System
-                    Dubai Hub – The Platform: A large, curved wall painted with special projection paint was designed to display a seamless image using three Epson projectors in an edge-blended mode. This setup creates an immersive, continuous visual surface ideal for impactful presentations and events.
+                    3.Bose Ceiling Speakers and Audio Zoning
+Throughout the office, Bose ceiling speakers paired with Clearone IP amplifiers provide audio coverage. The system allows individual speaker control, with the flexibility to group speakers into specific zones. This setup ensures optimal audio distribution for announcements and background music across designated areas.
                     <br /><br />
-                4.Portable Displays for Flexible Usage
-                    Portable 75” Samsung curved OLED displays and dual-sided LG flat OLED displays were introduced to facilitate quick presentations, signage, and announcements. Their mobility allows staff to position them wherever needed, offering a versatile display solution.
-                    <br /><br />
-                5.Interactive Displays in Innovation Labs
-                    Innovation Labs were equipped with interactive displays, providing an engaging space for hands-on learning, brainstorming, and group projects. This solution supports collaboration and helps foster creativity among users.
-                    <br /><br />
-                6.Sound Reinforcement and Background Music (BGM)
-                    Bose speakers and audio DSP systems were implemented across the spaces, delivering clear sound for presentations and events. The BGM solution enhances the overall ambiance, creating an inviting environment for visitors.
-                    <br /><br />
-                7.Displays with Wireless Presentation Capabilities
-                    Meeting rooms in The HQ areas were equipped with displays on swivel mounts and wireless presentation devices. This setup supports quick, ad-hoc presentations, allowing participants to seamlessly share content in a flexible and efficient manner.
-                    <br /><br />
-                8.Structured Cabling, IT & Security Systems
-                    Aesthetix provided all structured cabling, IT infrastructure, and security systems across each Youth Hub facility, ensuring a reliable and secure network for AV solutions. This backbone supports connectivity and robust digital communication throughout the hubs.
+                    4.Meeting Rooms with Display and Wireless Presentation
+Some meeting rooms were equipped with large format displays and Barco CSE-800 devices, enabling users to present wirelessly. This streamlined setup facilitates quick, seamless presentations directly from laptops, improving the efficiency and convenience of meetings.
+                 <br /><br />
+                 5.Visitor Management and Building Management Integration
+The VR solution is also integrated with the Building Management System (BMS), displaying live office energy consumption data. This feature enhances the visitor experience by providing real-time environmental data.
+                <br /><br />
+                6.Crestron Room Booking Panels
+Each meeting room is equipped with a Crestron room booking panel to streamline room scheduling and encourage efficient space management. The system allows employees to easily view availability and reserve meeting spaces, ensuring optimal use of the office’s facilities.
+                <br /><br />
                 </div>
             </div>
             
             <div  className='h-[100%] flex justify-center mx-[50px] flex-col'>
                 <div className=' justify-start font-semibold' style={{fontSize: '19px',color: '#6d2950'}}>Results</div>
                 <div style={{fontSize: '18px', color: '#444444', padding: '10px 0px'}}>
-                The Youth Hub facilities across the UAE now feature an advanced AV infrastructure that supports dynamic, collaborative environments. These installations have elevated the capabilities of each Hub, enabling interactive learning, flexible meeting spaces, and real-time remote communication. The flagship Dubai Youth Hub stands as a testament to the transformative power of AV technology in creating engaging spaces for youth innovation and networking. With work underway in Ajman and Ras Al Khaimah, Aesthetix’s contributions continue to enhance the Youth Hub experience across the Emirates.
+                The implemented solutions transformed Smart Dubai Office’s workspace into a highly connected, user-friendly environment. Visitors enjoy a seamless check-in experience with guided navigation, while staff benefit from intuitive AV systems that streamline presentations and video conferencing. The room booking panels have improved meeting room utilization, and the VR system provides valuable energy consumption insights, aligning with SDO’s smart city objectives. 
                 </div>
             </div>
 

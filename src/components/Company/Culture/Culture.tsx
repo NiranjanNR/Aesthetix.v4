@@ -22,8 +22,10 @@ import c5 from '../../../assets/card5.jpeg'
 import c7 from '../../../assets/card7.jpeg'
 import c8 from '../../../assets/card8.jpeg'
 import c9 from '../../../assets/card9.webp'
+import { Link, useNavigate } from 'react-router-dom';
 
 const Culture = () =>{
+    const navigate = useNavigate();
     return(
         <div className='font'>
             <div className='WeImage relative'>
@@ -224,7 +226,7 @@ const Culture = () =>{
                 <div className='text-2xl py-[20px] font-bold primaryH'>JOIN OUR TEAM</div>
                 <div className='text-[16px] py-[20px] font-medium primaryP text-justify'>
                 When you join the Aesthetix team, you join a team of passionate, creative, top-notch AV industry professionals. You will enjoy a company culture where ideas are encouraged, creativity flourishes, hard work is valued, and results are rewarded. Furthermore, Aesthetix is fundamentally committed to the success and continued professional development of each of its employees. Aesthetix provides extensive and ongoing training such as manufacturer training and certification, as well as industry training. We are an equal opportunity employer and attract and retain qualified candidates through experience-and-knowledge-based selection.                </div>
-                <button className='bg-[#75016b] text-white md:px-[30px] md:py-[10px] px-4 py-2 rounded'>Find Your Opportunity</button>
+                <button className='bg-[#75016b] text-white md:px-[30px] md:py-[10px] px-4 py-2 rounded' onClick={() => navigate('/careers')} >Find Your Opportunity</button>
             </div>
         </div>
 

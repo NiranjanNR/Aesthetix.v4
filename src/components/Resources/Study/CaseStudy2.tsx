@@ -8,7 +8,7 @@ const CaseStudy1 = () =>{
 
                 <div style={{display: 'flex', zIndex: '100', justifyContent: 'center', flexDirection: 'column', height: '100%', paddingLeft: '50px'}}>
                     <div className="heading1">CASE STUDY</div>
-                    <div className='heading2'>The Youth Hub - Federal Youth Authority</div>
+                    <div className='heading2'>GEMS Education</div>
                 </div>
 
                 <div className='over-lay'></div>
@@ -16,8 +16,7 @@ const CaseStudy1 = () =>{
 
             <div className='h-[30vh] flex justify-center items-center mx-[50px]'>
                 <div className='italic text-lg justify-center flex align-middle text-justify' style={{color: '#6d2950'}}>
-                The Youth x Hub, initiated by the Federal Youth Authority, serves as a dynamic space for youth aged 15-35 across all Emirates of the UAE. This platform connects youth, fostering collaboration and the exchange of ideas, while supporting students, employees, and entrepreneurs in launching their initiatives. Aesthetix was selected by the PMO to design and implement a comprehensive audio-visual (AV) solution for Youth Hub facilities in Dubai, Abu Dhabi, Umm Al Quwain, Ajman, and Ras Al Khaimah.
-                </div>
+                GEMS Education is a global advisory and educational management firm, operating one of the largest networks of K-12 schools worldwide, with over 70 campuses across multiple countries. Aesthetix was awarded the project to design, supply, and install Smart Classroom solutions across GEMS campuses over a two-year period, spanning over 50 campuses.                </div>
             </div>
 
             <div>
@@ -38,14 +37,15 @@ const CaseStudy1 = () =>{
 
                         <div style={{fontSize: '18px', color: '#444444', margin: '10px'}}>
                         <ul className='marker:text-green list-outside list-disc'>
-                            <li>Meeting rooms with room booking systems</li>
-                            <li>Interactive video walls with video conferencing (Dubai and Abu Dhabi)</li>
-                            <li>Edge-blended projection system (Dubai Hub)</li>
-                            <li>Portable displays for flexible usage</li>
-                            <li>Interactive displays in Innovation Labs</li>
-                            <li>Sound reinforcement and BGM solution</li>
-                            <li>Displays with wireless presentation capabilities</li>
-                            <li>Structured cabling, IT & security systems</li>
+                            <li>Installation of 75” Interactive displays with proprietary bidirectional wireless mirroring software</li>
+                            <li>BYOD mirroring software for collaborative, controlled content sharing</li>
+                            <li>eLearning and Blended Learning support with integrated Android and Windows modules</li>
+                            <li>Interactive and collaborative classroom software</li>
+                            <li>Telepresence system in selected classrooms with PTZ camera integration</li>
+                            <li>Mobile Device Management (MDM) for remote display management</li>
+                            <li>Digital Signage application for campus-wide announcements</li>
+                            <li>Acoustic treatments for optimized sound quality</li>
+                            <li>Custom stainless steel wall panels with HDMI & USB connectivity options</li>
                         </ul>
                         </div>
                     </div>
@@ -65,7 +65,7 @@ const CaseStudy1 = () =>{
             <div className='h-[20vh] flex justify-center mx-[50px] flex-col'>
                 <div className=' justify-start font-semibold' style={{fontSize: '19px',color: '#6d2950'}}>CHALLENGE</div>
                 <div style={{fontSize: '18px', color: '#444444', padding: '10px 0px'}}>
-                The Youth Hub required an advanced AV setup tailored to its diverse spaces, each designed for unique, interactive experiences. The AV system needed to include meeting rooms, interactive digital setups, and effective video conferencing solutions, all integrated across multiple facilities. The goal was to enable high-quality, flexible AV capabilities that could foster collaboration and support a variety of youth-focused activities.
+                To implement and coordinate the installation of over 5000 Smart Classrooms across 52 GEMS campuses in the UAE and Qatar, while adhering to a tight timeline and ensuring consistency and quality across the extensive deployment.
                 </div>
             </div>
 
@@ -73,38 +73,39 @@ const CaseStudy1 = () =>{
                 <div className=' justify-start font-semibold' style={{fontSize: '19px',color: '#6d2950'}}>SOLUTIONS</div>
 
                 <div style={{fontSize: '18px', color: '#444444', padding: '10px 0px'}}>
-                1.Meeting Rooms with Room Booking Systems
-                    Each meeting room features an external room booking system, allowing users to easily manage bookings and schedules. This streamlines space management, ensuring that the meeting rooms are efficiently utilized.
-                
+                1.75” Interactive Displays with Wireless Mirroring
+                Each Smart Classroom is equipped with 75” interactive displays featuring proprietary bidirectional wireless mirroring software. This solution supports Bring Your Own Device (BYOD) functionality, allowing teachers to control what is shared and enabling up to four devices to be displayed simultaneously, fostering a highly interactive environment.
                 <br /><br />
-                2.Interactive Video Walls with Video Conferencing
-                    Dubai Hub – The Yard: An interactive video wall was installed, integrated with Webex video conferencing, enabling participants to hold live, interactive sessions with remote participants worldwide, fostering collaboration and engagement.
-                    Abu Dhabi Hub: A 5x3 interactive video wall and a 3x3 standard video wall were installed to enhance the visual experience, providing flexible options for presentations, training sessions, and dynamic digital displays.
+                2.BYOD Mirroring Software
+The mirroring software allows teachers to share multiple device screens simultaneously, increasing engagement and collaboration within sessions. This feature enhances lesson flexibility and allows for dynamic content sharing from student devices.
+        <br /><br />
+                    3.eLearning and Blended Learning Support
+With Android and Windows modules integrated into the displays, the Smart Classroom setup facilitates eLearning and blended learning options, enabling teachers to access educational apps and online resources directly through the display.
+                <br /><br />
+                4.Interactive and Collaborative Software
+Classrooms are equipped with intuitive educational software that promotes engagement through interactivity, making each session more immersive and participatory for students.
+                <br /><br />
+                5.Telepresence System in Select Classrooms
+In selected classrooms, telepresence systems were implemented by integrating PTZ cameras. This allows for live remote sessions and enhanced interaction, especially beneficial for distance learning.
                     <br /><br />
-                3.Edge-Blended Projection System
-                    Dubai Hub – The Platform: A large, curved wall painted with special projection paint was designed to display a seamless image using three Epson projectors in an edge-blended mode. This setup creates an immersive, continuous visual surface ideal for impactful presentations and events.
+                    6.Mobile Device Management (MDM)
+                    MDM software integrated into the displays enables IT staff to manage and monitor devices remotely. This centralized control supports quick troubleshooting, updates, and display management across the network.
                     <br /><br />
-                4.Portable Displays for Flexible Usage
-                    Portable 75” Samsung curved OLED displays and dual-sided LG flat OLED displays were introduced to facilitate quick presentations, signage, and announcements. Their mobility allows staff to position them wherever needed, offering a versatile display solution.
-                    <br /><br />
-                5.Interactive Displays in Innovation Labs
-                    Innovation Labs were equipped with interactive displays, providing an engaging space for hands-on learning, brainstorming, and group projects. This solution supports collaboration and helps foster creativity among users.
-                    <br /><br />
-                6.Sound Reinforcement and Background Music (BGM)
-                    Bose speakers and audio DSP systems were implemented across the spaces, delivering clear sound for presentations and events. The BGM solution enhances the overall ambiance, creating an inviting environment for visitors.
-                    <br /><br />
-                7.Displays with Wireless Presentation Capabilities
-                    Meeting rooms in The HQ areas were equipped with displays on swivel mounts and wireless presentation devices. This setup supports quick, ad-hoc presentations, allowing participants to seamlessly share content in a flexible and efficient manner.
-                    <br /><br />
-                8.Structured Cabling, IT & Security Systems
-                    Aesthetix provided all structured cabling, IT infrastructure, and security systems across each Youth Hub facility, ensuring a reliable and secure network for AV solutions. This backbone supports connectivity and robust digital communication throughout the hubs.
+                    7.Digital Signage Application
+Digital signage was implemented across classrooms and common areas, enabling centralized announcements and information display for the entire campus.
+                <br /><br />
+                8.Acoustic Treatments
+To ensure sound quality in each classroom, certified consultants acoustically treated the spaces, optimizing audio delivery and reducing background noise for a clearer learning experience.
+                <br /><br />
+                9.Custom Wall Panels for HDMI & USB Connectivity
+Custom stainless steel wall panels were installed near teacher tables to provide reliable wired HDMI and USB connectivity, serving as a backup for content display when necessary.
                 </div>
             </div>
             
             <div  className='h-[100%] flex justify-center mx-[50px] flex-col'>
                 <div className=' justify-start font-semibold' style={{fontSize: '19px',color: '#6d2950'}}>Results</div>
                 <div style={{fontSize: '18px', color: '#444444', padding: '10px 0px'}}>
-                The Youth Hub facilities across the UAE now feature an advanced AV infrastructure that supports dynamic, collaborative environments. These installations have elevated the capabilities of each Hub, enabling interactive learning, flexible meeting spaces, and real-time remote communication. The flagship Dubai Youth Hub stands as a testament to the transformative power of AV technology in creating engaging spaces for youth innovation and networking. With work underway in Ajman and Ras Al Khaimah, Aesthetix’s contributions continue to enhance the Youth Hub experience across the Emirates.
+                Over 5000 Smart Classrooms were successfully deployed across GEMS campuses in the UAE and Qatar, adhering to the stringent project timeline. The AV solutions have transformed the learning experience, making it more interactive, flexible, and collaborative. Teachers now have complete control over content sharing, and IT personnel can manage devices remotely, ensuring smooth and efficient operations. The installation has greatly enhanced GEMS Education’s digital learning infrastructure, supporting modern educational needs and fostering a more engaging classroom environment.
                 </div>
             </div>
 

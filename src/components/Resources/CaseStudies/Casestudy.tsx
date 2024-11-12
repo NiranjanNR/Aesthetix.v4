@@ -3,11 +3,12 @@ import Footers from '../../Footer/Footers';
 import DubaiAirports from '../../../assets/DubaiAirports.jpeg';
 import GemsEdu from '../../../assets/GemsEdu.jpeg'
 import smartDubai from '../../../assets/smartDubai.jpeg'
-
+import { Link, useNavigate } from 'react-router-dom';
 
 
 
 const Casestudy = () => {
+  const navigate = useNavigate();
   return (
     <div>
       {/* Location Cover Section */}
@@ -27,17 +28,17 @@ const Casestudy = () => {
         </div>
 
         <div className="project-gallery">
-                <div className="LocationCard">
+                <div className="LocationCard" onClick={() => navigate('/case-studies/youth-hub')} style={{cursor: 'pointer'}}>
                     <img src={DubaiAirports} className="LocationCardImage"/>
-                    <div className="overlay">Dubai Airport</div>
+                    <div className="overlay">The Youth Hub</div>
                 </div>
 
-                <div className="LocationCard">
+                <div className="LocationCard" onClick={() => navigate('/case-studies/gems-edu')} style={{cursor: 'pointer'}}>
                     <img src={GemsEdu} className="LocationCardImage"/>
                     <div className="overlay">Gems Education</div>
                 </div>
 
-                <div className="LocationCard">
+                <div className="LocationCard" onClick={() => navigate('/case-studies/smart-dubai')} style={{cursor: 'pointer'}}>
                     <img src={smartDubai} className="LocationCardImage"/>
                     <div className="overlay">Smart Dubai</div>
                 </div>
