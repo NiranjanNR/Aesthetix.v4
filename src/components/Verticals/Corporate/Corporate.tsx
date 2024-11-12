@@ -9,7 +9,7 @@ const Corporate = () => {
   return (
       <div>
           {/* Landing */}
-          <LandingTemplate header="CORPORATE AV SOLUTIONS" description="Empowering innovation and productivity with collaborative audiovisual technology." buttontext="GET STARTED NOW" imagepath="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"/>
+          <LandingTemplate header="CORPORATE SECTORS" description="Empowering innovation and productivity with collaborative audiovisual technology." buttontext="GET STARTED NOW" imagepath="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"/>
       <div>
         <HeaderDescription header='Audiovisual Integration for Business Transformation' description="Accelerate your business by building spaces for innovation, strategy, and collaboration. We strive to provide everyone who walks through your door with a seamless, unforgettable audiovisual experience. By building scalable, standardized, and serviceable solutions, Aesthetix can help your business be more competitive, improve your operations, and deliver amazing results to your staff and customers. Working closely with corporate clients, from medium-sized businesses to Fortune 500 companies, Aesthetix understands the challenges and solutions needed to deliver amazing results for our corporate clients in today’s hybrid work environment." />
       </div>

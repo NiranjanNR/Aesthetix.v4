@@ -4,7 +4,7 @@ import Footers from '../../Footer/Footers';
 const CaseStudy1 = () =>{
     return(
         <div style={{fontFamily: 'Open Sans'}}>
-            <div className="header-study">
+            <div className="header-study2">
 
                 <div style={{display: 'flex', zIndex: '100', justifyContent: 'center', flexDirection: 'column', height: '100%', paddingLeft: '50px'}}>
                     <div className="heading1">CASE STUDY</div>

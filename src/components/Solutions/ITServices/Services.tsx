@@ -3,12 +3,10 @@ import { Tabs } from 'flowbite-react';
 import ContentTemplate from '../../ContentTemplate/ContentTemplate';
 import HeaderDescription from '../../ContentTemplate/HeaderDescription';
 import VerticalBox from '../../ContentTemplate/VerticalBox';
-import HoW from '../../../assets/HoW.jpg'
-import Audit from '../../../assets/audi-govt.webp'
-import collab from '../../../assets/collab-room.jpg'
-import edu from '../../../assets/edu.jpg'
 import LandingTemplate from '../../ContentTemplate/LandingTemplate';
 import Footers from '../../Footer/Footers';
+import cyber from '../../../assets/cyber.jpeg';
+import monitor from '../../../assets/monitor.jpeg';
 
 const Services = () =>{
     return(
@@ -25,7 +23,7 @@ const Services = () =>{
             <div className="overflow-x-auto w-[80vw] border-2 p-5 rounded-xl">
                 
     <Tabs aria-label="Full width tabs" variant="fullWidth">
-          <Tabs.Item active title=" Network Infrastructure & Connectivity">
+          <Tabs.Item active title="CONNECTIVITY">
             <div className='flex justify-center'>
               <div className='w-[50vw]'>
                     <div className='text-center'>
@@ -35,7 +33,7 @@ const Services = () =>{
                </div>
             </div>
       </Tabs.Item>
-      <Tabs.Item active title=" Cloud Services & Storage">
+      <Tabs.Item active title=" CLOUD SERVICES">
             <div className='flex justify-center'>
               <div className='w-[50vw]'>
                     <div className='text-center'>
@@ -45,7 +43,7 @@ const Services = () =>{
                </div>
             </div>
       </Tabs.Item>
-      <Tabs.Item active title="Unified Communications & Collaboration">
+      <Tabs.Item active title="UC">
             <div className='flex justify-center'>
               <div className='w-[50vw]'>
                     <div className='text-center'>
@@ -55,7 +53,7 @@ const Services = () =>{
                </div>
             </div>
       </Tabs.Item>
-      <Tabs.Item active title="Digital Signage & Content Management">
+      <Tabs.Item active title="DIGITAL SIGNAGE">
             <div className='flex justify-center'>
               <div className='w-[50vw]'>
                     <div className='text-center'>
@@ -65,7 +63,7 @@ const Services = () =>{
                </div>
             </div>
       </Tabs.Item>
-      <Tabs.Item active title="Audio-Visual Control Systems">
+      <Tabs.Item active title="AV CONTROL SYSTEMS">
             <div className='flex justify-center'>
               <div className='w-[50vw]'>
                     <div className='text-center'>
@@ -75,7 +73,7 @@ const Services = () =>{
                </div>
             </div>
       </Tabs.Item>
-      <Tabs.Item active title="Cybersecurity & Data Protection">
+      <Tabs.Item active title="CYBERSECURITY">
             <div className='flex justify-center'>
               <div className='w-[50vw]'>
                     <div className='text-center'>
@@ -85,7 +83,7 @@ const Services = () =>{
                </div>
             </div>
       </Tabs.Item>
-      <Tabs.Item active title="Monitoring & Remote Management">
+      <Tabs.Item active title="MONITORING">
             <div className='flex justify-center'>
               <div className='w-[50vw]'>
                     <div className='text-center'>
@@ -95,7 +93,7 @@ const Services = () =>{
                </div>
             </div>
       </Tabs.Item>
-      <Tabs.Item active title="IT Support & Managed Services">
+      <Tabs.Item active title="IT SUPPORT">
             <div className='flex justify-center'>
               <div className='w-[50vw]'>
                     <div className='text-center'>
@@ -112,10 +110,10 @@ const Services = () =>{
 
     <div className='grid grid-cols-2 gap-x-28 mx-[100px]'>
       <div className='bg-[#7a7a7a15]'>
-        <VerticalBox header='Cybersecurity & Data Protection' description='Secures AV networks and data with encryption, firewalls, and compliance protocols, protecting against cyber threats.' imagepath='https://www.avidex.com/hubfs/Website%20Optimized/Corporate/Room%20Occupancy%20%20and%20Scheduling/1200x630/Install_2017_SSW-MUMK_002A_v1.jpg'/>
+                            <VerticalBox header='Cybersecurity & Data Protection' description='Secures AV networks and data with encryption, firewalls, and compliance protocols, protecting against cyber threats.' imagepath={cyber} />
       </div>
       <div className='bg-[#9864a21d] '>
-        <VerticalBox header="Monitoring & Remote Management" description="Provides continuous monitoring and proactive maintenance, optimizing AV system performance through real-time analytics." imagepath='https://www.avidex.com/hubfs/Website%20Optimized/Corporate/Room%20Occupancy%20%20and%20Scheduling/1200x630/room-scheduling-technology.jpg'/>
+        <VerticalBox header="Monitoring & Remote Management" description="Provides continuous monitoring and proactive maintenance, optimizing AV system performance through real-time analytics." imagepath={monitor}/>
       </div>
     </div>
         
@@ -126,41 +124,7 @@ const Services = () =>{
     <div>
     <div className='locationInfo py-[50px]'>
 
-    <div >
-        <div className='text-2xl text-center font-bold text-[#B947BD]'>SOLUTIONS BY MARKET</div>
-        <div className='text-[#5b255d] text-[18px] font-bold '>Explore Our Audiovisual Solutions by Market</div>
-    </div>   
     
-    <div className='itcards'>
-    <div className='LocationCard'>
-            <img src={collab} className='LocationCardImage'/>
-            <div className='LocationCardText'>
-                <div className='text-[18px] font-bold py-5'>Cooporate/Enterprise</div>
-            </div>
-        </div>
-
-        <div className='LocationCard'>
-            <img src={edu} className='LocationCardImage'/>
-            <div className='LocationCardText'>
-                <div className='text-[18px] font-bold py-5'>K12-Higher Education</div>
-            </div>
-        </div>
-
-        <div className='LocationCard'>
-            <img src={Audit} className='LocationCardImage'/>
-            <div className='LocationCardText'>
-                <div className='text-[18px] font-bold py-5'>Government/Public Sector</div>
-            </div>
-        </div> 
-
-        <div className='LocationCard'>
-            
-            <img src={HoW} className='LocationCardImage'/>
-            <div className='LocationCardText'>
-                <div className='text-[18px] font-bold py-5'>House of Worship</div>
-            </div>
-        </div> 
-    </div>
         <Footers />
     </div>
 

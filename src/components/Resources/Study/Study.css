@@ -1,15 +1,33 @@
 
-.header-study {
+.header-study1{
     position: relative; /* Added to allow .over-lay to position absolutely within */
-    background-image: url('https://www.avidex.com/hubfs/Website%20Optimized/Healthcare/1920%20X%20550/CaseStudyHeader-1920x550.jpg');
+    background-image: url('../../../assets/yhub.jpg');
     height: 380px;
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
 }
 
+.header-study2{
+    position: relative; /* Added to allow .over-lay to position absolutely within */
+    background-image: url('../../../assets/gschool.jpg');
+    height: 380px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.header-study3{
+    position: relative; /* Added to allow .over-lay to position absolutely within */
+    background-image: url('../../../assets/sdubai.jpg');
+    height: 380px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+
 .over-lay {
-    background: linear-gradient(to right, rgba(255, 255, 255, 0.60) 0%, rgba(255, 255, 255, 0.0) 100%);
     position: absolute;
     top: 0;
     left: 0;
@@ -35,7 +53,7 @@
 }
 
 .heading2{
-    color: #555a5b;
-    font-size: 16px;
+    color: #5a5358;
+    font-size: 17px;
     font-weight: 700;
 }

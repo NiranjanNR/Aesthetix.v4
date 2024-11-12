@@ -3,10 +3,6 @@ import { Tabs } from 'flowbite-react';
 import ContentTemplate from '../../ContentTemplate/ContentTemplate';
 import HeaderDescription from '../../ContentTemplate/HeaderDescription';
 import VerticalBox from '../../ContentTemplate/VerticalBox';
-import HoW from '../../../assets/HoW.jpg'
-import Audit from '../../../assets/audi-govt.webp'
-import collab from '../../../assets/collab-room.jpg'
-import edu from '../../../assets/edu.jpg'
 import LandingTemplate from '../../ContentTemplate/LandingTemplate';
 import Footers from '../../Footer/Footers';
 
@@ -86,41 +82,7 @@ const Elv = () =>{
     <div>
     <div className='locationInfo py-[50px]'>
 
-    <div >
-        <div className='text-2xl text-center font-bold text-[#B947BD]'>SOLUTIONS BY MARKET</div>
-        <div className='text-[#5b255d] text-[18px] font-bold '>Explore Our Audiovisual Solutions by Market</div>
-    </div>   
     
-    <div className='Elvcards'>
-    <div className='LocationCard'>
-            <img src={collab} className='LocationCardImage'/>
-            <div className='LocationCardText'>
-                <div className='text-[18px] font-bold py-5'>Cooporate/Enterprise</div>
-            </div>
-        </div>
-
-        <div className='LocationCard'>
-            <img src={edu} className='LocationCardImage'/>
-            <div className='LocationCardText'>
-                <div className='text-[18px] font-bold py-5'>K12-Higher Education</div>
-            </div>
-        </div>
-
-        <div className='LocationCard'>
-            <img src={Audit} className='LocationCardImage'/>
-            <div className='LocationCardText'>
-                <div className='text-[18px] font-bold py-5'>Government/Public Sector</div>
-            </div>
-        </div> 
-
-        <div className='LocationCard'>
-            
-            <img src={HoW} className='LocationCardImage'/>
-            <div className='LocationCardText'>
-                <div className='text-[18px] font-bold py-5'>House of Worship</div>
-            </div>
-        </div> 
-    </div>
         <Footers />
     </div>
 

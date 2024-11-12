@@ -8,15 +8,12 @@ const Hospitality = () => {
   return (
       <div>
           {/* Landing */}
-          <LandingTemplate header="AUDIOVISUAL TECHNOLOGY FOR HOSPITALITY AND ENTERTAINMENT" description="Aesthetix delivers innovative and collaborative solutions specifically designed for the healthcare industry to improve the patient, staff, and visitor experience." buttontext="GET STARTED NOW" imagepath={VerticalsHosp}/>
+          <LandingTemplate header="HOSPITALITY AND ENTERTAINMENT SECTOR" description="Aesthetix delivers innovative and collaborative solutions specifically designed for the healthcare industry to improve the patient, staff, and visitor experience." buttontext="GET STARTED NOW" imagepath={VerticalsHosp}/>
         <div >
           <div className='flex justify-center mb-8'>
                 <div className='w-[80vw]'>
                 <div className={`md:text-2xl md:font-bold text-xl font-semibold text-center mb-5 text-[#a142a5]`}>
                 AV Integration for Better Hospitality and Entertainment
-                </div>
-                <div className={`md:text-1xl md:font-bold text-xl font-semibold text-center  text-[#5b255d]`}>
-                Inside and Outside the Patient Room
                 </div>
                 <div className='text-lg mt-6 text-[#424141] text-center mb-8 '>
                 At Aesthetix Technologies, we specialize in delivering cutting-edge audio-visual and integrated solutions tailored for the hospitality and entertainment sectors. Our expertise encompasses designing immersive experiences for hotels, resorts, restaurants, and entertainment venues, enhancing guest engagement and satisfaction. We provide innovative technologies that streamline operations, elevate ambiance, and create memorable experiences, ensuring that every space reflects the unique vision of our clients. Partner with us to transform your hospitality and entertainment offerings into extraordinary experiences.             

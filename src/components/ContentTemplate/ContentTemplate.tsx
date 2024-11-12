@@ -18,7 +18,7 @@ const ContentTemplate = (props: {
                           <div className="text-2xl font-bold text-[#5b255d] mb-7">
                   {props.heading}
               </div>
-              <div className="md:w-[36vw] text-[#424141] text-[18px]" >
+              <div className="md:w-[36vw] text-[#424141] text-[16.5px]" >
                   {props.description}
               </div>
               </div>
@@ -33,7 +33,7 @@ const ContentTemplate = (props: {
                           <div className="text-2xl font-bold text-[#5b255d] mb-7">
                   {props.heading}
               </div>
-              <div className="md:w-[36vw] text-[#424141] text-[18px]">
+              <div className="md:w-[36vw] text-[#424141] text-[16.5px]">
                   {props.description}
               </div>
               </div>

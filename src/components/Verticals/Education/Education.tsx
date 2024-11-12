@@ -12,7 +12,7 @@ const Education = () => {
   return (
       <div>
           {/* Landing */}
-          <LandingTemplate header="AUDIOVISUAL SOLUTIONS FOR EDUCATION" description="At every level of learning, Aesthetix provides audiovisual and technology integration services to help our education clients reach their instructional goals." buttontext="GET STARTED NOW" imagepath={VerticalEdu}/>
+          <LandingTemplate header="EDUCATION SECTOR" description="At every level of learning, Aesthetix provides audiovisual and technology integration services to help our education clients reach their instructional goals." buttontext="GET STARTED NOW" imagepath={VerticalEdu}/>
       <div>
         <HeaderDescription className='text-[#5b255d]' header='TECHNOLOGY FOR ENHANCED LEARNING OUTCOMES' description='Embracing and integrating technology into the classroom and campus creates a more engaging campus environment and helps make learning fun. Technology enhances the learning experience, helps to keep our campuses safe, and encourages collaboration to support the way today’s students want to learn. From immersive and hybrid learning classrooms to digital signage and security solutions, Aesthetix provides audiovisual technology integration services to help you create an engaging and effective educational experience.' />
       </div>
@@ -29,25 +29,25 @@ const Education = () => {
                         <div className="flex h-full items-center justify-center bg-gray-400/50 dark:bg-gray-700 dark:text-white">
                           <div>
                             <img className='h-[40vh] rounded-lg' src="https://images.pexels.com/photos/15467758/pexels-photo-15467758/free-photo-of-close-up-of-woman-scanning-a-qr-code-from-a-tv-screen-with-her-smartphone.jpeg?auto=compress&cs=tinysrgb&w=800" />
-                            <p className='mt-10 font-semibold'>Digital Signage</p>
+                            <p className='mt-10 '>Digital Signage</p>
                           </div>
                         </div>
                         <div className="flex h-full items-center justify-center bg-gray-400/50 dark:bg-gray-700 dark:text-white">
                           <div>
                             <img className='h-[40vh] rounded-lg' src="https://images.pexels.com/photos/8199135/pexels-photo-8199135.jpeg?auto=compress&cs=tinysrgb&w=800" />
-                            <p className='mt-10 font-semibold'>Interactive smart classrooms</p>
+                            <p className='mt-10 '>Interactive smart classrooms</p>
                           </div>
                         </div>
                         <div className="flex h-full items-center justify-center bg-gray-400/50 dark:bg-gray-700 dark:text-white">
                           <div>
                             <img className='h-[40vh] rounded-lg' src="https://images.pexels.com/photos/14501973/pexels-photo-14501973.jpeg?auto=compress&cs=tinysrgb&w=800" />
-                            <p className='mt-10 font-semibold'>Auditoriums</p>
+                            <p className='mt-10 '>Auditoriums</p>
                           </div>
                         </div>
                         <div className="flex h-full items-center justify-center bg-gray-400/50 dark:bg-gray-700 dark:text-white">
                           <div>
                             <img className='h-[40vh] rounded-lg' src="https://images.pexels.com/photos/7972710/pexels-photo-7972710.jpeg?auto=compress&cs=tinysrgb&w=800" />
-                            <p className='mt-10 font-semibold'>Education Technology</p>
+                            <p className='mt-10 '>Education Technology</p>
                           </div>
                         </div>
                       </Carousel>

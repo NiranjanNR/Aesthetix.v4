@@ -4,6 +4,7 @@ import HeaderDescription from '../../ContentTemplate/HeaderDescription';
 import LandingTemplate from '../../ContentTemplate/LandingTemplate';
 import Blogs from '../../ContentTemplate/Blogs';
 import Footers from '../../Footer/Footers';
+import kiosk from '../../../assets/kiosk.jpeg';
 
 const Retail = () => {
   return (
@@ -59,7 +60,7 @@ const Retail = () => {
       </div>
       <Blogs page='Retail'/>
       <div>
-        <ContentTemplate direction='left' heading='Interactive Kiosks' description='Interactive kiosks are touchscreen displays that allow customers to access product information, browse catalogs, or place orders. They enhance customer engagement and provide a self-service option, making it easier for shoppers to find what they need without relying solely on staff.' imagepath='https://www.avidex.com/hubfs/Website%20Optimized/Government/1200x900/Rally%20LS%20Large%20Conference%20Room%20Single%20Speaker%20BTY%203-1.jpg' />
+        <ContentTemplate direction='left' heading='Interactive Kiosks' description='Interactive kiosks are touchscreen displays that allow customers to access product information, browse catalogs, or place orders. They enhance customer engagement and provide a self-service option, making it easier for shoppers to find what they need without relying solely on staff.' imagepath={kiosk} />
       </div>
       <Footers />
     </div>
