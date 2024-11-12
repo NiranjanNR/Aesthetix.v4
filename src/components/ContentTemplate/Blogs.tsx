@@ -12,25 +12,7 @@ const Blogs = (props: {
               <div className='text-3xl flex justify-center m-10 text-white font-semibold'>
                   Recent {props.page} Projects
               </div>
-              <div className='grid grid-cols-1 md:grid-cols-3 gap-6 mb-5'>
-                <div className="card shadow">
-                  <img  src="https://images.pexels.com/photos/2774556/pexels-photo-2774556.jpeg?auto=compress&cs=tinysrgb&w=800" style={{height: '280px', width:'100%'}} />
-                  <div className='m-4'>
-                    As campus security teams update their preparedness plans and crisis response, many are turning to...
-                  </div>
-                </div>
-                <div className="card shadow">
-                  <img  src="https://images.pexels.com/photos/242492/pexels-photo-242492.jpeg?auto=compress&cs=tinysrgb&w=800" style={{height: '280px', width:'100%'}}/>
-                  <div className='m-4'>
-                    Just because something can be DIY’ed doesn’t mean it should be, and that can be especially true...
-                  </div>
-                </div>
-                <div className="card shadow">
-                  <img  src="https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&w=800" style={{height: '280px', width:'100%'}}/>
-                  <div className='m-4'>
-                    In an exclusive, in-depth interview, Aesthetix spoke with Commercial Integrator on Aesthetix's recent...
-                  </div>
-                </div>
+              <div className='grid grid-cols-1 md:grid-cols-3 gap-6 mb-8'>
                 <div className="card shadow">
                   <img  src={govt4} style={{height: '280px', width:'100%'}}/>
                   <div className='m-4'>

@@ -144,7 +144,7 @@ const Services = () =>{
     </div>
 
     </div>
-    <ContactTemplate backgroundColor='#9864a21d'/>
+    <ContactTemplate />
 
   </div>
     )}
