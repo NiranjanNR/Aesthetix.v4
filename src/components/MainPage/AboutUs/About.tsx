@@ -1,8 +1,23 @@
 import { motion } from 'framer-motion';
 import './About.css';
 import ReactPlayer from 'react-player';
+import { useNavigate } from 'react-router-dom';
+import Partners from '../Partner/Partners'
+import Footers from '../../Footer/Footers'
+import { useRef } from 'react';
 
 const About = () => {
+  const navigate = useNavigate();
+
+  const footerRef = useRef<HTMLDivElement>(null);
+
+  // Scroll to footer when button is clicked
+  const scrollToFooter = () => {
+      if (footerRef.current) { // Null check
+          footerRef.current.scrollIntoView({ behavior: 'smooth' });
+      }
+  };
+
   return (
     <div className='flex justify-center equal-padding flex-col'>
       <motion.div
@@ -18,9 +33,10 @@ const About = () => {
             About Us
           </div>
           <div className='AboutText'>
-            Aesthetix is America’s leading audiovisual solutions integrator. With over 50 years of experience, we are the complete technology provider for the nation’s top enterprise brands for design, installation, and service of professional sound systems, AV systems, video conferencing systems, networks, and security surveillance systems.
-          </div>
-          <button type="submit" className="learn-btn">Learn More</button>
+          Aesthetix Technologies specializes in audio-visual automation and integrated solutions, transforming spaces for over 20 years. Our team blends cutting-edge technology with innovative design to create smart classrooms, modern meeting rooms, and dynamic commercial spaces.
+          <br /> <br />
+          We are committed to delivering exceptional experiences and sustainable solutions that bring your vision to life. Join us in shaping the future!          </div>
+          <button type="submit" className="learn-btn" onClick={() => navigate('/about')}>Learn More</button>
         </motion.div>
 
         <motion.div
@@ -55,7 +71,7 @@ const About = () => {
             <div className='confPara'>
               Today’s modern workplace runs on Microsoft Teams, Zoom, Cisco Webex, and Google Meet. Join online meetings from the conference room with one touch! Aesthetix is a trusted partner of leading software and hardware solutions for the meeting room.
             </div>
-            <button type="submit" className="talk-btn">Talk To An Expert</button>
+            <button type="submit" className="talk-btn" onClick={scrollToFooter}>Talk To An Expert</button>
           </div>
         </div>
       </motion.div>
@@ -117,6 +133,11 @@ const About = () => {
           </div>
         </motion.div>
       </motion.div>
+
+      <Partners />
+      <div ref={footerRef}>
+                <Footers />
+            </div>
     </div>
   );
 }

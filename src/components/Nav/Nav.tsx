@@ -35,9 +35,9 @@ const Nav = () => {
           <Dropdown.Item onClick={() => navigate('/location')}>
             Location
           </Dropdown.Item>
-          <Dropdown.Item onClick={() => navigate('/support')}>
+          {/* <Dropdown.Item onClick={() => navigate('/support')}>
             Support
-          </Dropdown.Item>
+          </Dropdown.Item> */}
         </Dropdown>
               <Dropdown size="lg"
           arrowIcon={true}

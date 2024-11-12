@@ -2,18 +2,13 @@ import './Support.css';
 
 const Support = () => {
 
-    //sheet_id = 
-
     return (
         <div className='flex justify-center items-center flex-col'>
             {/* Contact Section */}
             <div className='w-full lg:w-100vw flex justify-center items-center flex-col'>
-                <div className='contactFirst text-center'>
+                <div className='contactFirst text-center flex flex-col'>
                     <div className='contactText'>
-                        <div className='text-xl sm:text-2xl font-semibold py-2'>CONTACT</div>
-                        <div className='text-2xl sm:text-4xl font-bold py-2'>SUBMIT A SERVICE TICKET</div>
-                        <div className='text-lg sm:text-xl font-semibold'>avsupport@aesthetix.com</div>
-                        <div className='text-2xl font-bold'>542.438.110</div>
+                        <div className='text-4xl font-bold py-2'>CONTACT US</div>
                     </div>
                 </div>
 
@@ -100,5 +95,6 @@ const Support = () => {
         </div>
     );
 }
+
 
 export default Support;

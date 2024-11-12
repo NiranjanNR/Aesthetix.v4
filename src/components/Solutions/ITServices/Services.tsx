@@ -3,12 +3,12 @@ import { Tabs } from 'flowbite-react';
 import ContentTemplate from '../../ContentTemplate/ContentTemplate';
 import HeaderDescription from '../../ContentTemplate/HeaderDescription';
 import VerticalBox from '../../ContentTemplate/VerticalBox';
-import PurpleGraphics from '../../../assets/PurpleGraphics.jpg'
 import HoW from '../../../assets/HoW.jpg'
 import Audit from '../../../assets/audi-govt.webp'
 import collab from '../../../assets/collab-room.jpg'
 import edu from '../../../assets/edu.jpg'
 import LandingTemplate from '../../ContentTemplate/LandingTemplate';
+import Footers from '../../Footer/Footers';
 
 const Services = () =>{
     return(
@@ -25,72 +25,102 @@ const Services = () =>{
             <div className="overflow-x-auto w-[80vw] border-2 p-5 rounded-xl">
                 
     <Tabs aria-label="Full width tabs" variant="fullWidth">
-          <Tabs.Item active title="CLASSROOMS">
+          <Tabs.Item active title=" Network Infrastructure & Connectivity">
             <div className='flex justify-center'>
               <div className='w-[50vw]'>
-                <div className='text-center'>
-                Classroom audio solutions meet today's challenges of hyflex teaching for both educators and students. Voice reinforcement solutions overcome vocal strain to deliver a clear and constant audio experience throughout the classroom to help keep students focused and on task.
+                    <div className='text-center'>
+                      Establishes the foundation for AV solutions with robust cabling, managed Wi-Fi, and IoT integrations, enabling seamless connectivity and remote access.
                 </div>
-                <img className='h-[50vh] w-[50vw] mt-5' src="https://www.avidex.com/hs-fs/hubfs/Website%20Optimized/Corporate/1200x900/Gov-NOC-SOC-DisplaySolutions-1.jpg?width=1000&height=750&name=Gov-NOC-SOC-DisplaySolutions-1.jpg" />
+                <img className='h-[50vh] w-[50vw] mt-5' src="https://images.pexels.com/photos/27910975/pexels-photo-27910975/free-photo-of-schoolboys-walking-down-the-corridor-watched-by-a-group-of-schoolgirls-hiding-behind-the-classroom-door.jpeg?auto=compress&cs=tinysrgb&w=800" />
                </div>
             </div>
       </Tabs.Item>
-      <Tabs.Item active title="COLLABORATION">
+      <Tabs.Item active title=" Cloud Services & Storage">
             <div className='flex justify-center'>
               <div className='w-[50vw]'>
-                <div className='text-center'>
-                Without coherent audio, collaboration is impossible. The audio solutions found in our conference rooms ensure everyone has a seat at the table no matter where they're sitting. 
+                    <div className='text-center'>
+                      Offers cloud-based content management, storage, and streaming solutions, ensuring scalable access and flexibility for AV projects.
                 </div>
-                <img className='h-[50vh] w-[50vw] mt-5' src={PurpleGraphics} />
-               </div>
-            </div>
-          </Tabs.Item>
-          <Tabs.Item active title="MULTIFUNCTION/AUDITORIUM">
-            <div className='flex justify-center'>
-              <div className='w-[50vw]'>
-                <div className='text-center'>
-                A multifunction room creates value through versatility. Rooms equipped with comprehensive audio solutions allow for meeting the demands of any event, presentation, or function.  
-                </div>
-                <img className='h-[50vh] w-[50vw] mt-5' src={PurpleGraphics} />
-               </div>
-            </div>
-          </Tabs.Item>
-          <Tabs.Item active title="TRAINING FACILITIES">
-            <div className='flex justify-center'>
-              <div className='w-[50vw]'>
-                <div className='text-center'>
-                Today's training rooms are meant to be highly collaborative learning and presentation environments for hybrid audiences. Diverse audio systems and simplified controls ensure presenters can confidently share content for the optimal training and education experience.
-                </div>
-                <img className='h-[50vh] w-[50vw] mt-5' src={PurpleGraphics} />
-               </div>
-            </div>
-          </Tabs.Item>
-          <Tabs.Item active title="OUTDOOR SPACES">
-            <div className='flex justify-center'>
-              <div className='w-[50vw]'>
-                <div className='text-center'>
-                Our outdoor audio solutions are powerful enough to overcome natural ambiance, invasive noise sources, and fewer reflective surfaces while remaining unobtrusive in the presentation area.
-                </div>
-                <img className='h-[50vh] w-[50vw] mt-5' src={PurpleGraphics} />
+                <img className='h-[50vh] w-[50vw] mt-5' src="https://images.pexels.com/photos/8221580/pexels-photo-8221580.jpeg?auto=compress&cs=tinysrgb&w=800" />
                </div>
             </div>
       </Tabs.Item>
+      <Tabs.Item active title="Unified Communications & Collaboration">
+            <div className='flex justify-center'>
+              <div className='w-[50vw]'>
+                    <div className='text-center'>
+                      Enhances collaboration through video conferencing, interactive displays, and unified communications platforms, connecting teams in real-time.
+                </div>
+                <img className='h-[50vh] w-[50vw] mt-5' src="https://images.pexels.com/photos/8284731/pexels-photo-8284731.jpeg?auto=compress&cs=tinysrgb&w=800" />
+               </div>
+            </div>
+      </Tabs.Item>
+      <Tabs.Item active title="Digital Signage & Content Management">
+            <div className='flex justify-center'>
+              <div className='w-[50vw]'>
+                    <div className='text-center'>
+                      Supports dynamic digital signage and interactive kiosks, with remote content management systems for scheduling and monitoring.
+                </div>
+                <img className='h-[50vh] w-[50vw] mt-5' src="https://images.pexels.com/photos/579471/pexels-photo-579471.jpeg?auto=compress&cs=tinysrgb&w=800" />
+               </div>
+            </div>
+      </Tabs.Item>
+      <Tabs.Item active title="Audio-Visual Control Systems">
+            <div className='flex justify-center'>
+              <div className='w-[50vw]'>
+                    <div className='text-center'>
+                      Delivers centralized control over AV equipment, enabling automation, room booking, and custom interfaces for streamlined operation.
+                </div>
+                <img className='h-[50vh] w-[50vw] mt-5' src="https://images.pexels.com/photos/744318/pexels-photo-744318.jpeg?auto=compress&cs=tinysrgb&w=800" />
+               </div>
+            </div>
+      </Tabs.Item>
+      <Tabs.Item active title="Cybersecurity & Data Protection">
+            <div className='flex justify-center'>
+              <div className='w-[50vw]'>
+                    <div className='text-center'>
+                      Secures AV networks and data with encryption, firewalls, and compliance protocols, protecting against cyber threats.
+                </div>
+                <img className='h-[50vh] w-[50vw] mt-5' src="https://images.pexels.com/photos/1089438/pexels-photo-1089438.jpeg?auto=compress&cs=tinysrgb&w=800" />
+               </div>
+            </div>
+      </Tabs.Item>
+      <Tabs.Item active title="Monitoring & Remote Management">
+            <div className='flex justify-center'>
+              <div className='w-[50vw]'>
+                    <div className='text-center'>
+                      Provides continuous monitoring and proactive maintenance, optimizing AV system performance through real-time analytics.
+                </div>
+                <img className='h-[50vh] w-[50vw] mt-5' src="https://images.pexels.com/photos/430208/pexels-photo-430208.jpeg?auto=compress&cs=tinysrgb&w=800" />
+               </div>
+            </div>
+      </Tabs.Item>
+      <Tabs.Item active title="IT Support & Managed Services">
+            <div className='flex justify-center'>
+              <div className='w-[50vw]'>
+                    <div className='text-center'>
+                      Ensures reliable operation through dedicated help desk services, managed support, and regular software and hardware updates.
+                </div>
+                <img className='h-[50vh] w-[50vw] mt-5' src="https://images.pexels.com/photos/3949100/pexels-photo-3949100.jpeg?auto=compress&cs=tinysrgb&w=800" />
+               </div>
+            </div>
+      </Tabs.Item>
+      
     </Tabs>
   </div>
         </div>
 
     <div className='grid grid-cols-2 gap-x-28 mx-[100px]'>
       <div className='bg-[#7a7a7a15]'>
-        <VerticalBox header='SOUND MASKING' description='Hospitals and corporate offices can benefit from the acoustic privacy of sound masking for their visitors and staff. A sound masking solution installed by Aesthetix features multizone capabilities, program scheduling, direct or indirect positioning, and can be integrated within a paging system' imagepath='https://www.avidex.com/hubfs/Website%20Optimized/Corporate/Room%20Occupancy%20%20and%20Scheduling/1200x630/Install_2017_SSW-MUMK_002A_v1.jpg'/>
+        <VerticalBox header='Cybersecurity & Data Protection' description='Secures AV networks and data with encryption, firewalls, and compliance protocols, protecting against cyber threats.' imagepath='https://www.avidex.com/hubfs/Website%20Optimized/Corporate/Room%20Occupancy%20%20and%20Scheduling/1200x630/Install_2017_SSW-MUMK_002A_v1.jpg'/>
       </div>
       <div className='bg-[#9864a21d] '>
-        <VerticalBox header="CLASSROOM AUDIO" description="The classroom presents its own unique challenges when it comes to audio clarity and intelligibility. Classroom audio solutions are specifically designed to create educational equity for both in-person and remote students while reducing strain on educators" imagepath='https://www.avidex.com/hubfs/Website%20Optimized/Corporate/Room%20Occupancy%20%20and%20Scheduling/1200x630/room-scheduling-technology.jpg'/>
+        <VerticalBox header="Monitoring & Remote Management" description="Provides continuous monitoring and proactive maintenance, optimizing AV system performance through real-time analytics." imagepath='https://www.avidex.com/hubfs/Website%20Optimized/Corporate/Room%20Occupancy%20%20and%20Scheduling/1200x630/room-scheduling-technology.jpg'/>
       </div>
     </div>
         
     <div className='bg-[#9864a21d] my-20'>
-            <ContentTemplate direction='left' heading="PAGING & MASS NOTIFICATION SYSTEMS" description="We offer sophisticated campus-wide paging solutions that easily integrate with existing systems. A reliable paging system maximizes your teams' ability to ensure critical communication throughout your entire campus or directly with a specific location. Flexible and easy-to-use solutions such as 2-way intercoms, quality sound, safety integrations, and school bell functionality for education deployments are key to a successful campus communication solution.
-            " imagepath="https://www.avidex.com/hs-fs/hubfs/Website%20Optimized/Corporate/1200x900/Gov-NOC-SOC-DisplaySolutions-1.jpg?width=1000&height=750&name=Gov-NOC-SOC-DisplaySolutions-1.jpg"/>
+            <ContentTemplate direction='left' heading="Software Integration & Development " description="Software integration and development in the AV industry streamline operations by connecting various audiovisual components, enabling users to control multiple devices through a single interface. This includes automation for adjusting settings based on occupancy, enhancing user experience and energy efficiency. By incorporating data analytics, organizations gain insights into usage patterns for optimized resource allocation, while integration with third-party applications and content management systems ensures seamless updates and remote management of digital signage. Overall, these tailored solutions foster innovative and efficient AV environments that meet the dynamic needs of users and businesses alike." imagepath="https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=800"/>
     </div>
     
     <div>
@@ -131,7 +161,7 @@ const Services = () =>{
             </div>
         </div> 
     </div>
-        
+        <Footers />
     </div>
 
     </div>

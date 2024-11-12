@@ -63,6 +63,18 @@ const Government = () => {
                  </div>
               </div>
             </Tabs.Item>
+            <Tabs.Item active title="Control rooms">
+              <div className='flex justify-center'>
+                <div className='w-[50vw]'>
+                  <div className='text-center mt-3'>
+                    Dynamic spaces need technology to match. The audiovisual solutions in these areas are designed to meet the demands of the day, with multiple presentation capabilities, audio coverage zones, and easy-to-use system control.
+                  </div>
+                  <div className='flex justify-center mt-4'>
+                    <img className='h-[50vh] mt-5' src="https://images.pexels.com/photos/7750126/pexels-photo-7750126.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" />
+                  </div>
+                 </div>
+              </div>
+            </Tabs.Item>
       </Tabs>
     </div>
           </div>
