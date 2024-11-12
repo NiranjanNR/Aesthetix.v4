@@ -1,4 +1,3 @@
-import './study.css'
 import Footers from '../../Footer/Footers';
 
 const CaseStudy1 = () =>{
