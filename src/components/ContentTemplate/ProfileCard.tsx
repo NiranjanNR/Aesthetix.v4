@@ -16,7 +16,7 @@ const ProfileCard = (props: {
     <div>
       <div className="LocationCard">
         <img src={props.imagepath} className="LocationCardImage" alt="Location" />
-        <div className="overlay" onClick={toggleModal}>
+        <div className="overlay px-5" onClick={toggleModal}>
           {props.heading}
         </div>
       </div>
@@ -24,13 +24,13 @@ const ProfileCard = (props: {
         <div
           id="default-modal"
           aria-hidden="true"
-          className="fixed inset-0 z-50 flex justify-center items-center overflow-y-auto overflow-x-hidden w-full h-full bg-gray-900 bg-opacity-50"
+          className="fixed inset-0 z-50 flex justify-center items-center overflow-y-auto overflow-x-hidden w-[full] h-full bg-gray-900 bg-opacity-50"
         >
           <div className="relative p-4 w-full max-w-2xl max-h-full">
             {/* Modal content */}
             <div className="relative bg-white rounded-lg shadow dark:bg-gray-700">
               <div className="flex items-center justify-between p-4 md:p-5 border-b rounded-t dark:border-gray-600">
-                <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white">
                  {props.heading}
                 </h3>
                 <button
@@ -60,10 +60,12 @@ const ProfileCard = (props: {
                 <img src={props.imagepath} className='h-[70%] w-[70%] mx-8 my-6 rounded-lg' />        
               </div>
                 
-              <div className="p-4 md:p-5 space-y-4">
-                <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400 mb-7">
+              <div className="p-4 md:p-5 md:px-8 space-y-4">
+                <div className='bg-slate-400/25 rounded-lg p-3 mb-4'>
+                  <p className="text-base  max-h-[27vh] overflow-auto leading-relaxed text-gray-500 dark:text-gray-400 mb-2">
                     {props.description}
                 </p>
+                  </div>
               </div>
             </div>
           </div>

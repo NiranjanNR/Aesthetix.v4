@@ -18,6 +18,7 @@ import Casestudy from './components/Resources/CaseStudies/Casestudy';
 import CaseStudy1 from './components/Resources/Study/CaseStudy1';
 import CaseStudy2 from './components/Resources/Study/CaseStudy2';
 import CaseStudy3 from './components/Resources/Study/CaseStudy3';
+import Careers from './components/Company/CallSupport/CareerSupport';
 
 function App() {
   return (
@@ -33,7 +34,9 @@ function App() {
         <Route path="/retail" element={<Retail />} />
         <Route path="/our-people" element={<Culture />} />
         <Route path="/location" element={<Location />} />
-        <Route path="/careers" element={<CallSupport />} />
+        <Route path="/support" element={<CallSupport />} />
+        <Route path="/careers" element={<Careers />} />
+
         <Route path="/av" element={<Av />} />
         <Route path="/it-service" element={<ITServices />} />
         <Route path="/elv" element={<Elv />} />

@@ -1,4 +1,6 @@
-const ContactTemplate = (
+const ContactTemplate = ( {
+  
+}
     
 ) => {
   return (
