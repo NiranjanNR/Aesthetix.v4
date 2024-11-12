@@ -22,7 +22,7 @@ import c5 from '../../../assets/card5.jpeg'
 import c7 from '../../../assets/card7.jpeg'
 import c8 from '../../../assets/card8.jpeg'
 import c9 from '../../../assets/card9.webp'
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 const Culture = () =>{
     const navigate = useNavigate();

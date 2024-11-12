@@ -3,11 +3,11 @@ import { Tabs } from 'flowbite-react';
 import ContentTemplate from '../../ContentTemplate/ContentTemplate';
 import HeaderDescription from '../../ContentTemplate/HeaderDescription';
 import VerticalBox from '../../ContentTemplate/VerticalBox';
-import PurpleGraphics from '../../../assets/PurpleGraphics.jpg'
 import HoW from '../../../assets/HoW.jpg'
 import Audit from '../../../assets/audi-govt.webp'
 import collab from '../../../assets/collab-room.jpg'
 import edu from '../../../assets/edu.jpg'
+import Footers from '../../Footer/Footers';
 
 const Av = () =>{
     return(
@@ -25,7 +25,7 @@ const Av = () =>{
         </div>
 
         <div className='py-20 backgroundColor'>
-        <HeaderDescription className='text-[#5b255d]' header='CUSTOM SOUND SOLUTIONS TO FIT THE ROOM ' description='All rooms come with unique acoustic challenges depending on layout, function, and architecture. As such theres no true one-size-fits-all solution when it comes to audio integration. Our team relies on decades of experience when it comes to crafting your audio ecosystem.' />
+        <HeaderDescription className='text-[#5b255d]' header='AV solutions to fit the room' description="Aesthetix Technologies delivers innovative audio-visual solutions that enhance environments and elevate user experiences across sectors like retail, education, and hospitality. We provide a range of services, including digital signage, interactive displays, and immersive audio systems, all tailored to meet our clients' unique needs. Trust us to transform your vision into reality with seamless integration and professional expertise." />
         </div>
 
         <div className='flex justify-center mb-10 flex-col items-center my-auto '>
@@ -39,7 +39,7 @@ const Av = () =>{
                 <div className='text-center'>
                 Classroom audio solutions meet today's challenges of hyflex teaching for both educators and students. Voice reinforcement solutions overcome vocal strain to deliver a clear and constant audio experience throughout the classroom to help keep students focused and on task.
                 </div>
-                <img className='h-[50vh] w-[50vw] mt-5' src="https://www.avidex.com/hs-fs/hubfs/Website%20Optimized/Corporate/1200x900/Gov-NOC-SOC-DisplaySolutions-1.jpg?width=1000&height=750&name=Gov-NOC-SOC-DisplaySolutions-1.jpg" />
+                <img className='h-[50vh] w-[50vw] mt-5' src="https://images.pexels.com/photos/256395/pexels-photo-256395.jpeg?auto=compress&cs=tinysrgb&w=800" />
                </div>
             </div>
       </Tabs.Item>
@@ -49,7 +49,7 @@ const Av = () =>{
                 <div className='text-center'>
                 Without coherent audio, collaboration is impossible. The audio solutions found in our conference rooms ensure everyone has a seat at the table no matter where they're sitting. 
                 </div>
-                <img className='h-[50vh] w-[50vw] mt-5' src={PurpleGraphics} />
+                <img className='h-[50vh] w-[50vw] mt-5' src="https://images.pexels.com/photos/3184639/pexels-photo-3184639.jpeg?auto=compress&cs=tinysrgb&w=800" />
                </div>
             </div>
           </Tabs.Item>
@@ -59,7 +59,7 @@ const Av = () =>{
                 <div className='text-center'>
                 A multifunction room creates value through versatility. Rooms equipped with comprehensive audio solutions allow for meeting the demands of any event, presentation, or function.  
                 </div>
-                <img className='h-[50vh] w-[50vw] mt-5' src={PurpleGraphics} />
+                <img className='h-[50vh] w-[50vw] mt-5' src="https://images.pexels.com/photos/269140/pexels-photo-269140.jpeg?auto=compress&cs=tinysrgb&w=800" />
                </div>
             </div>
           </Tabs.Item>
@@ -69,7 +69,7 @@ const Av = () =>{
                 <div className='text-center'>
                 Today's training rooms are meant to be highly collaborative learning and presentation environments for hybrid audiences. Diverse audio systems and simplified controls ensure presenters can confidently share content for the optimal training and education experience.
                 </div>
-                <img className='h-[50vh] w-[50vw] mt-5' src={PurpleGraphics} />
+                <img className='h-[50vh] w-[50vw] mt-5' src="https://images.pexels.com/photos/6764614/pexels-photo-6764614.jpeg?auto=compress&cs=tinysrgb&w=800" />
                </div>
             </div>
           </Tabs.Item>
@@ -79,7 +79,7 @@ const Av = () =>{
                 <div className='text-center'>
                 Our outdoor audio solutions are powerful enough to overcome natural ambiance, invasive noise sources, and fewer reflective surfaces while remaining unobtrusive in the presentation area.
                 </div>
-                <img className='h-[50vh] w-[50vw] mt-5' src={PurpleGraphics} />
+                <img className='h-[50vh] w-[50vw] mt-5' src="https://images.pexels.com/photos/5368712/pexels-photo-5368712.jpeg?auto=compress&cs=tinysrgb&w=800" />
                </div>
             </div>
       </Tabs.Item>
@@ -89,16 +89,16 @@ const Av = () =>{
 
     <div className='grid grid-cols-2 gap-x-28 mx-[100px]'>
       <div className='bg-[#7a7a7a15]'>
-        <VerticalBox header='SOUND MASKING' description='Hospitals and corporate offices can benefit from the acoustic privacy of sound masking for their visitors and staff. A sound masking solution installed by Avidex features multizone capabilities, program scheduling, direct or indirect positioning, and can be integrated within a paging system' imagepath='https://www.avidex.com/hubfs/Website%20Optimized/Corporate/Room%20Occupancy%20%20and%20Scheduling/1200x630/Install_2017_SSW-MUMK_002A_v1.jpg'/>
+        <VerticalBox header='SOUND MASKING' description='Hospitals and corporate offices can benefit from the acoustic privacy of sound masking for their visitors and staff. A sound masking solution installed by Avidex features multizone capabilities, program scheduling, direct or indirect positioning, and can be integrated within a paging system' imagepath='https://images.pexels.com/photos/159206/mixing-table-mixing-music-musician-159206.jpeg?auto=compress&cs=tinysrgb&w=800'/>
       </div>
       <div className='bg-[#9864a21d] '>
-        <VerticalBox header="CLASSROOM AUDIO" description="The classroom presents its own unique challenges when it comes to audio clarity and intelligibility. Classroom audio solutions are specifically designed to create educational equity for both in-person and remote students while reducing strain on educators" imagepath='https://www.avidex.com/hubfs/Website%20Optimized/Corporate/Room%20Occupancy%20%20and%20Scheduling/1200x630/room-scheduling-technology.jpg'/>
+        <VerticalBox header="CLASSROOM AUDIO" description="The classroom presents its own unique challenges when it comes to audio clarity and intelligibility. Classroom audio solutions are specifically designed to create educational equity for both in-person and remote students while reducing strain on educators" imagepath='https://images.pexels.com/photos/4145153/pexels-photo-4145153.jpeg?auto=compress&cs=tinysrgb&w=800'/>
       </div>
     </div>
         
     <div className='bg-[#9864a21d] my-20'>
             <ContentTemplate direction='left' heading="PAGING & MASS NOTIFICATION SYSTEMS" description="We offer sophisticated campus-wide paging solutions that easily integrate with existing systems. A reliable paging system maximizes your teams' ability to ensure critical communication throughout your entire campus or directly with a specific location. Flexible and easy-to-use solutions such as 2-way intercoms, quality sound, safety integrations, and school bell functionality for education deployments are key to a successful campus communication solution.
-            " imagepath="https://www.avidex.com/hs-fs/hubfs/Website%20Optimized/Corporate/1200x900/Gov-NOC-SOC-DisplaySolutions-1.jpg?width=1000&height=750&name=Gov-NOC-SOC-DisplaySolutions-1.jpg"/>
+            " imagepath="https://images.pexels.com/photos/4604662/pexels-photo-4604662.jpeg?auto=compress&cs=tinysrgb&w=800"/>
     </div>
     
     <div>
@@ -139,7 +139,7 @@ const Av = () =>{
             </div>
         </div> 
     </div>
-        
+        <Footers />
     </div>
 
     </div>

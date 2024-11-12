@@ -3,7 +3,7 @@ import Footers from '../../Footer/Footers';
 import DubaiAirports from '../../../assets/DubaiAirports.jpeg';
 import GemsEdu from '../../../assets/GemsEdu.jpeg'
 import smartDubai from '../../../assets/smartDubai.jpeg'
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 
 

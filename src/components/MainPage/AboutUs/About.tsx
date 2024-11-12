@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import './About.css';
 import ReactPlayer from 'react-player';
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import Partners from '../Partner/Partners'
 import Footers from '../../Footer/Footers'
 import { useRef } from 'react';
