@@ -1,4 +1,4 @@
-import './study.css'
+import './Study.css'
 import Footers from '../../Footer/Footers';
 
 const CaseStudy1 = () =>{
@@ -29,7 +29,7 @@ const CaseStudy1 = () =>{
 
             <div className='flex flex-col ' style={{backgroundColor: '#f3e8fd'}}>
                 <div className='flex flex-row justify-center align-middle'>
-                    <img className="wow fadeIn" src="https://www.avidex.com/hs-fs/hubfs/Website%20Optimized/Healthcare/640x480/NY-Methodist-Hospital-2016-photo-from-hospital.jpg?width=640&amp;height=480&amp;name=NY-Methodist-Hospital-2016-photo-from-hospital.jpg" alt="NY-Methodist-Hospital-2016-photo-from-hospital" loading="lazy" width="640" height="480" sizes="(max-width: 640px) 100vw, 640px" style={{width: '400px'}}/>
+                    <img className="wow fadeIn" src="https://www.avidex.com/hs-fs/hubfs/Website%20Optimized/Healthcare/640x480/NY-Methodist-Hospital-2016-photo-from-hospital.jpg?width=640&amp;height=480&amp;name=NY-Methodist-Hospital-2016-photo-from-hospital.jpg" alt="NY-Methodist-Hospital-2016-photo-from-hospital" loading="lazy" width="640" height="480"  sizes="(max-width: 640px) 100vw, 640px" style={{width: '400px'}}/>
 
                     <div className='flex flex-col mx-[40px] justify-center' > 
                         <div className=' justify-start font-semibold' style={{fontSize: '19px',color: '#6d2950'}}>
