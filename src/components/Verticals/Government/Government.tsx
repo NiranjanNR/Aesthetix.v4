@@ -10,7 +10,7 @@ const Government = () => {
   return (
       <div>
           {/* Landing */}
-          <LandingTemplate header="GOVERNMENT AV SOLUTIONS" description="Empowering innovation and productivity with collaborative audiovisual technology." buttontext="GET STARTED NOW" imagepath={VerticalsGovt}/>
+          <LandingTemplate header="GOVERNMENT SECTOR" description="Empowering innovation and productivity with collaborative audiovisual technology." buttontext="GET STARTED NOW" imagepath={VerticalsGovt}/>
       <div>
         <HeaderDescription className='text-[#5b255d]' header='RELIABLE AV INTEGRATION FOR THE PUBLIC SECTOR' description='There is no one-size-fits-all when it comes to filling audiovisual needs. We have helped organizations of all kinds find the best-fit AV solutions for their unique workplace environments.' />
       </div>
