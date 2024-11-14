@@ -29,7 +29,7 @@ const Culture = () =>{
     return(
         <div className='font'>
             <div className='WeImage relative'>
-                <div className='overLay'></div>
+                <div className='overLay overLay1'></div>
                 <div className='text-[28px] sm:text-[40px] text-white z-10 font font-bold'>OUR PEOPLE & CULTURE</div>
                 <div className='text-sm sm:text-1xl text-white z-10 pt-3'> AV Innovation improving the way we work, learn and live.</div>
             </div>
@@ -194,6 +194,7 @@ const Culture = () =>{
                 <div className='heroName'>Arun Balram</div>
                 <div className='heroDes'>Business Unit Head ( UAE | KSA )</div>
             </div>
+            
 
             </div>
         </div>
