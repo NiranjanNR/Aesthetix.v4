@@ -4,7 +4,7 @@ import AboutUs from '../AboutUs/About'
 
 const LandingPage = () => {
     return (
-        <div>
+        <div style={{width: '100%', overflow: 'hidden'}}>
             <div className='video-background h-[92vh]'>
              <video autoPlay loop muted className='background-video'>
                 <source src={Aes} type='video/mp4' />
