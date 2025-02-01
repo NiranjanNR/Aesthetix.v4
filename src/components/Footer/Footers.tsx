@@ -7,7 +7,7 @@ const Footers = () => {
       <h1 className="text-3xl font-semibold  my-8">Contact Us</h1>
         <div className="w-full flex flex-col md:flex-row justify-between">
             <form className="w-full md:w-3/5 p-4">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div className="md:grid grid-cols-2 gap-4">
                     <div className="flex flex-col mb-4">
                         <label className="mb-2">Name*</label>
                         <input type="text" className="p-2 border border-gray-300 rounded" required />
